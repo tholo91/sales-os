@@ -1,0 +1,12 @@
+review_after: 2026-07-01
+artifacts:
+  profile: complete
+  project: complete
+  problem_hypothesis: complete
+  target_person: complete
+  learning_goal: complete
+  real_target: complete
+pending:
+  follow_up_due: false
+  scheduled_call: false
+

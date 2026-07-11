@@ -1,0 +1,26 @@
+schema_version: 1
+project_slug: null
+created_at: null
+updated_at: null
+last_verified_at: null
+review_after: null
+source_repo: null
+source_files: []
+confidence: unknown
+stage: setup
+artifacts:
+  profile: missing
+  project: missing
+  problem_hypothesis: missing
+  target_person: missing
+  learning_goal: missing
+  real_target: missing
+  review_ready_draft: missing
+  outreach_attempt: missing
+  real_interaction: missing
+  interaction_debrief: missing
+pending:
+  follow_up_due: false
+  scheduled_call: false
+next_skill: sales-setup
+next_action: Complete founder and project setup.

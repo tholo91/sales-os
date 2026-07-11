@@ -1,0 +1,71 @@
+schema_version: 1
+default_skill: sales-next
+principles:
+  - validation_before_pitch_optimization
+  - real_target_before_final_draft
+  - human_approval_before_external_action
+  - learning_before_more_work
+freshness_defaults_days:
+  founder_profile: 180
+  project_status: 30
+  validation_and_icp: 60
+  market_platform_legal: 90
+workflows:
+  - id: setup
+    sequence: 10
+    skill: sales-setup
+    prerequisites: []
+    required_when: founder_or_project_missing
+    produces: [profile, project, status]
+  - id: validate
+    sequence: 20
+    skill: validate-problem
+    prerequisites: [profile, project]
+    required_when: problem_or_learning_goal_missing
+    produces: [validation, icp, evidence]
+  - id: source
+    sequence: 30
+    skill: find-conversations
+    prerequisites: [problem_hypothesis, target_person, learning_goal]
+    required_when: real_target_missing
+    produces: [real_target, conversation_opportunity]
+  - id: engage
+    sequence: 40
+    skill: draft-outreach
+    prerequisites: [problem_hypothesis, target_person, learning_goal, real_target]
+    required_when: useful_first_touch_missing
+    produces: [review_ready_draft]
+  - id: send
+    sequence: 45
+    skill: record-outreach
+    prerequisites: [review_ready_draft]
+    required_when: approved_outreach_attempt_not_recorded
+    produces: [outreach_attempt]
+  - id: continue
+    sequence: 50
+    skill: handle-follow-up
+    prerequisites: [real_interaction]
+    required_when: follow_up_decision_due
+    produces: [follow_up_decision]
+  - id: call
+    sequence: 60
+    skill: prepare-call
+    prerequisites: [scheduled_or_offered_call]
+    required_when: call_preparation_due
+    produces: [call_plan]
+  - id: learn
+    sequence: 70
+    skill: capture-learning
+    prerequisites: [real_interaction]
+    required_when: interaction_not_debriefed
+    produces: [interaction_log, evidence_update, next_hypothesis]
+routing_priority:
+  - stale_or_missing_context
+  - unlogged_real_interaction
+  - scheduled_call
+  - missing_validation_minimum
+  - missing_real_target
+  - pending_follow_up_decision
+  - review_ready_outreach
+  - approved_outreach_attempt_not_recorded
+  - learning_review

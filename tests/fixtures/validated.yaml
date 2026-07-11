@@ -1,0 +1,15 @@
+review_after: 2026-08-10
+artifacts:
+  profile: complete
+  project: complete
+  problem_hypothesis: complete
+  target_person: complete
+  learning_goal: complete
+  real_target: complete
+  review_ready_draft: missing
+  outreach_attempt: missing
+  real_interaction: missing
+  interaction_debrief: missing
+pending:
+  follow_up_due: false
+  scheduled_call: false

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Problem"
+  short_description: "Turn assumptions into validation work"
+  default_prompt: "Use $validate-problem to define the riskiest problem hypothesis and the next validation conversation."

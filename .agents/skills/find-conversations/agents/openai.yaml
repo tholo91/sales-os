@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Conversations"
+  short_description: "Find real people and discussions"
+  default_prompt: "Use $find-conversations to locate real, current conversations where my target users discuss the problem."

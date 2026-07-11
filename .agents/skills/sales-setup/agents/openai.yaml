@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Setup"
+  short_description: "Set up founder and project context"
+  default_prompt: "Use $sales-setup to create or refresh my founder profile and active project context."

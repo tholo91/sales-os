@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Next"
+  short_description: "Find the single next sales action"
+  default_prompt: "Use $sales-next to assess the active project and recommend one concrete next action."
