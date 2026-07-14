@@ -42,6 +42,15 @@ Use this before outreach sessions and calls, and whenever the founder describes 
 - The founder is not performing; the other person is the interesting one. A validation call where the founder talks less than a third of the time is usually a good call.
 - Lower the stakes honestly: this is one conversation of many, and its worst realistic outcome is a logged "no-fit" that sharpens the ICP.
 
+## Two-minute pre-outreach reset
+
+Before opening LinkedIn, email, or a community thread:
+
+1. Read the person's actual context once.
+2. Say the message aloud as if you were continuing a relevant conversation with a capable peer, not trying to win a stranger.
+3. Check that there is one honest reason to write and one small question they can decline.
+4. Stop editing after two sound drafts. Send manually when it is truthful and specific, then record the attempt.
+
 ## What this file must never justify
 
 Motivation talk is not a substitute for action. If this file is being read instead of sending an approved draft, the next step is sending the draft.

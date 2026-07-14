@@ -65,7 +65,7 @@ export function routeStatus(status, today = new Date()) {
   if (a.outreach_attempt !== "complete") {
     return { skill: "record-outreach", reason: "The draft is ready; send it manually if you approve, then record the attempt and its date." };
   }
-  return { skill: "capture-learning", reason: "Record the outcome before selecting another action." };
+  return { skill: "sales-next", reason: "An outreach attempt is recorded; wait for a real response or an agreed follow-up date before creating more work." };
 }
 
 export function routeFile(file, today) {

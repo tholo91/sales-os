@@ -23,6 +23,11 @@ review_after: 2026-08-10
   - Original SHA-256: `6c9991885b0a085788f9ce39a11ea711d581ab9158066a195566f33cdb7d4e9b`
   - Archive SHA-256: `b9f50f4e3729b2ee22f5360065eb412157f54030a8e431f0772c8426efa8a642`
   - Content preserved as raw source material; the patch import normalized the terminal blank line.
+- `NB LLM on HeySpeak.txt`
+  - Original: local user-provided NotebookLM transcript, `NB LLM on HeySpeak.txt`
+  - Original SHA-256: `8db3446d7f43419feef388aa71b87b9d5a9f2efbcbe483e9a2c44e29e869cf43`
+  - Not archived in public knowledge because it is project-specific to the active private HeySpeak workspace.
+  - Reusable non-project-specific guidance was paraphrased into the knowledge base; HeySpeak-specific hypotheses were stored under `workspace/projects/heyspeak/`.
 
 ## Duplicate
 

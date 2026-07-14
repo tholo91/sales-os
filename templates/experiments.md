@@ -12,6 +12,13 @@ confidence: unknown
 
 # Experiments
 
+## Learning scorecard
+
+Update only from logged, dated records. A blank or `not recorded` value is preferable to an estimate.
+
+| As of | Manual outreach attempts | Replies | Useful conversations | Pilots offered | Paid or payment-adjacent commitments | What changed in our understanding |
+|---|---:|---:|---:|---:|---:|---|
+
 ## Active experiment
 
 - Hypothesis:
@@ -24,4 +31,3 @@ confidence: unknown
 - Review date:
 
 ## Completed experiments
-

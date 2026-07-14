@@ -29,3 +29,8 @@ test("a ready draft must be manually sent and recorded before learning capture",
   const status = parseStatus(fs.readFileSync(path.join(fixtures, "draft-ready.yaml"), "utf8"));
   assert.equal(routeStatus(status, today).skill, "record-outreach");
 });
+
+test("a recorded outreach attempt waits for a real outcome", () => {
+  const status = parseStatus(fs.readFileSync(path.join(fixtures, "attempt-recorded.yaml"), "utf8"));
+  assert.equal(routeStatus(status, today).skill, "sales-next");
+});

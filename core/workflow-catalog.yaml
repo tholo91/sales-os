@@ -66,6 +66,6 @@ routing_priority:
   - missing_validation_minimum
   - missing_real_target
   - pending_follow_up_decision
-  - review_ready_outreach
+  - review_ready_draft
   - approved_outreach_attempt_not_recorded
   - learning_review

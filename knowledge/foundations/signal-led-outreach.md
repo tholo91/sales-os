@@ -23,3 +23,15 @@ Signals prioritize research; they do not prove purchase intent. Public posts, ex
 
 Never turn a signal into a fabricated personal claim. The target's current context remains a hypothesis until they confirm it.
 
+## Signal clusters
+
+A cluster is several dated observations that point to the same likely workflow pressure. Use clusters to prioritize who to research first, not to imply confirmed budget or intent.
+
+Useful B2B cluster examples:
+
+- Funding or budget event plus hiring surge.
+- New functional leader plus public mandate or team growth.
+- Product investment plus visible customer-research, enablement, support, or implementation bottleneck.
+- Public complaint or question plus an existing relationship path.
+
+When a cluster exists, write the outreach as a transparent hypothesis: "I noticed X and wondered whether Y is becoming painful." Do not mention inferred surveillance, hidden scoring, or third-party enrichment unless the source is appropriate to disclose.

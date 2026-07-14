@@ -20,7 +20,6 @@ Build evidence-backed context with the smallest useful intake.
 
 ## Quality bar
 
-- Capture product, audience hypotheses, visible value, stage, proof, constraints, goals, available channels, and source paths.
+- Capture product, audience hypotheses, visible value, stage, proof, constraints, goals, available channels, and source paths. Record only verified historic attempts, conversations, pilots, and commitments in the learning scorecard; never backfill estimates.
 - Never invent traction, customers, pricing, relationships, or launch state.
 - Keep unknowns explicit; incomplete truthful context is valid.
-

@@ -28,4 +28,8 @@ These imported claims are quarantined and must not be used as facts until verifi
 | German cold email always requires double opt-in | Strategic Blueprint | unsafe simplification | Substantive rule is UWG §7 Abs. 2: prior express consent required; double opt-in is only the evidentiary mechanism. https://www.gesetze-im-internet.de/uwg_2004/__7.html (verified 2026-07-11). Risk guidance, not legal advice |
 | A pricing-page visit creates presumed consent for a German B2B call | Strategic Blueprint | unsafe simplification | BVerwG 29.01.2025, 6 C 3.23 sets a high bar for mutmaßliche Einwilligung; a page visit alone does not qualify. Current qualified legal advice required (verified 2026-07-11) |
 | February 2026 campaign benchmark reflects a real campaign | Strategic Blueprint | unverified | Original campaign evidence |
-
+| Series B or C funding plus hiring surge plus new revenue/product leader implies an active buying window | HeySpeak NotebookLM transcript | unverified | Treat only as a prioritization hypothesis; verify current public signals and buyer context before outreach |
+| Highly qualified founder-led outbound prospects will still reject at roughly 80% | HeySpeak NotebookLM transcript | unverified | Original source or benchmark context |
+| First contact to demo and demo to close each typically take two to four weeks for smaller mid-market accounts | HeySpeak NotebookLM transcript | unverified | Original source, segment, deal size, and channel |
+| A founder should switch from concierge onboarding to formal voice-of-customer analytics after consistently closing five to ten deals per month | HeySpeak NotebookLM transcript | unverified | Original source and segment fit |
+| Businesses miss 96% of customer feedback because it is unstructured | HeySpeak NotebookLM transcript | unverified | Original source, definition of feedback, and methodology |

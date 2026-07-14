@@ -18,7 +18,7 @@ Require the founder to confirm that they personally sent, posted, or delivered t
 3. Mark `outreach_attempt: complete` in `status.yaml` only after human confirmation.
 4. If there was an immediate reply, meeting, rejection, or other substantive response, mark `real_interaction: complete` and route to `$capture-learning`.
 5. Otherwise record the waiting state and any genuinely agreed follow-up date. Do not manufacture a cadence or set `follow_up_due` merely because time passed.
-6. End with the next truthful state: waiting, `$capture-learning`, `$prepare-call`, or `$handle-follow-up`.
+6. End with the next truthful state: waiting, `$capture-learning`, `$prepare-call`, or `$handle-follow-up`. While waiting, `$sales-next` should preserve the waiting state rather than inventing a learning task.
 
 ## Output
 

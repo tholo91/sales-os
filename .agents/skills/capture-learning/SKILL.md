@@ -13,11 +13,10 @@ Create usable evidence, not celebratory CRM prose.
 2. Create a dated interaction file from `templates/interaction.md`.
 3. Separate verbatim facts or careful paraphrases from interpretation.
 4. Record what changed: problem confidence, ICP confidence, urgency, workaround, willingness to act or pay, objections, and no-fit signals.
-5. Update only affected artifacts and preserve prior evidence.
+5. Update only affected artifacts and preserve prior evidence. Update the `experiments.md` learning scorecard only from dated records; track useful conversations and commitments rather than vanity activity.
 6. Record commitments and a concrete follow-up date when one exists.
 7. Run the routing logic from `$sales-next` and recommend one next test.
 
 ## Weekly review
 
 Summarize conversations, strongest new evidence, contradicted assumptions, stalled commitments, and one priority for the next week. Count useful conversations, not messages sent.
-

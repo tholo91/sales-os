@@ -27,6 +27,7 @@ Use Reddit for listening, problem-language discovery, validation, and useful par
 
 - The highest-leverage activity is commenting where someone currently describes the exact problem, not posting about the product. Lead with the full useful answer; a product mention, if allowed, comes last and must be honestly disclosed.
 - Small niche subreddits where the problem is already discussed outperform large startup subreddits for finding real users; use big subs for learning language, small subs for conversations.
+- Keyword searches should use the target person's own problem language, not the product category. Search phrases such as "scheduling nightmare," "discovery call friction," or "Zoom fatigue" only if they match the active project hypothesis, then verify the current thread and rules manually.
 - The community "90/10" ratio (roughly nine ordinary contributions per self-referencing one) is folk guidance, not a sitewide rule; each subreddit's own rules govern and must be read live before acting.
 - Space self-posts in a single subreddit by weeks, not days; between them behave as a normal member.
 - A comment whose only payload is a link reads as bait even when technically helpful. If the answer does not stand alone without the product, do not post it.
@@ -43,4 +44,3 @@ Use Reddit for listening, problem-language discovery, validation, and useful par
 Current policy references: [Developer Terms](https://redditinc.com/policies/developer-terms), [Data API Terms](https://redditinc.com/policies/data-api-terms), [Spam policy](https://support.reddithelp.com/hc/en-us/articles/360043504051-Spam), and [Reddiquette](https://support.reddithelp.com/hc/en-us/articles/205926439-Reddiquette).
 
 API use is a future optional connector and requires a fresh review of permissions, commercial-use terms, OAuth limits, and deletion obligations for the exact use case.
-

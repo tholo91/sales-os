@@ -28,6 +28,10 @@ A demo that teaches the founder something is better than one that impresses. Wor
 - Treat every objection and confused pause as data to log, not as resistance to overcome.
 - End with one concrete ask (test on a real case, defined pilot, decision date) — never with "let me know what you think".
 
+Early pilots may need concierge onboarding. The founder can manually configure the first workspace, walk through the real case live, and watch where the user hesitates. This is not scalable service work; it is high-resolution product research until the activation moment is repeatable.
+
+For async-feedback products, the activation moment is usually not account creation. It is the first real request sent, the first real response received, or the first insight the buyer can use without scheduling a meeting.
+
 ## Pilot
 
 Define before starting:
@@ -40,4 +44,3 @@ Define before starting:
 - Decision date and next commitment.
 
 A pilot without an agreed decision path is prolonged research, not sales progress.
-

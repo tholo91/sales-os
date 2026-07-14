@@ -21,3 +21,10 @@ The message must still make sense if the product name is removed. Use only proof
 
 Avoid full product explanations, generic compliments, several CTAs, fake urgency, and requests for a long call before relevance is established.
 
+For triggered outbound, connect the observed signal to one concrete workflow bottleneck. The message should show:
+
+1. What was observed.
+2. Why that might create a timely problem.
+3. One small question, permission ask, or relevance check.
+
+Do not treat funding, hiring, or a leadership change as proof that the buyer is shopping. They are only reasons to ask a better question now.

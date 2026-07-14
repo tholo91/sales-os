@@ -9,7 +9,7 @@ Find listening and conversation opportunities, not bulk lead lists.
 
 ## Workflow
 
-1. Read `core/steps/source.md`, active project validation and ICP artifacts, and the matching channel knowledge.
+1. Read `core/steps/source.md`, active project validation and ICP artifacts, `knowledge/foundations/channel-choice.md`, and the matching channel knowledge.
 2. Translate the problem into phrases the target person would naturally use before knowing the product.
 3. Prefer the founder's real network and current public discussions over scraped databases.
 4. Use live research for current threads and platform rules. Never invent links or current activity.
@@ -23,4 +23,3 @@ Read `knowledge/channels/reddit.md`. Do not scrape, automate DMs, copy user hist
 ## Output gate
 
 Every recommended opportunity must be a real person, organization, or discussion. If live access fails, return transparent search URLs and label them unverified.
-
