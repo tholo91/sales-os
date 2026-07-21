@@ -1,12 +1,12 @@
 ---
 source_url: https://docs.slack.dev/community-code-of-conduct/
 publisher: Slack Technologies (curated by Sales OS)
-retrieved_at: 2026-07-18
-last_verified_at: 2026-07-18
+retrieved_at: 2026-07-22
+last_verified_at: 2026-07-22
 jurisdiction: platform-global and workspace-specific
 license_or_terms: Slack Acceptable Use Policy and workspace rules
 confidence: medium
-review_after: 2026-10-16
+review_after: 2026-10-20
 ---
 
 # Slack communities
@@ -16,6 +16,8 @@ review_after: 2026-10-16
 Use Slack for high-context peer learning, answering a live question, and gradually becoming a recognisable helpful member. It is not a broadcast feed and usually has no useful “viral” target. The success metric is a relevant reply, a useful relationship, or an invited follow-up.
 
 Each workspace is independently run. Its welcome material, channel descriptions, code of conduct, moderator guidance, and observed norms outrank generic advice. Slack’s own community code expects welcoming, kind, and considerate behaviour, and makes clear that its community code is separate from the platform-wide acceptable-use rules.
+
+Do not draft from the platform name alone. Verify the exact workspace's rules and recent live norms first. No unsolicited DMs.
 
 ## First week
 
@@ -44,5 +46,5 @@ Before sending: “Would this still be welcome if I had no product to sell?” I
 
 ## Source notes
 
-- Slack’s Community Code of Conduct sets a welcoming, kind, considerate standard and describes enforcement: <https://docs.slack.dev/community-code-of-conduct/> (verified 2026-07-18). It applies specifically to Slack’s own community, so the workspace-specific rules requirement is a conservative operating inference.
-- Slack’s community page frames participation around asking, answering, sharing ideas, and mutual success: <https://slack.com/community> (verified 2026-07-18).
+- Slack’s Community Code of Conduct sets a welcoming, kind, considerate standard and describes enforcement: <https://docs.slack.dev/community-code-of-conduct/> (verified 2026-07-22). It applies specifically to Slack’s own community, so the workspace-specific rules requirement is a conservative operating inference.
+- Slack’s community page frames participation around asking, answering, sharing ideas, and mutual success: <https://slack.com/community> (verified 2026-07-22).

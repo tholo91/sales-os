@@ -1,12 +1,12 @@
 ---
-source_url: https://www.linkedin.com/legal/user-agreement
+source_url: https://www.linkedin.com/legal/professional-community-policies
 publisher: LinkedIn
-retrieved_at: 2026-07-11
-last_verified_at: 2026-07-18
+retrieved_at: 2026-07-22
+last_verified_at: 2026-07-22
 jurisdiction: platform-global
 license_or_terms: LinkedIn User Agreement
 confidence: high
-review_after: 2026-10-16
+review_after: 2026-10-20
 ---
 
 # LinkedIn
@@ -24,6 +24,15 @@ Do not optimise for virality. LinkedIn distributes content through relevance sig
 3. Ask permission to send one concrete example before requesting a call.
 4. Keep the first private message specific and easy to answer.
 
+## Native writing shape
+
+- Use Thomas's true identity and relationship to the product; never simulate a team or borrowed authority.
+- Use one verified professional hook. Generic praise is not a hook.
+- Do not pitch in the invitation note.
+- Keep a first private message to one context, one useful point or question, and one ask.
+- Final copy must match Thomas's own channel and language evidence. Platform-style “professional” polish does not outrank founder voice.
+- Follow the person's visible `du`/`Sie` and formality signals; do not decide them from the German market file alone.
+
 ## Founder-led practice
 
 - A message from the founder who built the product carries more credibility than delegated outreach; write as the builder, name the founder role, and never simulate a sales team.
@@ -40,4 +49,4 @@ Do not optimise for virality. LinkedIn distributes content through relevance sig
 - No universal daily invitation limits in the knowledge base; platform behaviour and enforcement change.
 - Human review and action are mandatory.
 
-Current platform references: [feed relevance](https://www.linkedin.com/help/linkedin/answer/a1339724), [how the feed ranks content](https://www.linkedin.com/help/linkedin/answer/a9554004), and [content distribution guidance](https://www.linkedin.com/help/linkedin/answer/a516930) (verified 2026-07-18).
+Current platform references: [Professional Community Policies](https://www.linkedin.com/legal/professional-community-policies), [User Agreement](https://www.linkedin.com/legal/user-agreement), [feed relevance](https://www.linkedin.com/help/linkedin/answer/a1339724), and [content distribution guidance](https://www.linkedin.com/help/linkedin/answer/a516930) (verified 2026-07-22).

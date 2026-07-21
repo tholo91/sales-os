@@ -1,29 +1,57 @@
 ---
-source_url: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
-publisher: Wikipedia community guidance
-retrieved_at: 2026-07-19
-last_verified_at: 2026-07-19
+source_url: https://redditinc.com/hubfs/Reddit%20Inc/Content/Reddit%20Pros%20organic%20playbook.pdf
+publisher: Sales OS synthesis from platform guidance and private founder evidence
+retrieved_at: 2026-07-22
+last_verified_at: 2026-07-22
 jurisdiction: global
-license_or_terms: public web reference
+license_or_terms: public platform guidance; private samples stay in workspace
 confidence: medium
-review_after: 2026-10-17
-local_source: /Users/thomas/Documents/Git Repos/signs-of-ai-writing.md
+review_after: 2026-10-20
 ---
 
 # Human writing
 
-Use this as a final writing filter for outreach, comments, and public posts. It is not an AI detector and not a rigid style guide. The goal is to remove generic model-shaped prose before the founder reviews the draft.
+Human writing is not created by sprinkling casual words into a template. It comes from a real reason to speak, evidence about how this person communicates, and the founder's own habits in that channel.
 
-## Replace generic polish with specifics
+## Build from evidence
 
-- Replace broad claims with one concrete fact, observed signal, or constraint.
-- Stay on the recipient's actual situation instead of tying small topics to big trends.
-- Cut significance language unless it explains why the recipient should care now.
-- Name the actual proof source instead of using vague authority phrases.
+1. Start from the language-evidence packet in `audience-language.md`.
+2. Match only the corresponding channel and language section of `workspace/voice.md`.
+3. Use the target's nouns, level of detail, and visible formality without mimicking identity, dialect, or private speech.
+4. Write one thing the founder honestly wants to say and one question the person can answer.
+5. Use only facts and proof recorded in project or target evidence.
 
-## Words and structures to avoid
+When evidence is missing, write less or return to research. Generic polish is not a substitute.
 
-Cut or rewrite these unless they appeared naturally in the founder's own samples:
+## Output economy
+
+- Put the draft before explanation.
+- Produce one draft and one ask by default.
+- Explain the choice in one short sentence.
+- Add a risk note only for a real factual, cultural, platform, legal, or relationship risk.
+- Create an alternative only when the founder requests one.
+- Cut product history, founder biography, broad trends, and proof that the ask does not need.
+
+## Human shape by channel
+
+- A Reddit comment should read as part of the thread, usually without greeting or sign-off.
+- A LinkedIn note needs one real professional hook, not a campaign opener.
+- A Slack contribution must fit the workspace's live norms and should be useful without a product.
+- An email must establish why this recipient and why this contact route are appropriate before it optimizes wording.
+- A reply or follow-up should continue the existing relationship language, not restart the pitch.
+
+Allow contractions, short replies, and small imperfections when the founder evidence supports them and clarity remains. Do not manufacture typos, dialect, emojis, humor, or false familiarity to look human.
+
+## Final specificity check
+
+- Could this message be sent unchanged to another person? If yes, rewrite or cut.
+- Does every claim have a source? If no, remove it.
+- Does the ask test the learning goal? If no, simplify it.
+- Does the message look native in this exact surface? If no, change the shape before polishing words.
+
+## AI-shaped lint, last
+
+Word blacklists are a final lint, not a voice generator. Cut or rewrite these only when they make the sentence abstract or unlike the supported voice:
 
 - delve
 - underscore
@@ -48,7 +76,7 @@ Cut or rewrite these unless they appeared naturally in the founder's own samples
 - serves as
 - stands as
 
-Avoid formulaic structures:
+Also check for formulaic structures:
 
 - "In conclusion", "In summary", or "Overall" openings.
 - Optimistic wrap-up endings after mentioning challenges.
@@ -57,22 +85,4 @@ Avoid formulaic structures:
 - Correcting a misconception the recipient did not raise.
 - Bullet lists formatted as bold concept labels followed by explanations.
 
-## Outreach voice filter
-
-Before presenting a draft:
-
-1. Remove anything that sounds like a campaign asset.
-2. Keep the message short enough for the channel and relationship.
-3. Use the recipient's language, market, and directness norms.
-4. Match the founder voice file when it exists.
-5. Keep emojis only when the founder's voice file or the target channel justifies them.
-6. Prefer plain wording over polished wording.
-7. If a phrase could fit hundreds of recipients, rewrite it or cut it.
-
-## Market adaptation
-
-For Germany and EU contexts, default to calmer language, fewer claims, clearer relevance, and an ask that is easy to decline. Treat formality, `du`/`Sie`, and legal/channel risk as part of the writing task.
-
-For US and international contexts, a more direct desired outcome can work, but it still needs a concrete reason, honest proof, and a low-friction ask. Do not turn US outreach into hype.
-
-For cross-border contexts, adapt to the actual person first, then the market. Cultural guidance is a hypothesis, not a stereotype.
+Delete reusable compliments, “just wanted to reach out,” automatic “no pressure,” and tidy inspirational endings unless the real context makes them natural.

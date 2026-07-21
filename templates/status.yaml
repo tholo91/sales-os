@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 project_slug: null
 created_at: null
 updated_at: null
@@ -14,13 +14,13 @@ artifacts:
   problem_hypothesis: missing
   target_person: missing
   learning_goal: missing
-  real_target: missing
-  review_ready_draft: missing
-  outreach_attempt: missing
-  real_interaction: missing
-  interaction_debrief: missing
+current_outreach:
+  target_ref: null
+  stage: needs_target
 pending:
-  follow_up_due: false
+  interaction_debrief: false
   scheduled_call: false
-next_skill: sales-setup
-next_action: Complete founder and project setup.
+  follow_up_due: false
+activity:
+  experiment_review_at: null
+  last_outreach_at: null

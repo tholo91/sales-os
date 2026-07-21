@@ -1,6 +1,6 @@
 # Sales OS
 
-Sales OS is a file-based, validation-first operating system for founder-led customer discovery and outreach. It keeps the workflow portable across LLM agents by storing canonical skills in the open Agent Skills format and keeping user data outside the framework.
+Sales OS is a file-based, validation-first operating system for founder-led customer discovery and outreach. Its repository layer is portable across supported LLM hosts: skills use the open Agent Skills structure, shared procedures and knowledge stay in this repository, and user data stays outside the framework.
 
 ## Start here
 
@@ -22,7 +22,7 @@ The canonical skills live in `.agents/skills/`. `AGENTS.md`, `CLAUDE.md`, `GEMIN
 ## Repository map
 
 - `core/`: lifecycle catalog and canonical workflow steps.
-- `.agents/skills/`: portable skill entrypoints.
+- `.agents/skills/`: Agent Skills entrypoints that depend on this repository's shared `core/`, `knowledge/`, `templates/`, and private `workspace/` layers.
 - `knowledge/`: sourced foundations, channels, strategies, markets, and claim tracking.
 - `templates/`: schemas for mutable workspace artifacts.
 - `examples/`: non-canonical examples.
@@ -31,7 +31,7 @@ The canonical skills live in `.agents/skills/`. `AGENTS.md`, `CLAUDE.md`, `GEMIN
 
 ## Status
 
-V1 supports research, drafting, manual outreach-attempt logging, learning capture, call preparation, and lifecycle routing. Sending automation, scraping, CRM sync, ads, and bulk enrichment are intentionally out of scope.
+V1 supports research, evidence-based drafting, manual outreach-attempt logging, learning capture, call preparation, and lifecycle routing. Sending automation, scraping, CRM sync, ads, and bulk enrichment are intentionally out of scope.
 
 ## Community
 

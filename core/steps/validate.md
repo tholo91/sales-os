@@ -1,8 +1,9 @@
 # Validation step
 
-1. Separate observed evidence from assumptions.
-2. State one problem hypothesis, one target-person hypothesis, and one learning goal.
-3. Identify the riskiest assumption that can be tested in a real conversation.
-4. Draft behaviour-first questions about the last real occurrence, current workaround, cost, and switching condition.
-5. Update validation, ICP, and evidence artifacts; route to conversation sourcing.
-
+1. Read the active project, validation, ICP, and evidence artifacts plus `knowledge/foundations/validation-first.md`.
+2. Separate observed evidence, assumptions, and unknowns without upgrading anecdotes into proof.
+3. State one falsifiable problem hypothesis, one target-person hypothesis, and one learning goal.
+4. Select the riskiest assumption that one real conversation can test.
+5. Prepare five behaviour-first questions about the last occurrence, workaround, consequence, decision process, and switching condition.
+6. Update only the affected private artifacts and mark the three validation artifacts complete only when each is concrete.
+7. Set the current lane to `needs_target` and route to conversation sourcing. Do not recommend product work without logged evidence.

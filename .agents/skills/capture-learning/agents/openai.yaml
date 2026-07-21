@@ -1,4 +1,4 @@
 interface:
   display_name: "Capture Learning"
-  short_description: "Turn conversations into evidence"
-  default_prompt: "Use $capture-learning to log this interaction and update the project evidence and next action."
+  short_description: "Turn real interactions into dated evidence"
+  default_prompt: "Use $capture-learning to capture this real interaction, its language outcomes, and one next test."

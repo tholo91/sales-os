@@ -1,8 +1,8 @@
 # Follow-up step
 
-1. Read the interaction history before drafting.
-2. Decide whether there is a new, honest reason to reappear.
-3. Choose follow up, thank, referral ask, later reminder, or stop.
-4. Keep one ask and preserve the existing relationship tone.
-5. Record the decision and due date; never create an endless cadence.
-
+1. Read the contact and interaction history, including the exact last ask, promises, language that earned a reply, and channel norms.
+2. Decide whether a new, honest reason to reappear exists. Silence alone is not a reason.
+3. Choose exactly one outcome: follow up now, thank, request a referral, schedule later, or close.
+4. If following up, use the existing relationship language, one concrete hook, and one ask. Do not restart the product pitch.
+5. Return the draft first, then one sentence explaining the decision. Add a risk note only when needed.
+6. Update the contact to `waiting`, `follow-up-due`, or `closed`, clear the due flag when resolved, and never create an endless cadence.

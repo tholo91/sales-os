@@ -1,4 +1,4 @@
 interface:
   display_name: "Validate Problem"
-  short_description: "Turn assumptions into validation work"
-  default_prompt: "Use $validate-problem to define the riskiest problem hypothesis and the next validation conversation."
+  short_description: "Define one testable customer problem"
+  default_prompt: "Use $validate-problem to define one falsifiable problem and the next learning conversation."

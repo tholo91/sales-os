@@ -1,17 +1,19 @@
 ---
 source_url: https://www.gesetze-im-internet.de/uwg_2004/__7.html
 publisher: German Federal Ministry of Justice / FTC
-retrieved_at: 2026-07-11
-last_verified_at: 2026-07-11
+retrieved_at: 2026-07-22
+last_verified_at: 2026-07-22
 jurisdiction: Germany-EU and United States
 license_or_terms: public legal references
 confidence: high
-review_after: 2026-10-09
+review_after: 2026-10-20
 ---
 
 # Email
 
 Email can fit expected professional inbound contexts, existing relationships, public editorial addresses, and properly permissioned outreach. The legal basis differs substantially by jurisdiction and situation.
+
+Before writing, verify the relationship, recipient role, source of the address, expected-contact basis or consent, sender and recipient jurisdictions, and any applicable organizational policy. If that basis is unclear, do not solve it with softer wording; choose a safer route or seek qualified advice.
 
 ## Message discipline
 
@@ -19,10 +21,10 @@ Email can fit expected professional inbound contexts, existing relationships, pu
 - Use one CTA and no attachment in the first touch.
 - Sell the next conversation, not the whole product.
 - Provide a clear identity and honest reason for contact.
+- Match `du`/`Sie`, greeting, and sign-off to the actual relationship or visible recipient evidence, not a country stereotype.
 
 ## Compliance boundary
 
 For Germany/EU, consult current [UWG section 7](https://www.gesetze-im-internet.de/uwg_2004/__7.html), GDPR requirements, and qualified legal advice before promotional cold email. Do not describe presumed consent as a loophole or infer consent from a page visit.
 
 For US outreach, consult the FTC's current [CAN-SPAM compliance guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business). Compliance is broader than adding an unsubscribe link.
-

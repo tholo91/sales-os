@@ -1,28 +1,29 @@
 ---
 name: sales-next
-description: Assess the active Sales OS workspace and recommend exactly one next founder-led sales or validation action. Use when the user asks what to do next, wants to continue an outreach session, feels stuck, or needs the workflow to route around missing, stale, or already-completed project evidence.
+description: Route the active Sales OS project to exactly one next founder-led validation or outreach action. Use when the founder asks what to do next, wants to continue, feels stuck, needs an overdue experiment review, or needs the lifecycle checked. Do not use it to draft a message, find a target, or log a known interaction directly.
 ---
 
 # Sales Next
 
-Act as the lifecycle router, not as a general brainstorming assistant.
+Route; do not brainstorm or perform the specialist work.
 
-## Workflow
+## Gate
 
-1. Read `AGENTS.md`, `core/workflow-catalog.yaml`, `workspace/config.yaml`, and `workspace/profile.md`.
-2. Select the active project from config or ask for it only when multiple projects are plausible.
-3. Read that project's `status.yaml` first, then only artifacts needed to verify prerequisites.
-4. Check `review_after` dates. Label stale facts and route to `$sales-setup`; never refresh silently.
-5. Apply `routing_priority` from the catalog. Existing evidence may satisfy earlier phases.
-6. When the routed skill is `$record-outreach`, clearly distinguish the user's manual send from the system's logging step. Never imply that a draft was sent.
-7. Recommend exactly one skill and one concrete action that can be completed now.
+Require an active project or one unambiguous project choice. Read status before other project artifacts. Never infer that an external action or reply occurred.
 
-## Output
+## Required references
 
-- `Current state`: one sentence.
-- `Evidence`: up to three artifact facts, including stale warnings.
-- `Next action`: one action with the matching `$skill-name`.
-- `Why now`: one sentence tied to the lifecycle gate.
-- `Not now`: one tempting distraction to avoid.
+- `core/workflow-catalog.yaml`
+- `core/steps/route.md`
+- `workspace/config.yaml`
+- The active project's `status.yaml`
 
-Never draft outreach inside this skill. Route to the specialist skill.
+Load other artifacts only to verify the selected gate. In `experiment-review` mode, compare dated interaction records with the active experiment's hypothesis and stop condition, make one continue/change/stop decision, set a new review date, then route the updated status once more. State which dated records were checked; distinguish zero logged interactions from unavailable evidence.
+
+## Safety boundary
+
+Never draft, send, post, or imply delivery. Waiting on one contact does not stop a `needs_target` lane.
+
+## Output contract
+
+Return `Next: $skill-name — <one concrete action>` first. Add one sentence of state evidence and one sentence explaining why this gate wins. In experiment-review mode, return the evidence and decision first, then the next specialist action from the updated route. Mention a distraction only when it is a real risk.

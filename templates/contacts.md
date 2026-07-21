@@ -1,5 +1,5 @@
 ---
-schema_version: 1
+schema_version: 2
 project_slug: null
 created_at: null
 updated_at: null
@@ -12,8 +12,9 @@ confidence: unknown
 
 # Contacts
 
-| Person | Role or community | Why relevant | Relationship | Last touch | Next commitment | Status |
-|---|---|---|---|---|---|---|
+| Target ref | Person or discussion | Role or community | Why relevant | Language signal | Culture or rule check | Relationship | Last touch | Next commitment | Status |
+|---|---|---|---|---|---|---|---|---|---|
 
 Store only information needed to understand and continue the relationship.
 
+Allowed statuses: `candidate`, `draft-ready`, `waiting`, `replied`, `follow-up-due`, `closed`.

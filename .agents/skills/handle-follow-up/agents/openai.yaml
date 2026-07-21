@@ -1,4 +1,4 @@
 interface:
-  display_name: "Handle Follow-up"
-  short_description: "Plan respectful relationship follow-ups"
-  default_prompt: "Use $handle-follow-up to decide whether and how to follow up on this conversation."
+  display_name: "Handle Follow up"
+  short_description: "Decide one respectful next touch"
+  default_prompt: "Use $handle-follow-up to decide whether this real contact deserves one next touch."

@@ -1,4 +1,4 @@
 interface:
   display_name: "Record Outreach"
-  short_description: "Log a manual outreach attempt honestly"
-  default_prompt: "Use $record-outreach to record the message or post I personally sent and determine the next honest state."
+  short_description: "Log one founder-confirmed manual outreach"
+  default_prompt: "Use $record-outreach to log the outreach I personally sent and reopen the next-target lane."

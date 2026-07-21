@@ -11,7 +11,7 @@ function scalar(value) {
 }
 
 export function parseStatus(text) {
-  const status = { artifacts: {}, pending: {} };
+  const status = { artifacts: {}, current_outreach: {}, pending: {}, activity: {} };
   let section = null;
 
   for (const rawLine of text.split(/\r?\n/)) {
@@ -24,7 +24,7 @@ export function parseStatus(text) {
     if (indent === 0) {
       section = rawValue === "" ? key : null;
       if (rawValue !== "") status[key] = scalar(rawValue);
-    } else if (section === "artifacts" || section === "pending") {
+    } else if (["artifacts", "current_outreach", "pending", "activity"].includes(section)) {
       status[section][key] = scalar(rawValue);
     }
   }
@@ -33,39 +33,77 @@ export function parseStatus(text) {
 }
 
 export function routeStatus(status, today = new Date()) {
-  const reviewAfter = status.review_after ? new Date(`${status.review_after}T23:59:59Z`) : null;
+  const dated = (value) => value ? new Date(`${value}T23:59:59Z`) : null;
+  const reviewAfter = dated(status.review_after);
   if (!reviewAfter || Number.isNaN(reviewAfter.valueOf()) || reviewAfter < today) {
     return { skill: "sales-setup", reason: "Project context is missing a valid freshness date or is stale." };
   }
 
   const a = status.artifacts ?? {};
   const p = status.pending ?? {};
+  const current = status.current_outreach ?? {};
+  const activity = status.activity ?? {};
 
   if (a.profile !== "complete" || a.project !== "complete") {
     return { skill: "sales-setup", reason: "Founder or project context is incomplete." };
   }
-  if (a.real_interaction === "complete" && a.interaction_debrief !== "complete") {
+  if (p.interaction_debrief === true) {
     return { skill: "capture-learning", reason: "A real interaction must be captured before more work." };
   }
   if (p.scheduled_call === true) {
     return { skill: "prepare-call", reason: "A scheduled or offered call needs preparation." };
   }
-  if ([a.problem_hypothesis, a.target_person, a.learning_goal].some((value) => value !== "complete")) {
-    return { skill: "validate-problem", reason: "The minimum validation context is incomplete." };
-  }
-  if (a.real_target !== "complete") {
-    return { skill: "find-conversations", reason: "A real person or discussion is required before drafting." };
-  }
   if (p.follow_up_due === true) {
     return { skill: "handle-follow-up", reason: "A real interaction has a follow-up decision due." };
   }
-  if (a.review_ready_draft !== "complete") {
-    return { skill: "draft-outreach", reason: "A qualified real target is ready for a human-reviewed draft." };
+  if ([a.problem_hypothesis, a.target_person, a.learning_goal].some((value) => value !== "complete")) {
+    return { skill: "validate-problem", reason: "The minimum validation context is incomplete." };
   }
-  if (a.outreach_attempt !== "complete") {
-    return { skill: "record-outreach", reason: "The draft is ready; send it manually if you approve, then record the attempt and its date." };
+
+  const experimentReviewAt = dated(activity.experiment_review_at);
+  if (activity.experiment_review_at && Number.isNaN(experimentReviewAt.valueOf())) {
+    return { skill: "sales-setup", reason: "The experiment review date is invalid." };
   }
-  return { skill: "sales-next", reason: "An outreach attempt is recorded; wait for a real response or an agreed follow-up date before creating more work." };
+  if (experimentReviewAt && experimentReviewAt < today) {
+    return {
+      skill: "sales-next",
+      mode: "experiment-review",
+      reason: "The active experiment is due for an evidence review before more outreach.",
+    };
+  }
+
+  if (current.stage === "needs_target") {
+    return { skill: "find-conversations", reason: "Select one qualified current conversation for this lane." };
+  }
+  if (current.stage === "needs_draft") {
+    if (!current.target_ref) {
+      return { skill: "find-conversations", reason: "The draft lane has no real target reference; source one before drafting." };
+    }
+    return { skill: "draft-outreach", reason: "A qualified target is ready for one human-reviewed draft." };
+  }
+  if (current.stage === "awaiting_manual_send") {
+    if (!current.target_ref) {
+      return { skill: "sales-setup", reason: "The manual-send lane is missing its target reference." };
+    }
+    return { skill: "record-outreach", reason: "The founder must act manually, then confirm the attempt for logging." };
+  }
+  return { skill: "sales-setup", reason: "The current outreach lane is missing or invalid." };
+}
+
+export function recordManualOutreach(status, { confirmed = false, date = null } = {}) {
+  if (!confirmed) throw new Error("Founder confirmation is required before recording outreach.");
+  if (status.current_outreach?.stage !== "awaiting_manual_send" || !status.current_outreach?.target_ref) {
+    throw new Error("A real target in the awaiting_manual_send lane is required.");
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date ?? "")) {
+    throw new Error("A YYYY-MM-DD outreach date is required.");
+  }
+
+  return {
+    ...status,
+    current_outreach: { target_ref: null, stage: "needs_target" },
+    activity: { ...(status.activity ?? {}), last_outreach_at: date },
+  };
 }
 
 export function routeFile(file, today) {

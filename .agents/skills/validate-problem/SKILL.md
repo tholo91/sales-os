@@ -1,23 +1,26 @@
 ---
 name: validate-problem
-description: Turn product and market assumptions into a focused customer-validation plan, ICP hypothesis, and evidence record. Use when the problem or ICP is unclear, a founder wants to validate an idea, feature work lacks user evidence, a project is early-stage, or Sales OS requires the validation minimum before outreach.
+description: Turn an unclear product or market assumption into one falsifiable problem hypothesis, target-person hypothesis, learning goal, and conversation test. Use when the problem or ICP is unclear, evidence is missing, feature work lacks user input, or Sales OS lacks its validation minimum. Do not use merely to polish an already validated pitch or target list.
 ---
 
 # Validate Problem
 
-Optimize for learning from real behaviour, not for producing a polished ICP document.
+Optimize for one learnable conversation, not a polished persona.
 
-## Workflow
+## Gate
 
-1. Read `core/steps/validate.md`, the active project, and `knowledge/foundations/validation-first.md`.
-2. Split known evidence, assumptions, and unknowns.
-3. Define one falsifiable problem hypothesis and one target-person hypothesis.
-4. Choose the riskiest assumption and one learning goal for the next conversation.
-5. Write five behaviour-first questions about the last occurrence, current workaround, consequences, decision process, and switching condition.
-6. Update `validation.md`, `icp.md`, and `evidence.md` using their templates.
-7. Route to `$find-conversations`; do not recommend product features unless a logged signal justifies them.
+Require a real project. Preserve the distinction between observed evidence, assumptions, and unknowns.
 
-## Validation minimum
+## Required references
 
-Outreach may begin once the project has a concrete problem hypothesis, a describable target person, and a learning goal. Do not require a perfect ICP before conversations can start.
+- `core/steps/validate.md`
+- `knowledge/foundations/validation-first.md`
+- The active project's project, validation, ICP, and evidence artifacts
 
+## Safety boundary
+
+Do not invent pain, urgency, behavior, or market evidence. Do not require a perfect ICP before outreach, and do not recommend product work without a logged signal.
+
+## Output contract
+
+Return the hypothesis, target person, learning goal, riskiest assumption, and five behavior-first questions. End with the single sourcing action.

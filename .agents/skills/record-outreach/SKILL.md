@@ -1,25 +1,26 @@
 ---
 name: record-outreach
-description: Record one founder-approved manual outreach attempt and preserve its exact context, date, and expected next step. Use immediately after the founder has personally sent, posted, or delivered an approved first touch; it never sends anything.
+description: Record one outreach attempt only after the founder confirms they personally sent, posted, or delivered it, then clear the current lane so another qualified conversation can be sourced. Use after a manual first touch or when correcting its log. Do not use to send, schedule, approve, or pretend an unsent draft was delivered.
 ---
 
 # Record Outreach
 
-Create an honest handoff between a review-ready draft and a future reply, without pretending the system acted externally.
+Log the founder's action and reopen the lane.
 
-## Hard gate
+## Gate
 
-Require the founder to confirm that they personally sent, posted, or delivered the outreach. If they have not, do not mark an attempt complete; state the one manual action still required.
+Require explicit founder confirmation of the completed external action. If absent, state the one manual action still required and make no status change.
 
-## Workflow
+## Required references
 
-1. Read the active project's `status.yaml`, contact record, and approved draft or source context.
-2. Record the date, target, channel, relationship temperature, one-sentence purpose, and the exact ask in the contact or experiment record. Do not store unnecessary private message content.
-3. Mark `outreach_attempt: complete` in `status.yaml` only after human confirmation.
-4. If there was an immediate reply, meeting, rejection, or other substantive response, mark `real_interaction: complete` and route to `$capture-learning`.
-5. Otherwise record the waiting state and any genuinely agreed follow-up date. Do not manufacture a cadence or set `follow_up_due` merely because time passed.
-6. End with the next truthful state: waiting, `$capture-learning`, `$prepare-call`, or `$handle-follow-up`. While waiting, `$sales-next` should preserve the waiting state rather than inventing a learning task.
+- `core/steps/record.md`
+- `core/steps/route.md`
+- Active project status, contact record, and approved draft context
 
-## Output
+## Safety boundary
 
-Include `Manual action confirmed`, `Attempt recorded`, `What counts as a real interaction`, and `Next check`. Never imply delivery, a reply, or a commitment that the founder did not confirm.
+Never perform an external action or invent delivery, replies, commitments, dates, or a follow-up cadence. Store no unnecessary private message content.
+
+## Output contract
+
+Return `Recorded: <target, channel, date>` first, then the single routed next action. When it routes to a new target, say that the existing contact remains `waiting` and will not be touched again without a real reply or due follow-up. If there was an immediate response, say which pending event was set.

@@ -1,22 +1,27 @@
 ---
 name: capture-learning
-description: Turn a real customer, prospect, partner, or community interaction into dated relationship context, evidence updates, follow-up commitments, and the next test. Use after a call, reply, message, comment, meeting, demo, rejection, pilot discussion, or weekly outreach review.
+description: Turn a real reply, comment, call, meeting, demo, rejection, pilot discussion, or outreach review into dated evidence, relationship context, language outcomes, commitments, and one next test. Use after an interaction happened or a debrief is pending. Do not use to fabricate learning from silence, an unsent draft, or an imagined customer.
 ---
 
 # Capture Learning
 
-Create usable evidence, not celebratory CRM prose.
+Preserve what happened, including language that worked or failed.
 
-## Workflow
+## Gate
 
-1. Read `core/steps/learn.md`, the contact record, experiment, validation, ICP, and evidence artifacts.
-2. Create a dated interaction file from `templates/interaction.md`.
-3. Separate verbatim facts or careful paraphrases from interpretation.
-4. Record what changed: problem confidence, ICP confidence, urgency, workaround, willingness to act or pay, objections, and no-fit signals.
-5. Update only affected artifacts and preserve prior evidence. Update the `experiments.md` learning scorecard only from dated records; track useful conversations and commitments rather than vanity activity.
-6. Record commitments and a concrete follow-up date when one exists.
-7. Run the routing logic from `$sales-next` and recommend one next test.
+Require a real dated interaction or real set of logged interactions for review. Silence may update contact state but is not customer evidence.
 
-## Weekly review
+## Required references
 
-Summarize conversations, strongest new evidence, contradicted assumptions, stalled commitments, and one priority for the next week. Count useful conversations, not messages sent.
+- `core/steps/learn.md`
+- `core/steps/route.md`
+- `templates/interaction.md`
+- Contact, experiment, validation, ICP, and evidence artifacts affected by the interaction
+
+## Safety boundary
+
+Do not turn anecdotes into universal rules, paraphrases into quotes, polite replies into demand, or silence into rejection. Preserve dates and prior evidence.
+
+## Output contract
+
+Return what changed, what did not change, the language outcome, commitments, and one next test. For weekly review, summarize dated conversations and contradictions, not vanity activity.

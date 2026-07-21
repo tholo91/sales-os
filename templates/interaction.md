@@ -1,5 +1,5 @@
 ---
-schema_version: 1
+schema_version: 2
 project_slug: null
 created_at: null
 updated_at: null
@@ -21,6 +21,14 @@ interaction_date: null
 
 ## Observed or carefully paraphrased facts
 
+## Language outcome
+
+- Wording that earned a reply:
+- Wording that caused confusion:
+- Wording that was rejected:
+- Channel and context:
+- Evidence label: one interaction, repeated signal, or confirmed preference
+
 ## Interpretation
 
 ## Commitments
@@ -30,4 +38,3 @@ interaction_date: null
 ## Follow-up
 
 ## Next test
-

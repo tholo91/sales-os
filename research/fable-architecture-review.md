@@ -1,5 +1,7 @@
 # Fable architecture review — Sales OS V1
 
+> Historical point-in-time audit. It describes the 2026-07-11 schema and should not be used as current workflow guidance. The 2026-07-22 output-quality upgrade replaced the artifact-wide outreach flags with a current lane and pending events, added `record-outreach`, made `core/steps/` canonical, and added routing and output evaluations. Use `core/workflow-catalog.yaml`, `core/steps/`, and the current tests for implementation truth.
+
 - Reviewer role: architecture reviewer and research critic (no framework files modified)
 - Review date: 2026-07-11
 - Scope: `AGENTS.md`, `core/`, `.agents/skills/`, `knowledge/`, `templates/`, `docs/`, `examples/`, `scripts/`, `tests/`, example workspace artifacts (read as examples only, not framework truth)

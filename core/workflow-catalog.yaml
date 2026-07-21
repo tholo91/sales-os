@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 default_skill: sales-next
 principles:
   - validation_before_pitch_optimization
@@ -27,20 +27,20 @@ workflows:
     sequence: 30
     skill: find-conversations
     prerequisites: [problem_hypothesis, target_person, learning_goal]
-    required_when: real_target_missing
-    produces: [real_target, conversation_opportunity]
+    required_when: current_outreach_needs_target
+    produces: [target_ref, language_evidence, conversation_opportunity]
   - id: engage
     sequence: 40
     skill: draft-outreach
-    prerequisites: [problem_hypothesis, target_person, learning_goal, real_target]
-    required_when: useful_first_touch_missing
-    produces: [review_ready_draft]
+    prerequisites: [problem_hypothesis, target_person, learning_goal, target_ref, language_evidence]
+    required_when: current_outreach_needs_draft
+    produces: [draft_ready]
   - id: send
     sequence: 45
     skill: record-outreach
-    prerequisites: [review_ready_draft]
-    required_when: approved_outreach_attempt_not_recorded
-    produces: [outreach_attempt]
+    prerequisites: [target_ref, draft_ready, founder_send_confirmation]
+    required_when: current_outreach_awaiting_manual_send
+    produces: [waiting_contact, last_outreach_at, cleared_current_lane]
   - id: continue
     sequence: 50
     skill: handle-follow-up
@@ -61,11 +61,9 @@ workflows:
     produces: [interaction_log, evidence_update, next_hypothesis]
 routing_priority:
   - stale_or_missing_context
-  - unlogged_real_interaction
+  - unlogged_interaction
   - scheduled_call
+  - due_follow_up
   - missing_validation_minimum
-  - missing_real_target
-  - pending_follow_up_decision
-  - review_ready_draft
-  - approved_outreach_attempt_not_recorded
-  - learning_review
+  - overdue_experiment_review
+  - current_outreach_lane

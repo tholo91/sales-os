@@ -1,4 +1,4 @@
 interface:
   display_name: "Sales Next"
-  short_description: "Find the single next sales action"
-  default_prompt: "Use $sales-next to assess the active project and recommend one concrete next action."
+  short_description: "Route to one next sales action"
+  default_prompt: "Use $sales-next to route the active project to exactly one next action."

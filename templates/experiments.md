@@ -1,5 +1,5 @@
 ---
-schema_version: 1
+schema_version: 2
 project_slug: null
 created_at: null
 updated_at: null
@@ -29,5 +29,7 @@ Update only from logged, dated records. A blank or `not recorded` value is prefe
 - Stop condition:
 - Started:
 - Review date:
+
+The active experiment's review date must match `status.yaml > activity.experiment_review_at`. Use `null` in status only when no experiment is active.
 
 ## Completed experiments

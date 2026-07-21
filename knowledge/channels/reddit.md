@@ -1,12 +1,12 @@
 ---
 source_url: https://redditinc.com/policies/developer-terms
 publisher: Reddit, Inc.
-retrieved_at: 2026-07-11
-last_verified_at: 2026-07-18
+retrieved_at: 2026-07-22
+last_verified_at: 2026-07-22
 jurisdiction: platform-global
 license_or_terms: Reddit Developer Terms and Data API Terms
 confidence: high
-review_after: 2026-10-16
+review_after: 2026-10-20
 ---
 
 # Reddit
@@ -24,6 +24,15 @@ Do not optimise for virality. A useful outcome is a relevant discussion or follo
 3. Decide whether a useful answer stands alone without a product mention.
 4. Disclose founder affiliation whenever the project is mentioned.
 5. Store only permalink, date, short paraphrase, problem signal, rule check, risk, and suggested human action.
+
+## Native writing shape
+
+- Comment like an individual already in the discussion, not a founder entering a funnel.
+- Give the useful answer or honest reaction first.
+- Use no greeting or sign-off by default in comments.
+- Match the thread's level of detail and formality without copying dialect or performing familiarity.
+- Ask at most one question unless the person explicitly invites a deeper interview.
+- Disclose the founder or product affiliation when a mention could affect how the contribution is interpreted.
 
 ## Earning standing (getting first users without getting banned)
 
@@ -45,6 +54,6 @@ Do not optimise for virality. A useful outcome is a relevant discussion or follo
 
 Current policy references: [Developer Terms](https://redditinc.com/policies/developer-terms), [Data API Terms](https://redditinc.com/policies/data-api-terms), [Spam policy](https://support.reddithelp.com/hc/en-us/articles/360043504051-Spam), and [Reddiquette](https://support.reddithelp.com/hc/en-us/articles/205926439-Reddiquette).
 
-For platform-published organic participation guidance, see [Reddit Pro’s Organic Engagement playbook](https://redditinc.com/hubfs/Reddit%20Inc/Content/Reddit%20Pros%20organic%20playbook.pdf) (verified 2026-07-18). It is marketing guidance, not a ranking specification.
+For platform-published organic participation guidance, see [Reddit Pro’s Organic Engagement playbook](https://redditinc.com/hubfs/Reddit%20Inc/Content/Reddit%20Pros%20organic%20playbook.pdf) (verified 2026-07-22). It is marketing guidance, not a ranking specification.
 
 API use is a future optional connector and requires a fresh review of permissions, commercial-use terms, OAuth limits, and deletion obligations for the exact use case.

@@ -1,4 +1,4 @@
 interface:
   display_name: "Draft Outreach"
-  short_description: "Draft contextual human outreach"
-  default_prompt: "Use $draft-outreach to prepare a low-pressure message for this real person or discussion."
+  short_description: "Draft one brief evidence-based first touch"
+  default_prompt: "Use $draft-outreach to write one platform-native draft for this verified target."

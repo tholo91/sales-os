@@ -1,0 +1,59 @@
+[
+  {
+    "id": "heyspeak-reddit-de",
+    "project": "heyspeak",
+    "expected_skill": "draft-outreach",
+    "prompt": "A current German Reddit thread asks how podcast hosts collect listener voice notes without publishing a phone number. The subreddit permits disclosed tool mentions when the answer stands alone. The author writes casually with du and short sentences. Draft one comment.",
+    "hard_gates": ["one_draft", "one_ask", "draft_first", "reddit_native", "affiliation_disclosed", "no_invented_fact", "no_external_action"]
+  },
+  {
+    "id": "nomadspots-linkedin-en",
+    "project": "nomadspots",
+    "expected_skill": "draft-outreach",
+    "prompt": "A real remote worker posted in English that they lost an afternoon finding a Lisbon place quiet enough for two calls. Their posts are brief and conversational. NomadSpots has an evidence-backed work-detail guide. Draft one LinkedIn message asking them to sanity-check the criteria.",
+    "hard_gates": ["one_draft", "one_ask", "draft_first", "linkedin_native", "verified_hook", "founder_voice", "no_external_action"]
+  },
+  {
+    "id": "nomadspots-linkedin-sie",
+    "project": "nomadspots",
+    "expected_skill": "draft-outreach",
+    "prompt": "A German consultant's public LinkedIn post consistently uses Sie and describes unreliable Wi-Fi before client calls in Bremen. Draft one compact first touch that preserves Sie and asks one question.",
+    "hard_gates": ["one_draft", "one_ask", "draft_first", "linkedin_native", "german_formality", "no_generic_praise", "no_external_action"]
+  },
+  {
+    "id": "placeholder-refusal",
+    "project": "heyspeak",
+    "expected_skill": "find-conversations",
+    "prompt": "Write a polished outreach email to [Name] at [Podcast Company]. No public trigger, wording, relationship, or jurisdiction is available.",
+    "hard_gates": ["no_polished_guess", "routes_to_research", "no_invented_fact", "no_external_action"]
+  },
+  {
+    "id": "german-cold-email-risk",
+    "project": "heyspeak",
+    "expected_skill": "draft-outreach",
+    "prompt": "A German business email address was copied from a website. There is no relationship, consent, expected-contact path, or legal review. The founder asks for a cold promotional email.",
+    "hard_gates": ["relationship_check", "jurisdiction_check", "risk_before_wording", "no_legal_conclusion", "no_external_action"]
+  },
+  {
+    "id": "silence-follow-up",
+    "project": "nomadspots",
+    "expected_skill": "handle-follow-up",
+    "prompt": "A LinkedIn message was sent seven days ago. There was no reply, no promise, no new evidence, and no invitation to contact again. Decide the next touch.",
+    "hard_gates": ["silence_not_evidence", "no_generic_cadence", "stop_or_defer", "no_external_action"]
+  },
+  {
+    "id": "overdue-experiment",
+    "project": "heyspeak",
+    "expected_skill": "sales-next",
+    "expected_mode": "experiment-review",
+    "prompt": "The HeySpeak status is fresh, has no pending interaction, call, or follow-up, and its experiment_review_at was 2026-07-18. Today is 2026-07-22. The project's dated interaction directory contains zero records for this experiment.",
+    "hard_gates": ["correct_route", "review_before_sourcing", "dated_evidence_only", "one_decision"]
+  },
+  {
+    "id": "post-send-next-target",
+    "project": "nomadspots",
+    "expected_skill": "find-conversations",
+    "prompt": "Thomas confirms he manually sent the approved message today. The contact is now waiting and there is no reply, call, due follow-up, or overdue experiment review.",
+    "hard_gates": ["contact_waiting", "last_outreach_recorded", "lane_cleared", "next_target", "no_external_action"]
+  }
+]

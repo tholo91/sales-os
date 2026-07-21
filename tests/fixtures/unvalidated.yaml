@@ -1,3 +1,4 @@
+schema_version: 2
 review_after: 2026-08-10
 artifacts:
   profile: complete
@@ -5,8 +6,13 @@ artifacts:
   problem_hypothesis: missing
   target_person: missing
   learning_goal: missing
-  real_target: missing
+current_outreach:
+  target_ref: null
+  stage: needs_target
 pending:
+  interaction_debrief: false
   follow_up_due: false
   scheduled_call: false
-
+activity:
+  experiment_review_at: null
+  last_outreach_at: null

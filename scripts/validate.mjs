@@ -34,6 +34,7 @@ const artifactFields = [
   "source_files",
   "confidence",
 ];
+const expectedSteps = ["route", "setup", "validate", "source", "engage", "record", "continue", "call", "learn"];
 
 function read(relative) {
   const file = path.join(root, relative);
@@ -65,13 +66,17 @@ for (const name of expectedSkills) {
   if (!meta?.description) errors.push(`${relative}: description is required`);
   if (/\[TODO|TODO:/.test(text)) errors.push(`${relative}: unresolved TODO`);
   if (text.split("\n").length >= 500) errors.push(`${relative}: must stay below 500 lines`);
+  if (/^## Workflow$/m.test(text)) errors.push(`${relative}: numbered procedure belongs in core/steps`);
   for (const entry of fs.readdirSync(skillRoot)) {
     if (entry.startsWith("SKILL") && entry !== "SKILL.md") {
       errors.push(`${relative}: unexpected conflicting entry ${entry}`);
     }
   }
-  read(`.agents/skills/${name}/agents/openai.yaml`);
+  const openai = read(`.agents/skills/${name}/agents/openai.yaml`);
+  if (!openai.includes(`$${name}`)) errors.push(`${relative}: openai.yaml default_prompt must invoke $${name}`);
 }
+
+for (const step of expectedSteps) read(`core/steps/${step}.md`);
 
 const knowledgeRoot = path.join(root, "knowledge");
 for (const file of fs.readdirSync(knowledgeRoot, { recursive: true })) {
@@ -88,7 +93,7 @@ for (const file of fs.readdirSync(knowledgeRoot, { recursive: true })) {
   }
 }
 
-for (const name of ["profile.md", "project.md", "validation.md", "icp.md", "evidence.md", "contacts.md", "experiments.md", "interaction.md"]) {
+for (const name of ["profile.md", "project.md", "validation.md", "icp.md", "evidence.md", "contacts.md", "experiments.md", "interaction.md", "voice.md"]) {
   const relative = `templates/${name}`;
   const meta = frontmatter(read(relative));
   if (!meta) {
@@ -112,6 +117,18 @@ const catalog = read("core/workflow-catalog.yaml");
 for (const skill of expectedSkills) {
   if (!catalog.includes(skill)) errors.push(`workflow catalog does not reference ${skill}`);
 }
+
+const status = read("templates/status.yaml");
+for (const field of ["schema_version: 2", "current_outreach:", "activity:", "experiment_review_at:", "last_outreach_at:"]) {
+  if (!status.includes(field)) errors.push(`templates/status.yaml: missing ${field}`);
+}
+for (const legacy of ["next_skill:", "next_action:", "real_target:", "review_ready_draft:", "outreach_attempt:"]) {
+  if (status.includes(legacy)) errors.push(`templates/status.yaml: legacy field ${legacy}`);
+}
+
+read("knowledge/foundations/audience-language.md");
+read("tests/evals/trigger-cases.json");
+read("tests/evals/output-cases.json");
 
 if (errors.length) {
   console.error(errors.map((error) => `- ${error}`).join("\n"));

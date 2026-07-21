@@ -1,29 +1,28 @@
 ---
 name: find-conversations
-description: Find and rank real current people, discussions, communities, or warm-introduction paths for a validated learning goal. Use when the user wants prospects, Reddit threads, communities, channel selection, ICP hangouts, conversation opportunities, or a concrete way to reach potential users before drafting outreach.
+description: Find and qualify real current people, public discussions, communities, or warm paths for one validated learning goal, including the language and culture evidence needed to approach them. Use for prospects, Reddit threads, communities, channel choice, ICP hangouts, or a next conversation. Do not use to draft outreach for an already qualified target or to produce bulk lead lists.
 ---
 
 # Find Conversations
 
-Find listening and conversation opportunities, not bulk lead lists.
+Find evidence-rich opportunities, not names to fill a funnel.
 
-## Workflow
+## Gate
 
-1. Read `core/steps/source.md`, active project validation and ICP artifacts, `knowledge/foundations/channel-choice.md`, and the matching channel knowledge.
-2. Translate the problem into phrases the target person would naturally use before knowing the product.
-3. Prefer the founder's real network and current public discussions over scraped databases.
-4. Use live research for current threads and platform rules. Never invent links or current activity.
-5. Verify target, date, relevance, rules, relationship path, and risk.
-6. Return at most five opportunities and recommend one action for the next 20 minutes.
+Require a concrete problem hypothesis, target-person hypothesis, and learning goal. A result is not qualified without a real target or permalink and a language-evidence packet.
 
-## Reddit boundary
+## Required references
 
-Read `knowledge/channels/reddit.md`. Do not scrape, automate DMs, copy user histories, or promise exhaustive search. Store only permalink, date, paraphrased signal, rule check, risk, and suggested human move.
+- `core/steps/source.md`
+- `knowledge/foundations/audience-language.md`
+- `knowledge/foundations/channel-choice.md`
+- The active project's validation, ICP, and evidence artifacts
+- Only the matching channel reference
 
-## Output gate
+## Safety boundary
 
-Every recommended opportunity must be a real person, organization, or discussion. If live access fails, return transparent search URLs and label them unverified.
+No scraping, bulk enrichment, exhaustive-search claims, invented links, automatic DMs, or copied private-community material. If live verification fails, label search paths unverified rather than presenting candidates as real.
 
-## Slack boundary
+## Output contract
 
-Read `knowledge/channels/slack.md`. Treat every workspace as a private, moderator-governed context: verify the invitation, channel purpose, written rules, and observable norms before suggesting a message. Do not recommend unsolicited DMs, launch drops, bulk replies, or copying workspace material into public research.
+Return at most five opportunities. For each: target, dated relevance, observed language signal, culture or rule check, relationship path, risk, and one human move. Recommend one opportunity first.
