@@ -21,6 +21,8 @@ The message must still make sense if the product name is removed. Use only proof
 
 Avoid full product explanations, generic compliments, several CTAs, fake urgency, and requests for a long call before relevance is established.
 
+Warm paths and public presence can make a direct message less cold. A useful public comment, a visible market note, or a trusted introduction is worth more than more copy polish when the target would otherwise have no context for the founder.
+
 For triggered outbound, connect the observed signal to one concrete workflow bottleneck. The message should show:
 
 1. What was observed.

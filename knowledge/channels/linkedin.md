@@ -2,11 +2,11 @@
 source_url: https://www.linkedin.com/legal/user-agreement
 publisher: LinkedIn
 retrieved_at: 2026-07-11
-last_verified_at: 2026-07-11
+last_verified_at: 2026-07-18
 jurisdiction: platform-global
 license_or_terms: LinkedIn User Agreement
 confidence: high
-review_after: 2026-10-09
+review_after: 2026-10-16
 ---
 
 # LinkedIn
@@ -14,6 +14,8 @@ review_after: 2026-10-09
 ## Best use
 
 Use visible professional context, warm paths, and public micro-engagement to earn a relevant private conversation.
+
+Do not optimise for virality. LinkedIn distributes content through relevance signals spanning profile, network, content, activity, recency, and constructive-professional conversation. A small, relevant network can therefore support a useful post; a big audience is not a prerequisite for a meaningful test.
 
 ## Sequence
 
@@ -29,6 +31,7 @@ Use visible professional context, warm paths, and public micro-engagement to ear
 - The optional connection note: reference one specific, real thing (their post, talk, role change, shared context) and do not pitch in it. A pitch in the invitation is the fastest route to a decline.
 - First DM after connecting: thank briefly, reference the specific context, offer one useful observation or question about their situation — no product pitch, no calendar link, no attachment.
 - Reply-rate and acceptance-rate percentages circulating in outreach blogs are unsourced marketing claims; per the source policy they stay out of this file.
+- A public post should offer a concrete professional lesson, observation, or question before it mentions the product. LinkedIn itself recommends relatable, insightful, non-promotional content and genuine engagement; do not treat that as a guarantee of reach.
 
 ## Guardrails
 
@@ -37,3 +40,4 @@ Use visible professional context, warm paths, and public micro-engagement to ear
 - No universal daily invitation limits in the knowledge base; platform behaviour and enforcement change.
 - Human review and action are mandatory.
 
+Current platform references: [feed relevance](https://www.linkedin.com/help/linkedin/answer/a1339724), [how the feed ranks content](https://www.linkedin.com/help/linkedin/answer/a9554004), and [content distribution guidance](https://www.linkedin.com/help/linkedin/answer/a516930) (verified 2026-07-18).

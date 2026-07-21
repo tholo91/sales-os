@@ -49,6 +49,19 @@ Use plain, confident language. The goal is not to sound clever; it is to keep th
 
 These are conversation defaults, not scripts. Use the buyer’s own words and do not manufacture urgency, scarcity, savings, or authority.
 
+## Negotiation moves that preserve value
+
+Use negotiation to clarify the trade-off, not to perform certainty or pressure. A practical sequence is:
+
+1. Label or mirror the concern: “It sounds like the investment is hard to justify right now.”
+2. Ask a calibrated question: “What would need to be true for this to be worth testing?”
+3. If the requested outcome stays the same while price or effort falls, name the constraint: “How are we supposed to deliver that outcome if we remove [scope]?”
+4. Offer one changed variable: scope, timing, risk, or payment shape. Tie every concession to that change and to a clear decision date.
+
+“Would it be a bad idea to test [small scope]?” can make a real no easier than a direct close. Use it as a check for fit, not as a way to manufacture agreement.
+
+Avoid fixed concession percentages or a scripted bargaining ladder. Smaller, decreasing concessions can be useful when a buyer is genuinely negotiating, but each move should buy a reciprocal commitment or reflect a real change in the offer.
+
 ## When the buyer says the price is too high
 
 Treat “too expensive” as ambiguous. It can mean low perceived value, low urgency, lack of budget, a missing stakeholder, an unfavourable payment shape, or a genuine no-fit. Diagnose before changing the offer.

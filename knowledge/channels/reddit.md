@@ -2,11 +2,11 @@
 source_url: https://redditinc.com/policies/developer-terms
 publisher: Reddit, Inc.
 retrieved_at: 2026-07-11
-last_verified_at: 2026-07-11
+last_verified_at: 2026-07-18
 jurisdiction: platform-global
 license_or_terms: Reddit Developer Terms and Data API Terms
 confidence: high
-review_after: 2026-10-09
+review_after: 2026-10-16
 ---
 
 # Reddit
@@ -14,6 +14,8 @@ review_after: 2026-10-09
 ## Best use
 
 Use Reddit for listening, problem-language discovery, validation, and useful participation in existing discussions. It is not a bulk prospecting or automated-DM channel.
+
+Do not optimise for virality. A useful outcome is a relevant discussion or follow-up; timing, quality, relevance, and luck all affect broader distribution. Build standing by commenting helpfully before attempting a post.
 
 ## Required checks
 
@@ -42,5 +44,7 @@ Use Reddit for listening, problem-language discovery, validation, and useful par
 - No product link unless relevant and allowed by the community context.
 
 Current policy references: [Developer Terms](https://redditinc.com/policies/developer-terms), [Data API Terms](https://redditinc.com/policies/data-api-terms), [Spam policy](https://support.reddithelp.com/hc/en-us/articles/360043504051-Spam), and [Reddiquette](https://support.reddithelp.com/hc/en-us/articles/205926439-Reddiquette).
+
+For platform-published organic participation guidance, see [Reddit Pro’s Organic Engagement playbook](https://redditinc.com/hubfs/Reddit%20Inc/Content/Reddit%20Pros%20organic%20playbook.pdf) (verified 2026-07-18). It is marketing guidance, not a ranking specification.
 
 API use is a future optional connector and requires a fresh review of permissions, commercial-use terms, OAuth limits, and deletion obligations for the exact use case.

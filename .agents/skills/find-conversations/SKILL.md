@@ -23,3 +23,7 @@ Read `knowledge/channels/reddit.md`. Do not scrape, automate DMs, copy user hist
 ## Output gate
 
 Every recommended opportunity must be a real person, organization, or discussion. If live access fails, return transparent search URLs and label them unverified.
+
+## Slack boundary
+
+Read `knowledge/channels/slack.md`. Treat every workspace as a private, moderator-governed context: verify the invitation, channel purpose, written rules, and observable norms before suggesting a message. Do not recommend unsolicited DMs, launch drops, bulk replies, or copying workspace material into public research.
