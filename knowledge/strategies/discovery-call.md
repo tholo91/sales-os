@@ -21,6 +21,14 @@ Ask about:
 4. How a decision would be made.
 5. What would have to be true to switch, test, or pay.
 
+When the situation is consequential, also understand the decision-maker's internal stakes:
+
+- “What would need to be true for you to defend this internally?”
+- “Who owns the downside if the change does not work?”
+- “What changes for your role if this is solved, or if it stays as it is?”
+
+Use these answers to understand risk, ownership, and desired outcomes. Do not turn assumed identity or career motives into messaging claims.
+
 Do not lead the witness, convert every complaint into validation, or demo before understanding the current workflow.
 
 ## When resistance appears

@@ -17,6 +17,15 @@ Use Reddit for listening, problem-language discovery, validation, and useful par
 
 Do not optimise for virality. A useful outcome is a relevant discussion or follow-up; timing, quality, relevance, and luck all affect broader distribution. Build standing by commenting helpfully before attempting a post.
 
+## Listening sequence
+
+1. Start with narrow communities and the target person's own problem language.
+2. Read replies, disagreement, and alternative solutions rather than the original post alone.
+3. Search for evidence that the problem is already solved, tolerable, or a one-off complaint.
+4. Compare observations across independent threads before treating a pattern as worth prioritising.
+
+Upvotes, engagement, and one vivid thread are context, not proof of demand. Use the findings to choose a conversation or test, not to justify a market claim.
+
 ## Required checks
 
 1. Verify the real permalink, subreddit, date, activity, and thread context live.

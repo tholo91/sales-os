@@ -13,6 +13,10 @@ review_after: 2026-08-10
 
 ## Unique imports
 
+- `Founder's Playbook.md`
+  - Original: local user-provided file, `Founder's Playbook.md`
+  - Original SHA-256: `ed2c70560bc61a934186f7ddf85e8bfd9ad91397906f5eb0ef01fda1e691ed61`
+  - Raw source remains outside the repository; reusable guidance was selectively paraphrased and unsupported claims were added to `knowledge/evidence/claims-register.md`.
 - `strategic-blueprint-2026-b2b-outreach.md`
   - Original: local user-provided file, `Strategic Blueprint 2026 B2B Outreach.md`
   - Original SHA-256: `d65999dcb76cec4b313581353f430da4ee7a62c414924e9c43bdb67fca82032b`
