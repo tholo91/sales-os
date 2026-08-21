@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shape Positioning"
+  short_description: "Turn evidence into one sellable position"
+  default_prompt: "Use $shape-positioning to sharpen what I sell, for whom, and why it matters."

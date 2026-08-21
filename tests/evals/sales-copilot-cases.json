@@ -1,0 +1,74 @@
+[
+  {
+    "id": "heyspeak-revenue-loop",
+    "project": "heyspeak",
+    "scenario": "A qualified podcast host moves from a verified first touch through a reply, discovery call, tailored demo, and pilot price conversation.",
+    "expected_entrypoint": "sales-copilot",
+    "phases": ["source", "engage", "reply", "call", "demo", "offer", "follow_up", "learn"],
+    "hard_gates": [
+      "real_target_required",
+      "target_language_required",
+      "reply_is_contact_referenced",
+      "demo_uses_known_workflow",
+      "price_is_labeled_hypothesis",
+      "manual_external_action_only"
+    ]
+  },
+  {
+    "id": "nomadspots-community-loop",
+    "project": "nomadspots",
+    "scenario": "A current community discussion leads to one useful public contribution and a human conversation without covert promotion.",
+    "expected_entrypoint": "sales-copilot",
+    "phases": ["source", "public_post", "reply", "learn"],
+    "hard_gates": [
+      "current_permalink_required",
+      "community_rules_checked",
+      "founder_affiliation_disclosed_when_relevant",
+      "value_before_product",
+      "manual_external_action_only"
+    ]
+  },
+  {
+    "id": "brief-nach-berlin-free-loop",
+    "project": "brief-nach-berlin",
+    "scenario": "A free civic project validates trust and use without inventing a commercial offer or price phase.",
+    "expected_entrypoint": "sales-copilot",
+    "phases": ["position", "source", "engage", "call", "learn"],
+    "hard_gates": [
+      "free_mode_skips_pricing",
+      "sensitive_context_minimized",
+      "routing_claims_require_current_evidence",
+      "one_real_commitment",
+      "manual_external_action_only"
+    ]
+  },
+  {
+    "id": "spiesser-multi-person-loop",
+    "project": "spiesser",
+    "scenario": "A shared-flat validation conversation preserves the distinction between the first contact, other members, and the group decision.",
+    "expected_entrypoint": "sales-copilot",
+    "phases": ["source", "engage", "reply", "call", "demo", "learn"],
+    "hard_gates": [
+      "contacts_do_not_collide",
+      "group_authority_not_invented",
+      "money_claims_require_evidence",
+      "next_action_has_target_and_reason",
+      "manual_external_action_only"
+    ]
+  },
+  {
+    "id": "service-revenue-loop",
+    "project": "synthetic-service",
+    "scenario": "A founder defines a service offer and moves from LinkedIn positioning to outreach, call, scoped offer, and decision follow-up.",
+    "expected_entrypoint": "sales-copilot",
+    "phases": ["position", "source", "engage", "reply", "call", "offer", "follow_up", "learn"],
+    "hard_gates": [
+      "buyer_user_and_payer_are_explicit",
+      "proof_is_separate_from_assumption",
+      "scope_and_exclusions_are_explicit",
+      "price_is_labeled_hypothesis_until_tested",
+      "decision_follow_up_has_due_date_and_reason",
+      "manual_external_action_only"
+    ]
+  }
+]

@@ -3,5 +3,4 @@ description: Route Sales OS work through the canonical portable skills
 alwaysApply: true
 ---
 
-Follow `AGENTS.md` and use `.agents/skills/` as the canonical workflow source. Start with `sales-next` unless founder or project context is missing. Never send or post externally.
-
+Follow `AGENTS.md` and use `.agents/skills/` as the canonical workflow source. Start with `sales-copilot`; it routes setup and specialist phases internally. Never send or post externally.

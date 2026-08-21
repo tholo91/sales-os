@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reddit DM"
+  short_description: "Draft one evidence-based Reddit DM"
+  default_prompt: "Use $reddit-dm to draft one context-specific Reddit DM for this verified target."

@@ -1,23 +1,46 @@
 # Sales OS
 
-Sales OS is a file-based, validation-first operating system for founder-led customer discovery and outreach. Its repository layer is portable across supported LLM hosts: skills use the open Agent Skills structure, shared procedures and knowledge stay in this repository, and user data stays outside the framework.
+Sales OS is a private, file-based sales copilot for founder-led customer discovery and service sales. It removes blank-page work, prepares one context-aware next move, and keeps the founder in control of every external action.
 
-## Start here
+## Quickstart
 
-1. Ask your agent to use `$sales-setup` to create or refresh a founder profile and project.
-2. Ask `$sales-next` for the single next useful action.
-3. Use the recommended skill and capture the outcome with `$capture-learning`.
+1. Open this repository with a supported agent and say: **`Use $sales-copilot for <project>.`**
+2. Answer only the missing setup questions. Sales OS stores founder, project, contact, interaction, and draft context under the gitignored `workspace/` directory.
+3. Review the one recommended action or draft, then send, post, call, or reply yourself.
+4. Return with the real outcome. `$sales-copilot` records the learning and routes the next phase.
 
-The canonical skills live in `.agents/skills/`. `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, and the Cursor rule are thin host adapters only.
+Use `$sales-copilot` as the single user-facing entrypoint. The specialist skills in `.agents/skills/` are internal routing targets, not a menu the founder must learn.
 
 ## Operating rules
 
 - Validate a problem before optimizing a pitch.
 - Work with real people and real discussions, not placeholder leads.
 - Prefer one useful conversation over another internal artifact.
-- Never send, post, scrape, enrich, or message automatically.
+- Drafting can be automated; sending, posting, voting, connecting, calling, and approving cannot.
+- Never scrape, bulk-enrich, mass-message, or simulate engagement.
 - Treat project facts and market guidance as dated evidence.
 - Keep private profiles, contacts, and interactions under the gitignored `workspace/` directory.
+
+## Sales phases
+
+`$sales-copilot` moves one active project through these phases:
+
+1. **Context and position:** establish the founder, active project, proof boundary, audience, problem, and one testable commercial position.
+2. **Validate:** define one falsifiable problem hypothesis and one learning goal.
+3. **Create an opportunity:** find a real person, discussion, community, or warm path, or prepare one evidence-based public post for a supported channel.
+4. **Prepare the move:** produce one channel-native first touch, reply, follow-up, or call plan from current context.
+5. **Act manually:** the founder reviews and performs the external action.
+6. **Advance the conversation:** handle the real reply, discovery call, demo, objection, price discussion, or decision follow-up.
+7. **Offer:** turn qualified evidence into one bounded, decision-ready service offer or paid pilot.
+8. **Learn:** record what actually happened and route one next experiment.
+
+Silence is not customer evidence, an unsent draft is not outreach, and a draft never becomes “sent” without the founder's explicit confirmation.
+
+## Browser fallback
+
+When a supported browser tool and an authenticated session are available, Sales OS may inspect current public context read-only. After an explicit request, it may place a reviewed draft into the intended input field, but it must stop before submit. It still must not send, post, vote, connect, follow, scrape, book, purchase, or otherwise persist an external action.
+
+When live access is unavailable, provide the permalink, pasted text, screenshot, or exported conversation. Sales OS must label anything it could not verify and must not invent missing context. Platform, legal, pricing, and market facts are rechecked when stale.
 
 ## Repository map
 
@@ -31,7 +54,9 @@ The canonical skills live in `.agents/skills/`. `AGENTS.md`, `CLAUDE.md`, `GEMIN
 
 ## Status
 
-V1 supports research, evidence-based drafting, manual outreach-attempt logging, learning capture, call preparation, and lifecycle routing. Sending automation, scraping, CRM sync, ads, and bulk enrichment are intentionally out of scope.
+The current system supports setup, validation, live public-context research, evidence-based drafting, manual outreach logging, follow-up decisions, call preparation, objection and pricing preparation, learning capture, and lifecycle routing. Sending automation, scraping, CRM sync, ads, and bulk enrichment are intentionally out of scope.
+
+LinkedIn, Reddit, email, phone, Slack, and warm-network guidance are curated today. Instagram and TikTok are later channel adapters: their current rules may inform risk checks, but no dedicated workflow should be implied until its adapter, live-context checks, and evaluation cases exist.
 
 ## Community
 

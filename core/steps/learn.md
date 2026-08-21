@@ -5,5 +5,5 @@
 3. Record language that earned a reply, caused confusion, or was rejected, with channel and context. Keep it as an anecdote unless repeated evidence supports a broader rule.
 4. Update only affected evidence, ICP, validation, experiment, and contact records. Preserve prior claims and dates.
 5. Record commitments, a real follow-up date when one exists, and the next falsifiable test.
-6. Clear `pending.interaction_debrief` and set call or follow-up flags only when the interaction supports them.
+6. Resolve only the selected `interaction_debrief` action. Create contact-referenced call, reply, proposal, or follow-up actions only when the interaction supports them, with that interaction as `source_interaction_ref`, a real reason, and a due date.
 7. Route through `core/steps/route.md` before recommending product work or more outreach.

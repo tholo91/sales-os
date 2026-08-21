@@ -53,7 +53,7 @@
     "id": "post-send-next-target",
     "project": "nomadspots",
     "expected_skill": "find-conversations",
-    "prompt": "Thomas confirms he manually sent the approved message today. The contact is now waiting and there is no reply, call, due follow-up, or overdue experiment review.",
-    "hard_gates": ["contact_waiting", "last_outreach_recorded", "lane_cleared", "next_target", "no_external_action"]
+    "prompt": "The founder confirms they manually sent the approved message today. The contact is now contacted and there is no reply, call, due follow-up, or overdue experiment review.",
+    "hard_gates": ["contact_contacted", "last_outreach_recorded", "lane_cleared", "next_target", "no_external_action"]
   }
 ]

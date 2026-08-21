@@ -19,7 +19,7 @@ Require a problem hypothesis, target-person hypothesis, learning goal, real `tar
 - Active project evidence and `workspace/voice.md` when present
 - Only the matching channel, strategy, and market references
 
-Apply this order: verified target context, Thomas's matching channel voice, community or platform norms, individual formality, then broad market hypotheses.
+Apply this order: verified target context, the founder's matching channel voice, community or platform norms, individual formality, then broad market hypotheses.
 
 ## Safety boundary
 

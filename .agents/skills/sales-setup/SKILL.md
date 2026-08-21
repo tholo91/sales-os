@@ -1,6 +1,6 @@
 ---
 name: sales-setup
-description: Create or refresh private founder, voice, project, and status context for Sales OS. Use for onboarding, adding a project, changing goals or channels, refreshing stale facts, migrating workspace state, or resolving missing product, proof, market, or founder context. Do not use when current context is complete and the founder only needs the next routed action.
+description: Create or refresh private founder, voice, project, positioning, offer, contact, pending-action, and status context for Sales OS. Use for onboarding, adding a project, changing goals or channels, refreshing stale facts, migrating workspace state, or resolving missing product, proof, market, or founder context. Do not use when current context is complete and the founder only needs the next routed action.
 ---
 
 # Sales Setup
@@ -17,6 +17,7 @@ Ask only for facts that cannot be recovered from current workspace files or the 
 - `core/steps/route.md`
 - Relevant files in `templates/`
 - `core/workflow-catalog.yaml`
+- `scripts/migrate-status-v2-to-v3.mjs` when the active project still uses schema v2
 
 ## Safety boundary
 
@@ -24,4 +25,4 @@ Keep private values under `workspace/`. Inspect configured product repositories 
 
 ## Output contract
 
-State what was created or refreshed, list unresolved facts only when they block routing, then give the single routed next action.
+State what was created, migrated, or refreshed, list unresolved facts only when they block routing, then give the single routed next action. A migrated blocked action must name the missing contact reference instead of being silently dropped.

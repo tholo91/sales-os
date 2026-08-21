@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Offer"
+  short_description: "Turn discovery into a decision-ready offer"
+  default_prompt: "Use $prepare-offer to turn this qualified conversation into one concise offer the buyer can decide on."

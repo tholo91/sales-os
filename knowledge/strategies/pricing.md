@@ -1,17 +1,23 @@
 ---
-source_url: https://www.ycombinator.com/library/6h-startup-pricing-101
-publisher: Y Combinator (Kevin Hale, Startup Pricing 101), paraphrased working guidance; original objection-language examples
-retrieved_at: 2026-07-11
-last_verified_at: 2026-07-11
+source_url: https://www.gong.io/blog/data-reveals-the-best-time-to-talk-price-and-budget
+publisher: Gong Labs and Y Combinator
+retrieved_at: 2026-08-21
+last_verified_at: 2026-08-21
 jurisdiction: global
 license_or_terms: linked reference; no copied text
 confidence: medium
-review_after: 2027-01-07
+review_after: 2026-11-19
 ---
 
 # Pricing for early validation
 
 Use when setting a first price, preparing a pilot offer, or when the founder must justify a price to a prospect or a more experienced peer.
+
+## When to discuss price
+
+Do not hide price until the end of the sales process. Gong analyzed 11,331 opportunities with at least three calls and reported win rates 10% higher when price was first discussed on the first call. The same analysis supports establishing the value context before stating price rather than opening with it. This is vendor-owned observational evidence, not a promised uplift.
+
+Default: understand the problem, consequence, outcome, and decision context, then state the price plainly in the first substantive sales conversation when appropriate. Use the buyer's response as evidence about fit, priority, value clarity, and decision process. Source: [Gong pricing timing analysis](https://www.gong.io/blog/data-reveals-the-best-time-to-talk-price-and-budget) (verified 2026-08-21).
 
 ## Working principles
 

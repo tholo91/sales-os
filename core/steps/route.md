@@ -1,11 +1,13 @@
 # Lifecycle routing step
 
 1. Read the active project's `status.yaml` before loading other artifacts.
-2. Route stale or invalid context to `sales-setup`.
-3. Route an unlogged interaction debrief to `capture-learning`.
-4. Route a scheduled call to `prepare-call`.
-5. Route a due follow-up to `handle-follow-up`.
-6. Route an incomplete problem hypothesis, target-person hypothesis, or learning goal to `validate-problem`.
-7. Route an overdue experiment review to `sales-next` in experiment-review mode. Name the dated interaction records checked, distinguish zero records from unavailable evidence, compare the hypothesis and stop condition, make one decision, reset the review date, and route the updated status once more.
-8. Otherwise route the current outreach lane: `needs_target` to `find-conversations`, `needs_draft` to `draft-outreach`, and `awaiting_manual_send` to `record-outreach`.
-9. Recommend exactly one skill and one action. Waiting contacts do not block a new current lane.
+2. Require status schema v3. Route v2 or unknown schemas to `sales-setup` for the explicit migration; do not execute legacy pending booleans as a compatibility path. Route stale, invalid, or incomplete founder/project context to `sales-setup`.
+3. Load the file named by `pending_actions_ref`. It is the only executable queue. Contact records may reference an action id, but their stage, `last_touch_at`, or `next_action_ref` never creates a due action by itself.
+4. Ignore only actions with `status: completed` or `status: cancelled`. Before due-action routing, stop on any other action that is blocked, lacks a valid due date, reason, approved type/skill mapping, safe referenced contact, or source interaction. The contact and interaction files must exist. Route invalid actions to `sales-setup` with the action id and missing reference so the event is repaired rather than silently skipped.
+5. From the remaining `status: open` actions, consider those with `due_at` at or before the current time.
+6. Route due actions in this order: `interaction_debrief` to `capture-learning`; `inbound_reply` or `content_reply` to `handle-reply`; `scheduled_call` to `prepare-call`; `proposal` to `prepare-offer`; and `follow_up` or `decision_follow_up` to `handle-follow-up`. The declared skill must match this mapping; never execute an arbitrary skill from queue data or infer one from prose in `reason`.
+7. Within the same type, choose the earliest `due_at`, then the lexicographically first action id. Return the selected `action_id` and `target_ref` so the specialist resolves exactly that record.
+8. Route missing positioning, an unsupported commercial mode, or a missing required offer to `shape-positioning`. Supported modes are `service`, `saas`, `pilot`, `membership`, `product`, and `none`. Only `commercial_mode: none` may leave the offer incomplete or skipped. Then route an incomplete problem hypothesis, target-person hypothesis, or learning goal to `validate-problem`.
+9. Route an overdue experiment review to `sales-next` in experiment-review mode. Name the dated interaction records checked, distinguish zero records from unavailable evidence, compare the hypothesis and stop condition, make one decision, reset the review date, and route the updated status once more.
+10. Otherwise route the current outreach lane: `needs_target` to `find-conversations`, `needs_draft` with `draft_mode: reddit_dm` to `reddit-dm`, `needs_draft` with `draft_mode: outreach` to `draft-outreach`, and `awaiting_manual_send` to `record-outreach`. Missing or unsupported draft modes route to `sales-setup` rather than guessing the channel contract.
+11. Recommend exactly one skill and one action. Contacted people without a due action do not block a new current lane, and only resolving or cancelling an action removes it from the queue.

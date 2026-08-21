@@ -1,0 +1,12 @@
+schema_version: 1
+project_slug: null
+created_at: null
+updated_at: null
+
+# Each action requires: id, type, skill, target_ref, source_interaction_ref,
+# status, due_at, reason, created_at, and blocked_reason. `pending-actions.yaml`
+# is the only executable queue. The target must resolve to
+# `contacts/<target_ref>.md`; the source must resolve to an interaction record.
+# Contact files may reference an action id but must not duplicate its due date
+# or reason. Status is one of: open, blocked, completed, or cancelled.
+actions: []

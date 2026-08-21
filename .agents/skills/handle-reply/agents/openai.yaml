@@ -1,0 +1,4 @@
+interface:
+  display_name: "Handle Reply"
+  short_description: "Turn one real reply into the next move"
+  default_prompt: "Use $handle-reply to interpret this real response and draft the one reply I should send."

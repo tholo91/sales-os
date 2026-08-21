@@ -4,14 +4,20 @@ import path from "node:path";
 const root = process.cwd();
 const errors = [];
 const expectedSkills = [
+  "sales-copilot",
   "sales-next",
   "sales-setup",
+  "shape-positioning",
   "validate-problem",
   "find-conversations",
   "draft-outreach",
+  "draft-public-post",
+  "reddit-dm",
   "record-outreach",
+  "handle-reply",
   "handle-follow-up",
   "prepare-call",
+  "prepare-offer",
   "capture-learning",
 ];
 const metadataFields = [
@@ -34,7 +40,22 @@ const artifactFields = [
   "source_files",
   "confidence",
 ];
-const expectedSteps = ["route", "setup", "validate", "source", "engage", "record", "continue", "call", "learn"];
+const expectedSteps = [
+  "copilot",
+  "route",
+  "setup",
+  "position",
+  "validate",
+  "source",
+  "engage",
+  "publish",
+  "record",
+  "reply",
+  "continue",
+  "call",
+  "offer",
+  "learn",
+];
 
 function read(relative) {
   const file = path.join(root, relative);
@@ -93,7 +114,7 @@ for (const file of fs.readdirSync(knowledgeRoot, { recursive: true })) {
   }
 }
 
-for (const name of ["profile.md", "project.md", "validation.md", "icp.md", "evidence.md", "contacts.md", "experiments.md", "interaction.md", "voice.md"]) {
+for (const name of ["profile.md", "project.md", "positioning.md", "offer.md", "validation.md", "icp.md", "evidence.md", "contacts.md", "contact.md", "experiments.md", "interaction.md", "voice.md"]) {
   const relative = `templates/${name}`;
   const meta = frontmatter(read(relative));
   if (!meta) {
@@ -119,16 +140,23 @@ for (const skill of expectedSkills) {
 }
 
 const status = read("templates/status.yaml");
-for (const field of ["schema_version: 2", "current_outreach:", "activity:", "experiment_review_at:", "last_outreach_at:"]) {
+for (const field of ["schema_version: 3", "commercial_mode: null", "positioning: missing", "offer: missing", "current_outreach:", "draft_mode: outreach", "pending_actions_ref: pending-actions.yaml", "activity:", "experiment_review_at:", "last_outreach_at:"]) {
   if (!status.includes(field)) errors.push(`templates/status.yaml: missing ${field}`);
 }
-for (const legacy of ["next_skill:", "next_action:", "real_target:", "review_ready_draft:", "outreach_attempt:"]) {
+for (const legacy of ["next_skill:", "next_action:", "real_target:", "review_ready_draft:", "outreach_attempt:", "pending:"]) {
   if (status.includes(legacy)) errors.push(`templates/status.yaml: legacy field ${legacy}`);
+}
+
+const pendingActions = read("templates/pending-actions.yaml");
+for (const field of ["schema_version: 1", "project_slug:", "actions: []", "only executable", "target_ref", "source_interaction_ref", "blocked_reason"]) {
+  if (!pendingActions.includes(field)) errors.push(`templates/pending-actions.yaml: missing ${field}`);
 }
 
 read("knowledge/foundations/audience-language.md");
 read("tests/evals/trigger-cases.json");
 read("tests/evals/output-cases.json");
+read("tests/evals/sales-copilot-cases.json");
+read("tests/evals/copilot-golden-outputs.json");
 
 if (errors.length) {
   console.error(errors.map((error) => `- ${error}`).join("\n"));

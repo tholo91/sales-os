@@ -1,18 +1,19 @@
-schema_version: 2
+schema_version: 3
+commercial_mode: product
 review_after: 2026-08-10
 artifacts:
   profile: complete
   project: complete
+  positioning: complete
+  offer: complete
   problem_hypothesis: complete
   target_person: complete
   learning_goal: complete
 current_outreach:
   target_ref: null
   stage: needs_target
-pending:
-  interaction_debrief: false
-  follow_up_due: false
-  scheduled_call: true
+  draft_mode: outreach
+pending_actions_ref: pending-actions.yaml
 activity:
   experiment_review_at: 2026-08-01
   last_outreach_at: null

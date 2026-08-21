@@ -17,6 +17,15 @@ Use Reddit for listening, problem-language discovery, validation, and useful par
 
 Do not optimise for virality. A useful outcome is a relevant discussion or follow-up; timing, quality, relevance, and luck all affect broader distribution. Build standing by commenting helpfully before attempting a post.
 
+## Contact modes
+
+Keep these modes separate:
+
+- **Public participation:** the default. Answer the question or add a useful observation that stands alone without a product mention.
+- **Outbound DM:** a narrow exception for a person who described the exact problem, invited contact, or already exchanged messages publicly. Reference the specific post or comment and disclose the affiliation.
+- **Inbound cold DM:** analyse the sender's specificity, credibility, ask, and follow-up behavior separately from whether their claims are true. A message can be persuasive without being evidence of a good opportunity.
+- **Follow-up:** do not use silence as the reason to reappear. Default to stopping on Reddit; at most one brief nudge is reasonable when the context makes another touch welcome, then stop.
+
 ## Listening sequence
 
 1. Start with narrow communities and the target person's own problem language.
@@ -52,6 +61,8 @@ Upvotes, engagement, and one vivid thread are context, not proof of demand. Use 
 - Space self-posts in a single subreddit by weeks, not days; between them behave as a normal member.
 - A comment whose only payload is a link reads as bait even when technically helpful. If the answer does not stand alone without the product, do not post it.
 - DMs are for people who explicitly invite contact or describe the exact problem in a current thread; always reference their specific words, never a template.
+- A cold DM should not begin with a product monologue or a calendar link. Start with the observed context and one low-friction question; earn a call later.
+- Three messages with no reply may feel human in an individual example, but it is not the default cadence for this channel. Treat it as an upper-bound pattern to critique, not a sequence to copy.
 
 ## V1 restrictions
 

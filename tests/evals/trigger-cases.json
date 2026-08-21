@@ -60,5 +60,47 @@
   {"id":"capture-learning-p3","subject_skill":"capture-learning","kind":"positive","prompt":"The prospect rejected the pilot and explained why. Capture the no-fit signal.","expected_skill":"capture-learning"},
   {"id":"capture-learning-n1","subject_skill":"capture-learning","kind":"near_miss","prompt":"The message is still a draft and nobody has seen it.","expected_skill":"draft-outreach"},
   {"id":"capture-learning-n2","subject_skill":"capture-learning","kind":"near_miss","prompt":"The manual send was logged seven days ago. There is still silence and a follow-up decision is due.","expected_skill":"handle-follow-up"},
-  {"id":"capture-learning-n3","subject_skill":"capture-learning","kind":"near_miss","prompt":"A call is booked for tomorrow but has not happened. Prepare it.","expected_skill":"prepare-call"}
+  {"id":"capture-learning-n3","subject_skill":"capture-learning","kind":"near_miss","prompt":"A call is booked for tomorrow but has not happened. Prepare it.","expected_skill":"prepare-call"},
+
+  {"id":"sales-copilot-p1","subject_skill":"sales-copilot","kind":"positive","prompt":"Help me sell the active project and take me through the single best move now.","expected_skill":"sales-copilot"},
+  {"id":"sales-copilot-p2","subject_skill":"sales-copilot","kind":"positive","prompt":"Continue this sales session without making me choose a specialist skill.","expected_skill":"sales-copilot"},
+  {"id":"sales-copilot-p3","subject_skill":"sales-copilot","kind":"positive","prompt":"I want to work on sales now. Use the project context and give me the finished next asset.","expected_skill":"sales-copilot"},
+  {"id":"sales-copilot-n1","subject_skill":"sales-copilot","kind":"near_miss","prompt":"The verified LinkedIn target is selected. Write the first-touch message now.","expected_skill":"draft-outreach"},
+  {"id":"sales-copilot-n2","subject_skill":"sales-copilot","kind":"near_miss","prompt":"This real buyer replied with a pricing objection. Draft my answer.","expected_skill":"handle-reply"},
+  {"id":"sales-copilot-n3","subject_skill":"sales-copilot","kind":"near_miss","prompt":"A qualified buyer asked for a scoped pilot proposal. Prepare the offer.","expected_skill":"prepare-offer"},
+
+  {"id":"shape-positioning-p1","subject_skill":"shape-positioning","kind":"positive","prompt":"My service positioning is vague. Define one target buyer, trigger, outcome, proof boundary, and offer direction.","expected_skill":"shape-positioning"},
+  {"id":"shape-positioning-p2","subject_skill":"shape-positioning","kind":"positive","prompt":"I cannot explain what this SaaS sells or why someone should care. Sharpen one testable position.","expected_skill":"shape-positioning"},
+  {"id":"shape-positioning-p3","subject_skill":"shape-positioning","kind":"positive","prompt":"Turn this project evidence into one niche, point of view, and honest pricing hypothesis.","expected_skill":"shape-positioning"},
+  {"id":"shape-positioning-n1","subject_skill":"shape-positioning","kind":"near_miss","prompt":"The position is complete and a real target is selected. Draft the outreach message.","expected_skill":"draft-outreach"},
+  {"id":"shape-positioning-n2","subject_skill":"shape-positioning","kind":"near_miss","prompt":"The buyer replied with a question about the existing offer. Answer it.","expected_skill":"handle-reply"},
+  {"id":"shape-positioning-n3","subject_skill":"shape-positioning","kind":"near_miss","prompt":"I personally sent the approved message. Record that action.","expected_skill":"record-outreach"},
+
+  {"id":"draft-public-post-p1","subject_skill":"draft-public-post","kind":"positive","prompt":"Draft one LinkedIn post from this real founder story and one conversation goal.","expected_skill":"draft-public-post"},
+  {"id":"draft-public-post-p2","subject_skill":"draft-public-post","kind":"positive","prompt":"Write one Reddit self-post for this verified subreddit after using its current rules and tone.","expected_skill":"draft-public-post"},
+  {"id":"draft-public-post-p3","subject_skill":"draft-public-post","kind":"positive","prompt":"Turn this dated project learning into one supported-channel public post without inventing a trend.","expected_skill":"draft-public-post"},
+  {"id":"draft-public-post-n1","subject_skill":"draft-public-post","kind":"near_miss","prompt":"Write a private first-touch note to the selected founder.","expected_skill":"draft-outreach"},
+  {"id":"draft-public-post-n2","subject_skill":"draft-public-post","kind":"near_miss","prompt":"Find a current community and discussion before we decide what to post.","expected_skill":"find-conversations"},
+  {"id":"draft-public-post-n3","subject_skill":"draft-public-post","kind":"near_miss","prompt":"Someone commented on the published post with a real objection. Draft the reply.","expected_skill":"handle-reply"},
+
+  {"id":"handle-reply-p1","subject_skill":"handle-reply","kind":"positive","prompt":"A real prospect replied with this question. Interpret it and write one answer.","expected_skill":"handle-reply"},
+  {"id":"handle-reply-p2","subject_skill":"handle-reply","kind":"positive","prompt":"This LinkedIn reply says the timing is wrong. Decide whether to clarify, defer, or close.","expected_skill":"handle-reply"},
+  {"id":"handle-reply-p3","subject_skill":"handle-reply","kind":"positive","prompt":"A public commenter asked for the product link. Reply in the thread using the current context.","expected_skill":"handle-reply"},
+  {"id":"handle-reply-n1","subject_skill":"handle-reply","kind":"near_miss","prompt":"This person has never heard from me. Draft the first message.","expected_skill":"draft-outreach"},
+  {"id":"handle-reply-n2","subject_skill":"handle-reply","kind":"near_miss","prompt":"There is no reply, but the promised decision date is today.","expected_skill":"handle-follow-up"},
+  {"id":"handle-reply-n3","subject_skill":"handle-reply","kind":"near_miss","prompt":"The call ended and the evidence has not been captured.","expected_skill":"capture-learning"},
+
+  {"id":"prepare-offer-p1","subject_skill":"prepare-offer","kind":"positive","prompt":"The qualified buyer asked for a concise service offer based on yesterday's discovery.","expected_skill":"prepare-offer"},
+  {"id":"prepare-offer-p2","subject_skill":"prepare-offer","kind":"positive","prompt":"Prepare one paid pilot with scope, exclusions, price, success condition, and decision date.","expected_skill":"prepare-offer"},
+  {"id":"prepare-offer-p3","subject_skill":"prepare-offer","kind":"positive","prompt":"Turn the recorded buyer outcome and constraints into one decision-ready proposal.","expected_skill":"prepare-offer"},
+  {"id":"prepare-offer-n1","subject_skill":"prepare-offer","kind":"near_miss","prompt":"We do not know our target buyer or offer yet. Shape the positioning first.","expected_skill":"shape-positioning"},
+  {"id":"prepare-offer-n2","subject_skill":"prepare-offer","kind":"near_miss","prompt":"Rehearse tomorrow's real pricing conversation and likely resistance.","expected_skill":"prepare-call"},
+  {"id":"prepare-offer-n3","subject_skill":"prepare-offer","kind":"near_miss","prompt":"The buyer objected to the offer we already sent. Draft one reply.","expected_skill":"handle-reply"},
+
+  {"id":"reddit-dm-p1","subject_skill":"reddit-dm","kind":"positive","prompt":"Draft one Reddit DM for this real user who explicitly invited messages on their current post.","expected_skill":"reddit-dm"},
+  {"id":"reddit-dm-p2","subject_skill":"reddit-dm","kind":"positive","prompt":"This person described the exact problem in a verified comment and asked me to DM details. Write it.","expected_skill":"reddit-dm"},
+  {"id":"reddit-dm-p3","subject_skill":"reddit-dm","kind":"positive","prompt":"Critique this incoming Reddit cold DM using the exact thread and subreddit context.","expected_skill":"reddit-dm"},
+  {"id":"reddit-dm-n1","subject_skill":"reddit-dm","kind":"near_miss","prompt":"The subreddit prefers public answers and the person did not invite a DM. Write a useful comment.","expected_skill":"draft-outreach"},
+  {"id":"reddit-dm-n2","subject_skill":"reddit-dm","kind":"near_miss","prompt":"Find five current Reddit discussions where this problem appears.","expected_skill":"find-conversations"},
+  {"id":"reddit-dm-n3","subject_skill":"reddit-dm","kind":"near_miss","prompt":"I already sent a Reddit DM and now have a new promised reason to follow up.","expected_skill":"handle-follow-up"}
 ]

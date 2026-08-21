@@ -1,0 +1,27 @@
+schema_version: 2
+project_slug: service-pilot
+created_at: 2026-08-20
+updated_at: 2026-08-20
+last_verified_at: 2026-08-20
+review_after: 2026-09-20
+source_repo: null
+source_files: []
+confidence: medium
+stage: validation
+artifacts:
+  profile: complete
+  project: complete
+  problem_hypothesis: complete
+  target_person: complete
+  learning_goal: complete
+current_outreach:
+  target_ref: null
+  stage: needs_target
+pending:
+  interaction_debrief: true
+  scheduled_call: true
+  follow_up_due: true
+activity:
+  experiment_review_at: null
+  last_outreach_at: 2026-08-20
+

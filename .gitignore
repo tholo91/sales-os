@@ -1,6 +1,8 @@
 workspace/
+
+# Private, founder-specific research captured before the workspace boundary.
+research/x-erster-oeffentlicher-post-2026-08-17.md
 .DS_Store
 node_modules/
 dist/
 coverage/
-

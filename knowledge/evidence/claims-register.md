@@ -1,12 +1,12 @@
 ---
-source_url: knowledge/sources/notebooklm/manifest.md
-publisher: Sales OS
-retrieved_at: 2026-07-11
-last_verified_at: 2026-07-11
+source_url: research/sales-copilot-primary-sources-2026-08.md
+publisher: Sales OS evidence inventory
+retrieved_at: 2026-08-21
+last_verified_at: 2026-08-21
 jurisdiction: mixed
 license_or_terms: claim inventory only
-confidence: low
-review_after: 2026-08-10
+confidence: mixed
+review_after: 2026-11-19
 ---
 
 # Claims register
@@ -39,3 +39,10 @@ These imported claims are quarantined and must not be used as facts until verifi
 | First contact to demo and demo to close each typically take two to four weeks for smaller mid-market accounts | HeySpeak NotebookLM transcript | unverified | Original source, segment, deal size, and channel |
 | A founder should switch from concierge onboarding to formal voice-of-customer analytics after consistently closing five to ten deals per month | HeySpeak NotebookLM transcript | unverified | Original source and segment fit |
 | Businesses miss 96% of customer feedback because it is unstructured | HeySpeak NotebookLM transcript | unverified | Original source, definition of feedback, and methodology |
+| Strong thought leadership makes 95% of hidden decision-makers more receptive to outreach | 2025 Edelman–LinkedIn B2B Thought Leadership Impact Report | verified-with-limits | Survey of 1,934 management-level US LinkedIn members, fielded 2025-03-17 to 2025-04-03; top two boxes on a self-reported four-point likelihood scale. Directional content guidance, not an outreach-performance forecast. https://www.edelman.com/sites/g/files/aatuss191/files/2025-06/2025%20Edelman-LinkedIn%20B2B%20Thought%20Leadership%20Impact%20Report_FINAL.pdf (verified 2026-08-21) |
+| Closed-won calls average 57% seller talk time versus 62% for lost calls, while won calls average 15–16 seller questions versus about 20 for lost calls | Gong 2025 talk-to-listen analysis | verified-with-limits | Observational vendor analysis of 326,000 calls lasting at least ten minutes; correlation and customer-sample limits apply. Use as a diagnostic, not a quota. https://www.gong.io/blog/talk-to-listen-conversion-ratio (verified 2026-08-21) |
+| Slides in discovery correlate with 21% fewer questions, 25% longer monologues, 15% more seller talk, and lower follow-up success | Gong discovery slide analysis | verified-with-limits | Observational vendor analysis of 803,402 recorded meetings; does not prove that slides caused the outcome. https://www.gong.io/blog/this-sales-best-practice-is-actually-terrible-for-your-discovery-calls-and-its-not-what-you-think (verified 2026-08-21) |
+| In prospecting follow-up, “Thoughts?”, “Never heard back”, and “Following up” can increase replies while reducing booked meetings by 20%, 14%, and 5% respectively | Gong follow-up email analysis | verified-with-limits | Observational vendor analysis of 304,174 follow-up emails; phrase correlations are not universal copy rules and do not override consent or channel policy. https://www.gong.io/blog/7-tips-for-writing-the-perfect-follow-up-sales-email-according-to-science (verified 2026-08-21) |
+| Deals where next steps are discussed have a 70% higher close-rate correlation | Gong deal signal analysis | verified-with-limits | More than 300 deal signals across nearly 30,000 calls; observational vendor data, not a promised causal uplift. https://www.gong.io/blog/spot-these-four-red-flags-to-boost-forecast-accuracy-and-revenue-predictability (verified 2026-08-21) |
+| Win rates are 10% higher when price is first discussed on the first call | Gong pricing timing analysis | verified-with-limits | Observational vendor analysis of 11,331 opportunities with at least three calls; use to avoid late price surprises, not as a universal close-rate claim. https://www.gong.io/blog/data-reveals-the-best-time-to-talk-price-and-budget (verified 2026-08-21) |
+| Five objection patterns account for 74% of objections and dismissive objections for 49.5% | Gong and 30MPC objection analysis | verified-with-limits | Taxonomy derived from more than 300 million cold calls; the recommended handling sequence is practitioner guidance, not separately proven causal evidence. https://www.gong.io/blog/we-found-the-top-objections-across-300m-cold-calls-heres-how-to-handle-them-all (verified 2026-08-21) |

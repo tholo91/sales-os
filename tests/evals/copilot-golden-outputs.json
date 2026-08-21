@@ -1,0 +1,27 @@
+[
+  {
+    "id": "wrapped-first-touch",
+    "specialist": "draft-outreach",
+    "output": "Nächste Aktion:\nSchicke genau diese Nachricht an den verifizierten Kontakt.\n\nFertiges Asset:\nMoin Lea, dein Punkt zur letzten Hörerfrage ist bei mir hängen geblieben: Wo gehen die Antworten heute verloren?\n\nDein manueller Schritt:\nPrüfe die Formulierung und sende sie selbst auf LinkedIn.\n\nSag mir danach:\nOb du sie unverändert oder bearbeitet gesendet hast und welche Antwort kam."
+  },
+  {
+    "id": "positioning-input-gate",
+    "specialist": "shape-positioning",
+    "output": "Nächste Aktion:\nEntscheide, welches eine Ergebnis du zuerst verkaufen willst.\n\nFertiges Asset:\nNoch kein Positionierungsentwurf: Im Projekt sind zwei unterschiedliche Angebote beschrieben, aber keine aktuelle Priorität.\n\nDein manueller Schritt:\nNenne das Ergebnis, das du in den nächsten 30 Tagen mit einem Kunden liefern willst.\n\nSag mir danach:\nDas Ergebnis, den denkbaren Käufer und was du dafür bereits belegen kannst."
+  },
+  {
+    "id": "reply-close",
+    "specialist": "handle-reply",
+    "output": "Nächste Aktion:\nAkzeptiere das klare Nein und schließe die Unterhaltung sauber.\n\nFertiges Asset:\nDanke für die klare Rückmeldung. Verstanden, dann hake ich das für euch ab.\n\nDein manueller Schritt:\nSende die Antwort selbst und markiere den Kontakt anschließend als closed.\n\nSag mir danach:\nDass du sie gesendet hast und ob noch etwas zurückkam."
+  },
+  {
+    "id": "demo-plan",
+    "specialist": "prepare-call",
+    "output": "Nächste Aktion:\nFühre eine Demo mit genau einem Beweismoment durch.\n\nFertiges Asset:\nZiel: prüfen, ob der beschriebene Hörer-Workflow mit einem Link testbar wird. Erst den heutigen Ablauf bestätigen, dann nur den no-login Aufnahmeweg zeigen. Nicht zeigen: Dashboard-Tour, Roadmap oder unbesprochene Funktionen. Abschlussfrage: Wollen wir das für eine konkrete Folge mit einem vereinbarten Erfolgssignal testen?\n\nDein manueller Schritt:\nFühre die Demo selbst und vereinbare nur bei echtem Fit einen nächsten Schritt mit Datum.\n\nSag mir danach:\nDie genaue Reaktion, den Einwand und den vereinbarten nächsten Schritt."
+  },
+  {
+    "id": "bounded-offer",
+    "specialist": "prepare-offer",
+    "output": "Nächste Aktion:\nPrüfe Scope und Preis dieses einen Piloten.\n\nFertiges Asset:\nPilot: ein realer Anwendungsfall über zwei Wochen. Enthalten sind Einrichtung, ein gemeinsamer Starttermin und eine Auswertung. Nicht enthalten sind individuelle Produktentwicklung und laufender Support. Preis: 900 EUR netto als ungetestete Preisannahme. Entscheidung bis zum gemeinsam genannten Termin.\n\nDein manueller Schritt:\nBestätige Lieferbarkeit und Steuerangabe und teile das Angebot anschließend selbst.\n\nSag mir danach:\nDie genaue Antwort, Änderungswünsche, Entscheidung oder den vereinbarten Entscheidungstermin."
+  }
+]

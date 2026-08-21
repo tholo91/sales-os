@@ -19,8 +19,8 @@ Require explicit founder confirmation of the completed external action. If absen
 
 ## Safety boundary
 
-Never perform an external action or invent delivery, replies, commitments, dates, or a follow-up cadence. Store no unnecessary private message content.
+Never perform an external action or invent delivery, replies, commitments, dates, or a follow-up cadence. Store no unnecessary private message content. Any new pending action must reference the contact and the interaction that created it, with a concrete reason and due date.
 
 ## Output contract
 
-Return `Recorded: <target, channel, date>` first, then the single routed next action. When it routes to a new target, say that the existing contact remains `waiting` and will not be touched again without a real reply or due follow-up. If there was an immediate response, say which pending event was set.
+Return `Recorded: <target, channel, date>` first, then the single routed next action. When it routes to a new target, say that the existing contact is `contacted` and will not be touched again without a real reply or justified due follow-up. If there was an immediate response, name the contact-referenced pending action that was created.

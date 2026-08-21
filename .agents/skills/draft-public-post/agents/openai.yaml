@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft Public Post"
+  short_description: "Create one platform-native public asset"
+  default_prompt: "Use $draft-public-post to turn this real idea into one ready-to-publish platform-native post."

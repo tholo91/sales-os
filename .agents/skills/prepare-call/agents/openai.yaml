@@ -1,4 +1,4 @@
 interface:
   display_name: "Prepare Call"
-  short_description: "Prepare one focused customer conversation"
-  default_prompt: "Use $prepare-call to prepare this real validation, discovery, demo, or pilot call."
+  short_description: "Prepare or rehearse one sales conversation"
+  default_prompt: "Use $prepare-call to prepare or rehearse this validation, discovery, demo, pilot, or pricing conversation."

@@ -1,5 +1,5 @@
-schema_version: 2
-default_skill: sales-next
+schema_version: 3
+default_skill: sales-copilot
 principles:
   - validation_before_pitch_optimization
   - real_target_before_final_draft
@@ -11,12 +11,24 @@ freshness_defaults_days:
   validation_and_icp: 60
   market_platform_legal: 90
 workflows:
+  - id: copilot
+    sequence: 0
+    skill: sales-copilot
+    prerequisites: [active_project]
+    required_when: founder_requests_sales_session
+    produces: [one_finished_asset, one_manual_action, one_return_signal]
   - id: setup
     sequence: 10
     skill: sales-setup
     prerequisites: []
     required_when: founder_or_project_missing
     produces: [profile, project, status]
+  - id: position
+    sequence: 15
+    skill: shape-positioning
+    prerequisites: [profile, project]
+    required_when: positioning_or_required_offer_missing
+    produces: [positioning, offer, commercial_mode]
   - id: validate
     sequence: 20
     skill: validate-problem
@@ -35,35 +47,81 @@ workflows:
     prerequisites: [problem_hypothesis, target_person, learning_goal, target_ref, language_evidence]
     required_when: current_outreach_needs_draft
     produces: [draft_ready]
+  - id: reddit-dm
+    sequence: 41
+    skill: reddit-dm
+    prerequisites: [target_ref, current_public_signal, subreddit_rules, language_evidence]
+    required_when: selected_reddit_target_invited_or_supports_private_contact
+    produces: [draft_ready]
+  - id: publish
+    sequence: 42
+    skill: draft-public-post
+    prerequisites: [positioning, source_material, supported_channel]
+    required_when: founder_requests_public_post
+    produces: [public_draft_ready]
   - id: send
     sequence: 45
     skill: record-outreach
     prerequisites: [target_ref, draft_ready, founder_send_confirmation]
     required_when: current_outreach_awaiting_manual_send
-    produces: [waiting_contact, last_outreach_at, cleared_current_lane]
+    produces: [contacted_contact, last_outreach_at, cleared_current_lane]
   - id: continue
     sequence: 50
     skill: handle-follow-up
-    prerequisites: [real_interaction]
-    required_when: follow_up_decision_due
+    prerequisites: [referenced_open_action, real_interaction]
+    required_when: due_follow_up_or_decision_action
     produces: [follow_up_decision]
+  - id: reply
+    sequence: 55
+    skill: handle-reply
+    prerequisites: [referenced_open_action, real_inbound_reply]
+    required_when: due_inbound_or_content_reply_action
+    produces: [reply_decision, sales_stage]
   - id: call
     sequence: 60
     skill: prepare-call
-    prerequisites: [scheduled_or_offered_call]
+    prerequisites: [referenced_open_action, scheduled_or_offered_call]
     required_when: call_preparation_due
     produces: [call_plan]
+  - id: offer
+    sequence: 65
+    skill: prepare-offer
+    prerequisites: [referenced_open_action, qualified_opportunity, active_offer]
+    required_when: proposal_action_due
+    produces: [offer_draft, decision_action]
   - id: learn
     sequence: 70
     skill: capture-learning
     prerequisites: [real_interaction]
     required_when: interaction_not_debriefed
     produces: [interaction_log, evidence_update, next_hypothesis]
+  - id: review
+    sequence: 75
+    skill: sales-next
+    prerequisites: [active_experiment]
+    required_when: experiment_review_due
+    produces: [experiment_decision, next_specialist_action]
+pending_action_priority:
+  - interaction_debrief
+  - inbound_reply
+  - content_reply
+  - scheduled_call
+  - proposal
+  - follow_up
+  - decision_follow_up
+pending_action_skill_defaults:
+  interaction_debrief: capture-learning
+  inbound_reply: handle-reply
+  content_reply: handle-reply
+  scheduled_call: prepare-call
+  proposal: prepare-offer
+  follow_up: handle-follow-up
+  decision_follow_up: handle-follow-up
 routing_priority:
   - stale_or_missing_context
-  - unlogged_interaction
-  - scheduled_call
-  - due_follow_up
+  - invalid_or_blocked_pending_action
+  - due_pending_action
+  - missing_positioning_or_required_offer
   - missing_validation_minimum
   - overdue_experiment_review
   - current_outreach_lane

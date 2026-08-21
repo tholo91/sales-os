@@ -1,5 +1,7 @@
-schema_version: 2
+schema_version: 3
 project_slug: null
+# One of: service, saas, pilot, membership, product, or none.
+commercial_mode: null
 created_at: null
 updated_at: null
 last_verified_at: null
@@ -11,16 +13,16 @@ stage: setup
 artifacts:
   profile: missing
   project: missing
+  positioning: missing
+  offer: missing
   problem_hypothesis: missing
   target_person: missing
   learning_goal: missing
 current_outreach:
   target_ref: null
   stage: needs_target
-pending:
-  interaction_debrief: false
-  scheduled_call: false
-  follow_up_due: false
+  draft_mode: outreach
+pending_actions_ref: pending-actions.yaml
 activity:
   experiment_review_at: null
   last_outreach_at: null

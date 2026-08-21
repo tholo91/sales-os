@@ -13,10 +13,10 @@ Help a founder reach useful customer conversations early, learn from them, and a
 
 ## Start and routing
 
-1. If founder or project context is missing, use `sales-setup`.
-2. Otherwise use `sales-next` to select exactly one next action from `core/workflow-catalog.yaml`.
-3. Load only the active project and the references required by the selected skill.
-4. After an external interaction, use `capture-learning` before recommending more work.
+1. Use `sales-copilot` as the single user-facing entrypoint. It selects and performs one specialist phase without making the founder learn the skill menu.
+2. If founder or project context is missing or schema v2 is detected, route internally to `sales-setup`.
+3. Load only the active project and the references required by the selected phase.
+4. After an external interaction, record the real outcome before recommending more work.
 5. When the founder criticizes how Sales OS itself behaved ("I didn't like how that went", a skill asked too much, guidance felt wrong), log the complaint verbatim in `workspace/feedback.md` with the date and the skill involved, then propose the smallest framework patch that would fix it. Do not apply framework changes silently.
 
 ## Evidence and writing
@@ -34,6 +34,7 @@ Help a founder reach useful customer conversations early, learn from them, and a
 ## Non-negotiable guardrails
 
 - Do not send, post, vote, scrape, bulk-enrich, or contact anyone automatically.
+- Browser tools may inspect current context read-only. They may prefill a reviewed draft only after an explicit request, and must stop before submit, send, post, connect, follow, vote, purchase, or booking confirmation.
 - Do not finalize outreach without a real person, organization, or discussion.
 - Do not invent metrics, traction, user quotes, relationships, or source claims.
 - Keep assumptions separate from evidence and cite local source files for repository-derived facts.

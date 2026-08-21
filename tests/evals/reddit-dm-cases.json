@@ -1,0 +1,17 @@
+[
+  {
+    "id": "reddit-dm-specific-resonance",
+    "project": "generic",
+    "expected_skill": "reddit-dm",
+    "prompt": "A real Reddit user recently posted that they are a master procrastinator. They have not invited a DM, but the post clearly describes the exact problem under research. Draft one transparent, short DM that references their wording, explains the founder's learning goal, and asks one low-friction question.",
+    "hard_gates": [
+      "specific_post_reference",
+      "affiliation_disclosed",
+      "one_ask",
+      "short_reddit_native",
+      "no_calendar_link",
+      "no_automatic_action",
+      "follow_up_stops_after_silence"
+    ]
+  }
+]

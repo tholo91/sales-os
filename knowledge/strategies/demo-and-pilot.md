@@ -1,25 +1,27 @@
 ---
-source_url: knowledge/sources/notebooklm/manifest.md
-publisher: NotebookLM synthesis supplied by user
-retrieved_at: 2026-07-11
-last_verified_at: 2026-07-11
+source_url: https://www.gong.io/blog/this-sales-best-practice-is-actually-terrible-for-your-discovery-calls-and-its-not-what-you-think
+publisher: Gong Labs
+retrieved_at: 2026-08-21
+last_verified_at: 2026-08-21
 jurisdiction: global
-license_or_terms: user-provided source material
+license_or_terms: linked reference; paraphrased research guidance
 confidence: medium
-review_after: 2026-09-09
+review_after: 2026-11-19
 ---
 
 # Demo and pilot
 
 ## Demo
 
-A demo is a customer-research call with one proof moment inside it — not a showcase of what the founder built. Structure it roughly 70/20/10:
+A demo is a customer-research call with one proof moment inside it — not a showcase of what the founder built. Use this listening-first 70/20/10 shape as a working heuristic, not a performance benchmark:
 
 - **70% listening about past behaviour.** Ask about the last real occurrence, the current workaround, and its cost. People are unreliable about their future behaviour and accurate about their past; questions about "would you use…" produce polite noise, questions about "what did you do last time…" produce evidence.
 - **20% showing exactly one artifact.** One working flow, chosen for this person's ICP and the situation they just described — not the founder's favourite feature. Show it at the moment their own story makes it relevant.
 - **10% one concrete close.** Agree the next commitment before ending: a test on a real case, a defined pilot with a decision date, a stated payment condition, or an explicit no-fit. Never end with "let me know what you think."
 
 Preparation includes testing the artifact end-to-end before the call; a broken proof moment costs more than no demo. Avoid broad feature tours, roadmap promises, and slides unless the buyer needs them.
+
+The conversation-first default is supported by Gong's observational analysis of 803,402 meetings: using slides during discovery correlated with fewer questions, longer seller monologues, more seller talk, and a lower likelihood of earning a follow-up. The study does not prove that slides caused the outcome. Use slides later when they answer a known decision need, not as the opening script. Source: [Gong discovery analysis](https://www.gong.io/blog/this-sales-best-practice-is-actually-terrible-for-your-discovery-calls-and-its-not-what-you-think) (verified 2026-08-21).
 
 A demo that teaches the founder something is better than one that impresses. Working rules:
 
@@ -44,3 +46,5 @@ Define before starting:
 - Decision date and next commitment.
 
 A pilot without an agreed decision path is prolonged research, not sales progress.
+
+Gong reported a 70% higher close-rate correlation when next steps were discussed in an analysis of more than 300 deal signals across nearly 30,000 calls. Treat that as support for explicit reciprocal next steps, not as a promised uplift. Source: [Gong deal signal analysis](https://www.gong.io/blog/spot-these-four-red-flags-to-boost-forecast-accuracy-and-revenue-predictability) (verified 2026-08-21).

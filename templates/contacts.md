@@ -1,5 +1,5 @@
 ---
-schema_version: 2
+schema_version: 3
 project_slug: null
 created_at: null
 updated_at: null
@@ -12,9 +12,9 @@ confidence: unknown
 
 # Contacts
 
-| Target ref | Person or discussion | Role or community | Why relevant | Language signal | Culture or rule check | Relationship | Last touch | Next commitment | Status |
-|---|---|---|---|---|---|---|---|---|---|
+This file is an optional human-readable index. Store each real relationship in its own `contacts/<target-ref>.md` record based on `templates/contact.md`.
 
-Store only information needed to understand and continue the relationship.
+| Target ref | Display name | Primary channel | Stage | Contact file |
+|---|---|---|---|---|
 
-Allowed statuses: `candidate`, `draft-ready`, `waiting`, `replied`, `follow-up-due`, `closed`.
+Do not duplicate due dates, reasons, or executable next actions here. `pending-actions.yaml` is their only source of truth.

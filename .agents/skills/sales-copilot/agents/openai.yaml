@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Copilot"
+  short_description: "Turn the current sales state into one action"
+  default_prompt: "Use $sales-copilot to move my active sales work forward with one finished asset and one manual step."
