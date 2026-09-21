@@ -146,6 +146,7 @@ for (const field of ["schema_version: 3", "commercial_mode: null", "positioning:
 for (const legacy of ["next_skill:", "next_action:", "real_target:", "review_ready_draft:", "outreach_attempt:", "pending:"]) {
   if (status.includes(legacy)) errors.push(`templates/status.yaml: legacy field ${legacy}`);
 }
+if (/^review_after:/m.test(status)) errors.push("templates/status.yaml: review_after belongs only in project.md");
 
 const pendingActions = read("templates/pending-actions.yaml");
 for (const field of ["schema_version: 1", "project_slug:", "actions: []", "only executable", "target_ref", "source_interaction_ref", "blocked_reason"]) {

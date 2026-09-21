@@ -54,6 +54,11 @@ export function parseStatus(text) {
   return status;
 }
 
+export function parseFrontmatter(text) {
+  const match = text.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  return match ? parseStatus(match[1]) : {};
+}
+
 export function parsePendingActions(text) {
   const actions = [];
   let inActions = false;
@@ -153,9 +158,12 @@ export function routeStatus(status, today = new Date(), pendingActions = [], opt
     return { skill: "sales-setup", reason: "Status schema v3 is required; migrate this project before routing." };
   }
   const dated = (value) => value ? new Date(`${value}T23:59:59Z`) : null;
-  const reviewAfter = dated(status.review_after);
-  if (!reviewAfter || Number.isNaN(reviewAfter.valueOf()) || reviewAfter < today) {
-    return { skill: "sales-setup", reason: "Project context is missing a valid freshness date or is stale." };
+  const reviewAfter = options.projectReviewAfter ? new Date(`${options.projectReviewAfter}T00:00:00Z`) : null;
+  if (!reviewAfter || Number.isNaN(reviewAfter.valueOf())) {
+    return { skill: "sales-setup", reason: "Project context is missing a valid review_after date." };
+  }
+  if (reviewAfter <= today) {
+    return { skill: "sales-setup", reason: `Project context review is due since ${options.projectReviewAfter}; ask whether to refresh it before producing new external sales copy.` };
   }
 
   const a = status.artifacts ?? {};
@@ -253,6 +261,8 @@ export function routeFile(file, today) {
   const status = parseStatus(fs.readFileSync(file, "utf8"));
   if (Number(status.schema_version) !== 3) return routeStatus(status, today);
 
+  const projectFile = path.resolve(path.dirname(file), "project.md");
+  const project = fs.existsSync(projectFile) ? parseFrontmatter(fs.readFileSync(projectFile, "utf8")) : {};
   const pendingRef = status.pending_actions_ref;
   const pendingFile = pendingRef ? path.resolve(path.dirname(file), pendingRef) : null;
   const missing = !pendingFile || !fs.existsSync(pendingFile);
@@ -264,6 +274,7 @@ export function routeFile(file, today) {
       .map((entry) => entry.slice(0, -3)));
   };
   return routeStatus(status, today, pendingActions, {
+    projectReviewAfter: project.review_after,
     pendingActionsMissing: missing,
     knownTargetRefs: references(path.resolve(path.dirname(file), "contacts")),
     knownInteractionRefs: references(path.resolve(path.dirname(file), "interactions")),

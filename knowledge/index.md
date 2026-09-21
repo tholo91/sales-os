@@ -13,9 +13,10 @@ review_after: 2027-01-07
 
 Load only what the active skill needs.
 
-- Foundations: `foundations/validation-first.md`, `foundations/signal-led-outreach.md`, `foundations/conversation-principles.md`, `foundations/mindset.md`, `foundations/channel-choice.md`, `foundations/audience-language.md`, `foundations/human-writing.md`
+- Foundations: `foundations/validation-first.md`, `foundations/signal-led-outreach.md`, `foundations/conversation-principles.md`, `foundations/mindset.md`, `foundations/channel-choice.md`, `foundations/audience-language.md`, `foundations/human-writing.md`, `foundations/short-punchy-content.md`
 - Channels: `channels/reddit.md`, `channels/linkedin.md`, `channels/slack.md`, `channels/email.md`, `channels/phone.md`, `channels/personal-network.md`; `channels/tiktok.md` is policy research for a future adapter, not a current workflow
-- Strategies: `strategies/first-touch.md`, `strategies/feedback-request.md`, `strategies/follow-up.md`, `strategies/discovery-call.md`, `strategies/demo-and-pilot.md`, `strategies/objection-handling.md`, `strategies/visibility-vs-paid.md`, `strategies/community-visibility.md`, `strategies/pricing.md`
+- Strategies: `strategies/first-touch.md`, `strategies/editorial-pitch.md`, `strategies/feedback-request.md`, `strategies/follow-up.md`, `strategies/discovery-call.md`, `strategies/demo-and-pilot.md`, `strategies/objection-handling.md`, `strategies/visibility-vs-paid.md`, `strategies/community-visibility.md`, `strategies/pricing.md`
 - Markets: `markets/germany-eu.md`, `markets/us-international.md`, `markets/cross-border.md`
 - Evidence: `evidence/claims-register.md`, `evidence/source-policy.md`
+- Reference examples: `../examples/niraj-pant-snapchat-internship-email.md`, `../examples/feedback-request-goldfish.md`, `../examples/output-quality-before-after.md`
 - Raw imports: `sources/notebooklm/manifest.md`

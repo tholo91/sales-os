@@ -1,6 +1,5 @@
 schema_version: 3
 commercial_mode: product
-review_after: 2026-08-10
 artifacts:
   profile: complete
   project: complete

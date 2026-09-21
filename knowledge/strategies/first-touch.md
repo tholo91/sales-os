@@ -30,3 +30,7 @@ For triggered outbound, connect the observed signal to one concrete workflow bot
 3. One small question, permission ask, or relevance check.
 
 Do not treat funding, hiring, or a leadership change as proof that the buyer is shopping. They are only reasons to ask a better question now.
+
+## Anglo-American reference example
+
+`examples/niraj-pant-snapchat-internship-email.md` shows a US internship email reported as successful, built around a strict reading budget, concise background, a direct desired outcome, and one short question. Use it as a compactness and directness reference, not as a generic cold-email template.

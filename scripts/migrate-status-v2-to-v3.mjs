@@ -18,7 +18,7 @@ function topLevelSection(lines, name) {
 }
 
 function migrateStatusText(text, pendingFileName) {
-  const lines = text.replace(/\r\n/g, "\n").split("\n");
+  const lines = text.replace(/\r\n/g, "\n").split("\n").filter((line) => !/^review_after:/.test(line));
   const schema = lines.findIndex((line) => /^schema_version:\s*2\s*$/.test(line));
   if (schema === -1) throw new Error("Expected a schema_version 2 status file.");
   lines[schema] = "schema_version: 3";

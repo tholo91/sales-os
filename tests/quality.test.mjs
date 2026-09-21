@@ -118,6 +118,30 @@ test("draft contract enforces brief evidence-first output", () => {
   assert.doesNotMatch(draft, /lower-pressure version/i);
 });
 
+test("public post guidance defaults to punchy single ideas and supports an evidence-based split", () => {
+  const foundation = read("knowledge/foundations/short-punchy-content.md");
+  const draft = read(".agents/skills/draft-public-post/SKILL.md");
+  const publish = read("core/steps/publish.md");
+  assert.match(foundation, /Short, punchy public content/);
+  assert.match(foundation, /Split test before drafting/);
+  assert.match(foundation, /Emotion opens attention\. Evidence earns trust/);
+  assert.match(draft, /short, punchy asset/);
+  assert.match(draft, /two independent stories/);
+  assert.match(publish, /knowledge\/foundations\/short-punchy-content\.md/);
+  assert.match(publish, /two focused posts/);
+});
+
+test("conversation guidance uses state checks instead of a fixed DM script", () => {
+  const principles = read("knowledge/foundations/conversation-principles.md");
+  const engage = read("core/steps/engage.md");
+  const outreach = read(".agents/skills/draft-outreach/SKILL.md");
+  assert.match(principles, /Conversation choreography/);
+  assert.match(principles, /Qualification is a protection for both sides/);
+  assert.match(engage, /conversation-state check/);
+  assert.match(outreach, /Treat the exchange as a state check/);
+  assert.match(outreach, /Do not manufacture visible effort/);
+});
+
 test("channel guidance has distinct native shapes", () => {
   const reddit = read("knowledge/channels/reddit.md");
   assert.match(reddit, /no greeting or sign-off by default/i);
@@ -138,6 +162,23 @@ test("channel guidance has distinct native shapes", () => {
   const email = read("knowledge/channels/email.md");
   assert.match(email, /Before writing, verify the relationship/);
   assert.match(email, /do not solve it with softer wording/);
+});
+
+test("editorial pitches preserve the headline, reading-budget, and channel boundaries", () => {
+  const editorial = read("knowledge/strategies/editorial-pitch.md");
+  const engage = read("core/steps/engage.md");
+  const outreach = read(".agents/skills/draft-outreach/SKILL.md");
+  const linkedin = read(".agents/skills/linkedin-multipliers/SKILL.md");
+
+  assert.match(editorial, /What could this outlet truthfully publish as the headline/);
+  assert.match(editorial, /Keep the body to four functions/);
+  assert.match(editorial, /10–15 individually researched contacts/);
+  assert.match(engage, /knowledge\/strategies\/editorial-pitch\.md/);
+  assert.match(outreach, /both `Subject:` and the body/);
+  assert.match(linkedin, /must not imitate an email subject or press headline/);
+  assert.match(linkedin, /Every sentence must serve one of those three functions/);
+  assert.match(linkedin, /one relevant angle and one ask/);
+  assert.match(linkedin, /referral or forward request must be the single primary ask/);
 });
 
 test("Reddit DM guidance has a narrow gate and a focused eval case", () => {
@@ -177,6 +218,7 @@ test("all skill procedures are canonical in core steps", () => {
 
 test("workspace state template uses a v3 acquisition lane and referenced action queue", () => {
   const status = read("templates/status.yaml");
+  const project = read("templates/project.md");
   assert.match(status, /^schema_version: 3$/m);
   assert.match(status, /^commercial_mode: null$/m);
   assert.match(status, /^  positioning: missing$/m);
@@ -189,6 +231,23 @@ test("workspace state template uses a v3 acquisition lane and referenced action 
   assert.doesNotMatch(status, /^pending:$/m);
   assert.doesNotMatch(status, /^next_(skill|action):/m);
   assert.doesNotMatch(status, /^  (real_target|review_ready_draft|outreach_attempt|real_interaction):/m);
+  assert.doesNotMatch(status, /^review_after:/m);
+  assert.match(project, /^review_after: null$/m);
+  assert.match(project, /Changes since the previous refresh/);
+  assert.match(project, /relevant commits to find changes/);
+  assert.match(project, /KPI, or metric changes/);
+});
+
+test("experiments require a prediction and decision rule before action", () => {
+  const experiments = read("templates/experiments.md");
+  const validate = read("core/steps/validate.md");
+  const learn = read("core/steps/learn.md");
+
+  assert.match(experiments, /^- Prediction:$/m);
+  assert.match(experiments, /^- Decision rule:$/m);
+  assert.match(validate, /predicted observation and the decision rule/);
+  assert.match(validate, /cheapest action/);
+  assert.match(learn, /test with its prediction and decision rule/);
 });
 
 test("workflow catalog declares the router priority in executable order", () => {

@@ -1,7 +1,7 @@
 # Lifecycle routing step
 
-1. Read the active project's `status.yaml` before loading other artifacts.
-2. Require status schema v3. Route v2 or unknown schemas to `sales-setup` for the explicit migration; do not execute legacy pending booleans as a compatibility path. Route stale, invalid, or incomplete founder/project context to `sales-setup`.
+1. Read the active project's `status.yaml` first, then read `review_after` from its `project.md`. The project context is the only persisted source for this refresh date; do not copy it into status.
+2. Require status schema v3. Route v2 or unknown schemas to `sales-setup` for the explicit migration; do not execute legacy pending booleans as a compatibility path. When project `review_after` is missing, invalid, or reached, route to `sales-setup` and ask whether to refresh the repository before producing new external sales copy.
 3. Load the file named by `pending_actions_ref`. It is the only executable queue. Contact records may reference an action id, but their stage, `last_touch_at`, or `next_action_ref` never creates a due action by itself.
 4. Ignore only actions with `status: completed` or `status: cancelled`. Before due-action routing, stop on any other action that is blocked, lacks a valid due date, reason, approved type/skill mapping, safe referenced contact, or source interaction. The contact and interaction files must exist. Route invalid actions to `sales-setup` with the action id and missing reference so the event is repaired rather than silently skipped.
 5. From the remaining `status: open` actions, consider those with `due_at` at or before the current time.

@@ -1,6 +1,6 @@
 ---
 name: sales-setup
-description: Create or refresh private founder, voice, project, positioning, offer, contact, pending-action, and status context for Sales OS. Use for onboarding, adding a project, changing goals or channels, refreshing stale facts, migrating workspace state, or resolving missing product, proof, market, or founder context. Do not use when current context is complete and the founder only needs the next routed action.
+description: Create or refresh private founder, voice, project, positioning, offer, contact, pending-action, and status context for Sales OS. Use for onboarding, adding a project, changing goals or channels, refreshing stale facts, capturing repository changes and newly evidenced KPIs since the prior project update, migrating workspace state, or resolving missing product, proof, market, or founder context. Do not use when current context is complete and the founder only needs the next routed action.
 ---
 
 # Sales Setup
@@ -10,6 +10,8 @@ Build the smallest truthful context that unlocks a real conversation.
 ## Gate
 
 Ask only for facts that cannot be recovered from current workspace files or the configured source repository. Incomplete but explicit context is valid.
+
+When setup is routed only because project `review_after` has been reached, ask whether to refresh before scanning the repository. If the founder declines, keep the expired date unchanged and continue the requested action using the dated context without implying that its claims are current.
 
 ## Required references
 

@@ -3,8 +3,9 @@
 1. Read `workspace/config.yaml`, `workspace/profile.md`, the active project status, and the relevant templates.
 2. If the project still uses status schema v2, run the explicit v2-to-v3 migration before routing. Preserve the backup and repair any migrated blocked action by asking for its missing contact reference; never interpret legacy pending booleans as live state.
 3. Create only missing private artifacts, including positioning, an offer when `commercial_mode` is not `none`, and the referenced pending-actions queue; never move founder, contact, or repository-path data outside `workspace/`.
-4. Inspect the configured product repository read-only and answer questions from current files before asking the founder.
-5. Record product facts with source path and verification date. Keep assumptions and unknowns explicit.
-6. Build or refresh `workspace/voice.md` only from labeled samples. Treat sent-but-unconfirmed writing as `sent-approved` or `ai-assisted-or-unknown`, not as native voice.
-7. Set `review_after`, initialize schema v3 and the acquisition lane, and keep `current_outreach.stage: needs_target` unless a real target or draft already exists.
-8. Route through `core/steps/route.md` and report the smallest truthful next action.
+4. When routing reached setup only because project `review_after` is due, name that date and ask whether to refresh before scanning the repository. If the founder declines, leave `review_after` unchanged and continue the requested action with the dated context; do not imply that its claims are current.
+5. Before refreshing an existing project, retain its previous `updated_at` as the comparison date. Inspect the configured product repository read-only, review relevant commits since that date to locate possible changes, and verify any material change against current source files. Commit messages are discovery hints, not product proof.
+6. Update the project context with a `Changes since YYYY-MM-DD` section covering only sales-relevant structural product, audience, positioning, offer, channel, evidence, KPI, or metric changes. Check for newly recorded KPIs or metrics, but preserve whether each value is repository-reported, founder-reported, or independently verified; never infer a metric from code. Say explicitly when no material change or no new KPI is evidenced.
+7. Build or refresh `workspace/voice.md` only from labeled samples. Treat sent-but-unconfirmed writing as `sent-approved` or `ai-assisted-or-unknown`, not as native voice.
+8. After a refresh, set only the project context's `review_after` to the configured freshness interval, update its `updated_at`, and do not duplicate the refresh date in `status.yaml`. Initialize schema v3 and the acquisition lane, and keep `current_outreach.stage: needs_target` unless a real target or draft already exists.
+9. Route through `core/steps/route.md` and report the smallest truthful next action.

@@ -22,11 +22,13 @@ Update only from logged, dated records. A blank or `not recorded` value is prefe
 ## Active experiment
 
 - Hypothesis:
+- Prediction:
 - Target group:
 - Learning goal:
 - Action:
 - Success signal:
 - Stop condition:
+- Decision rule:
 - Started:
 - Review date:
 

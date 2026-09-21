@@ -9,6 +9,7 @@ import { parsePendingActions, parseStatus, resolvePendingAction, routeFile, rout
 const root = process.cwd();
 const fixture = fs.readFileSync(path.join(root, "tests", "fixtures", "v2-pending-events.yaml"), "utf8");
 const now = new Date("2026-08-21T12:00:00Z");
+const freshProject = { projectReviewAfter: "2026-09-20" };
 
 test("v2 migration adds commercial artifacts and a referenced action queue", () => {
   const result = migrateStatusV2ToV3({ statusText: fixture, now });
@@ -22,6 +23,7 @@ test("v2 migration adds commercial artifacts and a referenced action queue", () 
   assert.equal(status.artifacts.offer, "missing");
   assert.equal(status.current_outreach.draft_mode, "outreach");
   assert.equal(status.pending_actions_ref, "pending-actions.yaml");
+  assert.equal(status.review_after, undefined);
   assert.deepEqual(status.pending, {});
   assert.deepEqual(actions.map(({ type }) => type), ["interaction_debrief", "scheduled_call", "follow_up"]);
   assert.ok(actions.every(({ status }) => status === "blocked"));
@@ -39,7 +41,7 @@ test("v3 migration is idempotent", () => {
 
 test("blocked migrated action routes to repair without losing its id", () => {
   const migrated = migrateStatusV2ToV3({ statusText: fixture, now });
-  const route = routeStatus(parseStatus(migrated.statusText), now, parsePendingActions(migrated.pendingActionsText));
+  const route = routeStatus(parseStatus(migrated.statusText), now, parsePendingActions(migrated.pendingActionsText), freshProject);
   assert.equal(route.skill, "sales-setup");
   assert.equal(route.action_id, "migrated-interaction-debrief");
   assert.match(route.reason, /missing_target_ref/);
@@ -47,7 +49,6 @@ test("blocked migrated action routes to repair without losing its id", () => {
 
 test("due v3 actions route by type priority, then due time and id", () => {
   const status = parseStatus(fs.readFileSync(path.join(root, "templates", "status.yaml"), "utf8"));
-  status.review_after = "2026-09-20";
   status.commercial_mode = "product";
   status.artifacts = {
     profile: "complete",
@@ -63,7 +64,7 @@ test("due v3 actions route by type priority, then due time and id", () => {
     { id: "reply-later", type: "inbound_reply", skill: "handle-reply", target_ref: "contact-b", source_interaction_ref: "interaction-b", status: "open", due_at: "2026-08-21", reason: "Reply needs an answer", created_at: "2026-08-21" },
   ];
 
-  assert.deepEqual(routeStatus(status, now, actions), {
+  assert.deepEqual(routeStatus(status, now, actions, freshProject), {
     skill: "handle-reply",
     action_id: "reply-later",
     target_ref: "contact-b",
@@ -73,7 +74,6 @@ test("due v3 actions route by type priority, then due time and id", () => {
 
 test("future and completed actions do not pre-empt the outreach lane", () => {
   const status = parseStatus(fs.readFileSync(path.join(root, "templates", "status.yaml"), "utf8"));
-  status.review_after = "2026-09-20";
   status.commercial_mode = "product";
   status.artifacts = {
     profile: "complete",
@@ -89,22 +89,21 @@ test("future and completed actions do not pre-empt the outreach lane", () => {
     { id: "later", type: "proposal", skill: "prepare-offer", target_ref: "contact-b", source_interaction_ref: "interaction-b", status: "open", due_at: "2026-08-22", reason: "Buyer requested an offer", created_at: "2026-08-21" },
   ];
 
-  assert.equal(routeStatus(status, now, actions).skill, "find-conversations");
+  assert.equal(routeStatus(status, now, actions, freshProject).skill, "find-conversations");
 });
 
 test("missing commercial context routes to positioning, while none may skip an offer", () => {
   const status = parseStatus(fs.readFileSync(path.join(root, "templates", "status.yaml"), "utf8"));
-  status.review_after = "2026-09-20";
   status.artifacts.profile = "complete";
   status.artifacts.project = "complete";
-  assert.equal(routeStatus(status, now).skill, "shape-positioning");
+  assert.equal(routeStatus(status, now, [], freshProject).skill, "shape-positioning");
 
   status.commercial_mode = "none";
   status.artifacts.positioning = "complete";
   status.artifacts.problem_hypothesis = "complete";
   status.artifacts.target_person = "complete";
   status.artifacts.learning_goal = "complete";
-  assert.equal(routeStatus(status, now).skill, "find-conversations");
+  assert.equal(routeStatus(status, now, [], freshProject).skill, "find-conversations");
 });
 
 test("contact template exposes the public sales stages without executable due-state duplication", () => {
@@ -117,7 +116,6 @@ test("contact template exposes the public sales stages without executable due-st
 
 test("all public commercial modes route with a complete offer", () => {
   const status = parseStatus(fs.readFileSync(path.join(root, "templates", "status.yaml"), "utf8"));
-  status.review_after = "2026-09-20";
   status.artifacts = {
     profile: "complete",
     project: "complete",
@@ -130,13 +128,12 @@ test("all public commercial modes route with a complete offer", () => {
 
   for (const mode of ["service", "saas", "pilot", "membership", "product", "none"]) {
     status.commercial_mode = mode;
-    assert.equal(routeStatus(status, now).skill, "find-conversations", mode);
+    assert.equal(routeStatus(status, now, [], freshProject).skill, "find-conversations", mode);
   }
 });
 
 test("an incomplete open action is repaired instead of silently skipped", () => {
   const status = parseStatus(fs.readFileSync(path.join(root, "templates", "status.yaml"), "utf8"));
-  status.review_after = "2026-09-20";
   status.commercial_mode = "none";
   status.artifacts = {
     profile: "complete",
@@ -157,7 +154,7 @@ test("an incomplete open action is repaired instead of silently skipped", () => 
     due_at: null,
     reason: "Promised follow-up",
     created_at: "2026-08-20",
-  }]);
+  }], freshProject);
 
   assert.equal(route.skill, "sales-setup");
   assert.equal(route.action_id, "missing-date");
@@ -166,7 +163,6 @@ test("an incomplete open action is repaired instead of silently skipped", () => 
 
 test("an arbitrary or mismatched pending-action skill fails closed", () => {
   const status = parseStatus(fs.readFileSync(path.join(root, "templates", "status.yaml"), "utf8"));
-  status.review_after = "2026-09-20";
   status.commercial_mode = "none";
   status.artifacts = {
     profile: "complete",
@@ -187,7 +183,7 @@ test("an arbitrary or mismatched pending-action skill fails closed", () => {
     due_at: "2026-08-21",
     reason: "Follow up",
     created_at: "2026-08-20",
-  }]);
+  }], freshProject);
 
   assert.equal(route.skill, "sales-setup");
   assert.match(route.reason, /skill_for_type/);
@@ -201,7 +197,6 @@ test("file routing requires the referenced contact and interaction records", () 
     fs.writeFileSync(path.join(temporary, "interactions", "interaction-a.md"), "# Interaction\n", "utf8");
 
     const status = fs.readFileSync(path.join(root, "templates", "status.yaml"), "utf8")
-      .replace("review_after: null", "review_after: 2026-09-20")
       .replace("profile: missing", "profile: complete")
       .replace("project: missing", "project: complete")
       .replace("positioning: missing", "positioning: complete")
@@ -211,6 +206,7 @@ test("file routing requires the referenced contact and interaction records", () 
       .replace("learning_goal: missing", "learning_goal: complete")
       .replace("commercial_mode: null", "commercial_mode: service");
     fs.writeFileSync(path.join(temporary, "status.yaml"), status, "utf8");
+    fs.writeFileSync(path.join(temporary, "project.md"), "---\nreview_after: 2026-09-20\n---\n", "utf8");
     fs.writeFileSync(path.join(temporary, "pending-actions.yaml"), [
       "schema_version: 1",
       "project_slug: test",

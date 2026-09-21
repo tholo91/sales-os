@@ -6,6 +6,8 @@ import { routeStatus, parseStatus, recordManualOutreach } from "../scripts/route
 
 const fixtures = path.join(process.cwd(), "tests", "fixtures");
 const today = new Date("2026-07-11T12:00:00Z");
+const freshProject = { projectReviewAfter: "2026-08-10" };
+const staleProject = { projectReviewAfter: "2026-07-01" };
 const action = (type, skill, id = type) => ({
   id,
   type,
@@ -29,7 +31,8 @@ for (const [name, expected] of [
   test(`${name} routes to ${expected}`, () => {
     const text = fs.readFileSync(path.join(fixtures, `${name}.yaml`), "utf8");
     const pendingActions = name === "fresh" ? [action("scheduled_call", "prepare-call")] : [];
-    assert.equal(routeStatus(parseStatus(text), today, pendingActions).skill, expected);
+    const project = name === "stale" ? staleProject : freshProject;
+    assert.equal(routeStatus(parseStatus(text), today, pendingActions, project).skill, expected);
   });
 }
 
@@ -39,40 +42,48 @@ test("a real interaction is debriefed before a scheduled call", () => {
     action("scheduled_call", "prepare-call"),
     action("interaction_debrief", "capture-learning"),
   ];
-  assert.equal(routeStatus(status, today, pendingActions).skill, "capture-learning");
+  assert.equal(routeStatus(status, today, pendingActions, freshProject).skill, "capture-learning");
+});
+
+test("project context becomes stale on its review_after date", () => {
+  const status = parseStatus(fs.readFileSync(path.join(fixtures, "validated.yaml"), "utf8"));
+  assert.deepEqual(routeStatus(status, today, [], { projectReviewAfter: "2026-07-11" }), {
+    skill: "sales-setup",
+    reason: "Project context review is due since 2026-07-11; ask whether to refresh it before producing new external sales copy.",
+  });
 });
 
 test("a ready draft must be manually sent and recorded before learning capture", () => {
   const status = parseStatus(fs.readFileSync(path.join(fixtures, "draft-ready.yaml"), "utf8"));
-  assert.equal(routeStatus(status, today).skill, "record-outreach");
+  assert.equal(routeStatus(status, today, [], freshProject).skill, "record-outreach");
 });
 
 test("an invited Reddit private-message lane routes to reddit-dm", () => {
   const status = parseStatus(fs.readFileSync(path.join(fixtures, "validated.yaml"), "utf8"));
   status.current_outreach.draft_mode = "reddit_dm";
-  assert.equal(routeStatus(status, today).skill, "reddit-dm");
+  assert.equal(routeStatus(status, today, [], freshProject).skill, "reddit-dm");
 });
 
 test("an unsupported draft mode fails closed", () => {
   const status = parseStatus(fs.readFileSync(path.join(fixtures, "validated.yaml"), "utf8"));
   status.current_outreach.draft_mode = "instagram_dm";
-  assert.equal(routeStatus(status, today).skill, "sales-setup");
+  assert.equal(routeStatus(status, today, [], freshProject).skill, "sales-setup");
 });
 
 test("a recorded outreach attempt opens the next-target lane", () => {
   const status = parseStatus(fs.readFileSync(path.join(fixtures, "attempt-recorded.yaml"), "utf8"));
-  assert.equal(routeStatus(status, today).skill, "find-conversations");
+  assert.equal(routeStatus(status, today, [], freshProject).skill, "find-conversations");
 });
 
 test("a due follow-up pre-empts validation and sourcing", () => {
   const status = parseStatus(fs.readFileSync(path.join(fixtures, "unvalidated.yaml"), "utf8"));
-  assert.equal(routeStatus(status, today, [action("follow_up", "handle-follow-up")]).skill, "handle-follow-up");
+  assert.equal(routeStatus(status, today, [action("follow_up", "handle-follow-up")], freshProject).skill, "handle-follow-up");
 });
 
 test("an overdue experiment routes to an explicit review", () => {
   const status = parseStatus(fs.readFileSync(path.join(fixtures, "attempt-recorded.yaml"), "utf8"));
   status.activity.experiment_review_at = "2026-07-01";
-  assert.deepEqual(routeStatus(status, today), {
+  assert.deepEqual(routeStatus(status, today, [], freshProject), {
     skill: "sales-next",
     mode: "experiment-review",
     reason: "The active experiment is due for an evidence review before more outreach.",
@@ -84,7 +95,7 @@ test("manual-send confirmation clears the lane and routes to a new target", () =
   const recorded = recordManualOutreach(status, { confirmed: true, date: "2026-07-11" });
   assert.deepEqual(recorded.current_outreach, { target_ref: null, stage: "needs_target", draft_mode: "outreach" });
   assert.equal(recorded.activity.last_outreach_at, "2026-07-11");
-  assert.equal(routeStatus(recorded, today).skill, "find-conversations");
+  assert.equal(routeStatus(recorded, today, [], freshProject).skill, "find-conversations");
 });
 
 test("an unsent draft cannot be recorded", () => {
@@ -100,6 +111,7 @@ test("legacy routing fields are absent from v3 fixtures", () => {
     assert.doesNotMatch(text, /^next_(skill|action):/m);
     assert.doesNotMatch(text, /^  (real_target|review_ready_draft|outreach_attempt|real_interaction):/m);
     assert.doesNotMatch(text, /^pending:$/m);
+    assert.doesNotMatch(text, /^review_after:/m);
   }
 });
 

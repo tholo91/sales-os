@@ -7,7 +7,7 @@ principles:
   - learning_before_more_work
 freshness_defaults_days:
   founder_profile: 180
-  project_status: 30
+  project_context: 30
   validation_and_icp: 60
   market_platform_legal: 90
 workflows:

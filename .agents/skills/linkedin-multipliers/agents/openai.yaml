@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Multipliers"
+  short_description: "Prioritize high-leverage LinkedIn contacts and draft short outreach"
+  default_prompt: "Use $linkedin-multipliers to rank newly added LinkedIn contacts for Brief nach Berlin and prepare short, unsent drafts."
