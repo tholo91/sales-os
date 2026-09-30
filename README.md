@@ -56,7 +56,7 @@ When live access is unavailable, provide the permalink, pasted text, screenshot,
 
 The current system supports setup, validation, live public-context research, evidence-based drafting, manual outreach logging, follow-up decisions, call preparation, objection and pricing preparation, learning capture, and lifecycle routing. Sending automation, scraping, CRM sync, ads, and bulk enrichment are intentionally out of scope.
 
-LinkedIn, Reddit, email, phone, Slack, and warm-network guidance are curated today. Instagram and TikTok are later channel adapters: their current rules may inform risk checks, but no dedicated workflow should be implied until its adapter, live-context checks, and evaluation cases exist.
+LinkedIn, Reddit, email, phone, Slack, and warm-network guidance are curated today. A narrow `warm-contact-comment` skill can draft one manually reviewed public comment for a verified person and post, including on Instagram or YouTube. It does not source targets, post comments, or grant permission for a later DM or email. Instagram, YouTube, and TikTok do not have general end-to-end channel adapters.
 
 ## Community
 

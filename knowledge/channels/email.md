@@ -20,12 +20,14 @@ For Germany, promotional electronic mail generally requires prior express consen
 ## Message discipline
 
 - Explain why this recipient was selected.
-- Use one CTA and no attachment in the first touch.
-- Sell the next conversation, not the whole product.
+- Offer one clear, low-effort next step or useful item in the first touch, with no attachment. A message without an ask is possible when it stands on its own, but do not treat it as a proven reply tactic.
+- Check whether the recipient has a reason to care or respond. Do not default to a meeting request, calendar link, product review, introduction, or share before interest is established.
 - Provide a clear identity and honest reason for contact.
 - Make the commercial purpose recognizable; do not disguise the sender or subject.
 - Include an easy way to stop further contact and honor it immediately.
 - Match `du`/`Sie`, greeting, and sign-off to the actual relationship or visible recipient evidence, not a country stereotype.
+
+For an expected editorial pitch, offer the verified story and use the direct, single next step described in `knowledge/strategies/editorial-pitch.md`. A softer CTA does not change whether a promotional email is permitted.
 
 ## Compliance boundary
 

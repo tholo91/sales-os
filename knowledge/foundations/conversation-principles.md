@@ -13,7 +13,7 @@ review_after: 2026-09-09
 
 - Ask about the last real event, not abstract preferences.
 - Understand the current workaround before presenting a solution.
-- Use one small, honest ask.
+- Use at most one small, honest ask in a cold first touch; leave it out when it would be forced.
 - Keep validation, discovery, demo, and pilot modes distinct.
 - Make affiliation transparent in public communities.
 - Write as a person continuing a relevant context, not as a campaign engine.

@@ -48,7 +48,7 @@ Before opening LinkedIn, email, or a community thread:
 
 1. Read the person's actual context once.
 2. Say the message aloud as if you were continuing a relevant conversation with a capable peer, not trying to win a stranger.
-3. Check that there is one honest reason to write and one small question they can decline.
+3. Check that there is one honest reason to write. If there is a question, make it small and easy to decline.
 4. Stop editing after two sound drafts. Send manually when it is truthful and specific, then record the attempt.
 
 ## What this file must never justify

@@ -23,15 +23,15 @@ The operating goal is zero blank-page work, not autonomous account activity. Sal
 
 1. Verify the person's current role and a real public trigger.
 2. Prefer a useful public comment or warm introduction when available.
-3. Ask permission to send one concrete example before requesting a call.
-4. Keep the first private message specific and easy to answer.
+3. Send a connection request with a genuine professional reason and no additional favor request.
+4. Keep the first private message specific: one observation about the person's work, an honest reason for contact, and at most one small reply invitation. Send an example or ask for a call only after substantive engagement makes that useful.
 
 ## Native writing shape
 
 - Use the founder's true identity and relationship to the product; never simulate a team or borrowed authority.
 - Use one verified professional hook. Generic praise is not a hook.
 - Do not pitch in the invitation note.
-- Keep a first private message to one context, one useful point or question, and one ask.
+- Keep a first private message to one context and one useful point, with at most one easy-to-answer question. Leave out the question when it would feel manufactured.
 - Final copy must match the founder's own channel and language evidence. Platform-style “professional” polish does not outrank founder voice.
 - Follow the person's visible `du`/`Sie` and formality signals; do not decide them from the German market file alone.
 - Treat generated copy as a first draft until the founder has checked every fact, added a real point of view, and confirmed it sounds like him. LinkedIn gives the same instruction for its own AI writing feature.
@@ -40,8 +40,9 @@ The operating goal is zero blank-page work, not autonomous account activity. Sal
 
 - A message from the founder who built the product carries more credibility than delegated outreach; write as the builder, name the founder role, and never simulate a sales team.
 - Engage genuinely with the person's recent public content before connecting, when it exists; a specific comment earns more than any connection-note formula.
-- The optional connection note: reference one specific, real thing (their post, talk, role change, shared context) and do not pitch in it. A pitch in the invitation is the fastest route to a decline.
-- First DM after connecting: thank briefly, reference the specific context, offer one useful observation or question about their situation — no product pitch, no calendar link, no attachment.
+- The optional connection note: reference one specific, real thing (their post, talk, role change, shared context). Do not pitch or ask for a separate favor in it.
+- First DM after connecting: thank briefly when natural, reference the specific context, explain why you are writing, and offer one useful observation or small question about their work — no product pitch, calendar link, attachment, introduction, share, or meeting request by default.
+- Treat a substantive reply as engagement. Accepting a connection or liking a post alone does not justify a larger ask; first respond to what the person actually said.
 - Reply-rate and acceptance-rate percentages circulating in outreach blogs are unsourced marketing claims; per the source policy they stay out of this file.
 - A public post should offer a concrete professional lesson, observation, or question before it mentions the product. LinkedIn itself recommends relatable, insightful, non-promotional content and genuine engagement; do not treat that as a guarantee of reach.
 - Prefer a clear point of view, a specific work scene or proof point, and one useful takeaway. The official sharing guide recommends conversation, timely expertise, genuine replies, and visual context rather than promotional repetition.

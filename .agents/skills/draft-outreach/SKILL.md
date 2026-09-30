@@ -32,7 +32,7 @@ Use only recorded facts and proof. Never invent familiarity, pain, traction, per
 
 ## Output contract
 
-Return exactly one draft first. Follow it with `Why:` and one short sentence. Add `Risk:` only when a real risk exists. Use one ask. Generate an alternative only when explicitly requested.
+Return exactly one draft first. Follow it with `Why:` and one short sentence. Add `Risk:` only when a real risk exists. Use at most one small ask in a cold first touch; omit it when no natural question or offer exists. A direct editorial pitch may use its one relevant next step. Generate an alternative only when explicitly requested.
 
 For email, the single draft includes both `Subject:` and the body. For a journalist pitch, the subject states the evidence-backed news angle rather than labeling the project, and the body follows the editorial-pitch reading budget.
 

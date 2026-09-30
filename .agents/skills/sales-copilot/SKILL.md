@@ -18,7 +18,7 @@ Require an active project or one unambiguous project choice. Read status first. 
 - `core/workflow-catalog.yaml`
 - Active project status and only the artifacts required by the selected action
 
-Invoke the one specialist skill selected by lifecycle state or explicit intent. Keep its evidence and safety gates intact. When a specialist cannot produce an honest asset, make the missing-input request itself the next action.
+Invoke the one specialist skill selected by lifecycle state or explicit intent. An explicit request to comment on a real person's post or comment before possible later contact routes to `warm-contact-comment`; it does not itself authorize or schedule the later DM or email. Keep the specialist's evidence and safety gates intact. When a specialist cannot produce an honest asset, make the missing-input request itself the next action.
 
 When `$sales-copilot` is the entrypoint, this skill's four-section output contract takes precedence over the selected specialist's direct-invocation presentation contract. Use the specialist contract to construct or refuse the asset, then wrap the result once; do not leak a skill name, `Why:` block, or a second output shape to the founder.
 

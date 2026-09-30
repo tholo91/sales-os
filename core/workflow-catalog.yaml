@@ -41,6 +41,12 @@ workflows:
     prerequisites: [problem_hypothesis, target_person, learning_goal]
     required_when: current_outreach_needs_target
     produces: [target_ref, language_evidence, conversation_opportunity]
+  - id: warm-comment
+    sequence: 38
+    skill: warm-contact-comment
+    prerequisites: [active_project, real_person, current_public_post_or_comment, language_evidence]
+    required_when: founder_requests_public_contact_warming
+    produces: [one_public_comment_draft, manual_review_step]
   - id: engage
     sequence: 40
     skill: draft-outreach

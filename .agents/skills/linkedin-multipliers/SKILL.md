@@ -48,10 +48,10 @@ Select the highest-scoring contacts until the requested count is reached. If few
 Write one short LinkedIn DM per selected person, normally 45–90 words:
 
 1. one specific, verified opener from the profile or fresh public signal; this first sentence carries the reason to keep reading, but must not imitate an email subject or press headline;
-2. one sentence carrying only the Brief nach Berlin angle that is relevant to this person, with one verified proof point when it helps;
-3. one low-friction ask: story, podcast/media contact, NGO introduction, referral, or small test.
+2. one short, honest reason for writing; mention the relevant Brief nach Berlin angle only when it explains the connection, without a product explanation;
+3. an optional, easy-to-answer question about the person's work or permission to share one relevant example. Omit it when it would feel forced.
 
-Every sentence must serve one of those three functions. Cut project history, feature lists, multiple story angles, a default meeting pitch, an early calendar link, and a second fallback ask. A short thank-you is optional when it sounds natural; a referral or forward request must be the single primary ask, not an extra request after another CTA.
+Every sentence must serve one of those three functions. Cut project history, feature lists, multiple story angles, a default meeting pitch, an early calendar link, and a second fallback ask. A short thank-you is optional when it sounds natural. Do not ask for a story, podcast booking, introduction, referral, share, or pilot in a cold first DM. After a substantive reply, respond to its content before proposing a larger next step; a referral or forward request must then be the single primary ask, not an extra request after another CTA.
 
 Use Thomas's confirmed German voice from `workspace/voice.md`: personal, spoken, warm, low-hype, selective emojis, Bremen sign-off, and light human roughness. Do not copy the same opener across contacts, mention follower counts, or over-explain the product. If several well-matched contacts ignore the same angle, revisit the angle and evidence before cosmetically rewriting the opener or increasing volume; silence alone does not prove why they did not respond.
 
@@ -65,7 +65,7 @@ Return:
 
 1. `Auswahl:` inspected scope, freshness window, exclusions, and the selection rule;
 2. `Priorisierte Kontakte:` a compact evidence table with target, role/employer, visible reach, fresh-signal date, and selection reason;
-3. `Entwürfe:` one draft per selected target, each with one relevant angle and one ask;
+3. `Entwürfe:` one draft per selected target, each with one relevant angle and at most one small reply invitation;
 4. `Manueller Schritt:` review and send manually, or report which drafts to revise or discard.
 
 When invoked through `sales-copilot`, wrap this result in the copilot's four-section output contract and preserve the manual-send boundary.

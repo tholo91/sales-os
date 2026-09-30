@@ -1,0 +1,4 @@
+interface:
+  display_name: "Warm Contact Comment"
+  short_description: "Draft a genuine comment before a later first touch"
+  default_prompt: "Use $warm-contact-comment to draft one public comment for this real post or comment and its author."

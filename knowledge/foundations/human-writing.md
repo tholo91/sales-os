@@ -18,7 +18,7 @@ Human writing is not created by sprinkling casual words into a template. It come
 1. Start from the language-evidence packet in `audience-language.md`.
 2. Match only the corresponding channel and language section of `workspace/voice.md`.
 3. Use the target's nouns, level of detail, and visible formality without mimicking identity, dialect, or private speech.
-4. Write one thing the founder honestly wants to say and one question the person can answer.
+4. Write one thing the founder honestly wants to say; add one easy question only if it belongs in this exchange.
 5. Use only facts and proof recorded in project or target evidence.
 
 When evidence is missing, write less or return to research. Generic polish is not a substitute.
@@ -26,7 +26,7 @@ When evidence is missing, write less or return to research. Generic polish is no
 ## Output economy
 
 - Put the draft before explanation.
-- Produce one draft and one ask by default.
+- Produce one draft with at most one ask in a cold first touch. Do not invent a question to fill a template.
 - Explain the choice in one short sentence.
 - Add a risk note only for a real factual, cultural, platform, legal, or relationship risk.
 - Create an alternative only when the founder requests one.
@@ -46,7 +46,7 @@ Allow contractions, short replies, and small imperfections when the founder evid
 
 - Could this message be sent unchanged to another person? If yes, rewrite or cut.
 - Does every claim have a source? If no, remove it.
-- Does the ask test the learning goal? If no, simplify it.
+- If there is an ask, does it test the learning goal without imposing substantial work? If no, simplify or remove it.
 - Does the message look native in this exact surface? If no, change the shape before polishing words.
 
 ## AI-shaped lint, last

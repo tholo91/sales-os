@@ -12,6 +12,7 @@ const skills = [
   "shape-positioning",
   "validate-problem",
   "find-conversations",
+  "warm-contact-comment",
   "draft-outreach",
   "draft-public-post",
   "reddit-dm",
@@ -118,6 +119,19 @@ test("draft contract enforces brief evidence-first output", () => {
   assert.doesNotMatch(draft, /lower-pressure version/i);
 });
 
+test("contact-warming comments stay separate from a later private first touch", () => {
+  const skill = read(".agents/skills/warm-contact-comment/SKILL.md");
+  const step = read("core/steps/warm-comment.md");
+  const catalog = read("core/workflow-catalog.yaml");
+  assert.match(skill, /exact post or comment and its surrounding context/);
+  assert.match(skill, /Distinguish the post's author/);
+  assert.match(skill, /Humor or a topical reference/);
+  assert.match(skill, /does not imply that the person noticed/);
+  assert.match(step, /comment must work if no later private message is ever sent/);
+  assert.match(step, /later private first touch must pass its own relationship, channel, and legal gates/);
+  assert.match(catalog, /required_when: founder_requests_public_contact_warming/);
+});
+
 test("public post guidance defaults to punchy single ideas and supports an evidence-based split", () => {
   const foundation = read("knowledge/foundations/short-punchy-content.md");
   const draft = read(".agents/skills/draft-public-post/SKILL.md");
@@ -177,8 +191,8 @@ test("editorial pitches preserve the headline, reading-budget, and channel bound
   assert.match(outreach, /both `Subject:` and the body/);
   assert.match(linkedin, /must not imitate an email subject or press headline/);
   assert.match(linkedin, /Every sentence must serve one of those three functions/);
-  assert.match(linkedin, /one relevant angle and one ask/);
-  assert.match(linkedin, /referral or forward request must be the single primary ask/);
+  assert.match(linkedin, /one relevant angle and at most one small reply invitation/);
+  assert.match(linkedin, /referral or forward request must then be the single primary ask/);
 });
 
 test("Reddit DM guidance has a narrow gate and a focused eval case", () => {
@@ -203,6 +217,7 @@ test("all skill procedures are canonical in core steps", () => {
     "position",
     "validate",
     "source",
+    "warm-comment",
     "engage",
     "publish",
     "record",

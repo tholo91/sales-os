@@ -35,7 +35,7 @@ No host may use browser access to send, post, vote, connect, follow, purchase, c
 
 ## Channel adapters
 
-LinkedIn, Reddit, email, phone, Slack, and personal-network guidance are available in the shared knowledge layer. Instagram and TikTok remain future adapters. Platform research may be stored now for policy awareness, but the copilot must not claim a native Instagram or TikTok workflow until the channel gate, output shape, live verification path, and evaluation cases are implemented.
+LinkedIn, Reddit, email, phone, Slack, and personal-network guidance are available in the shared knowledge layer. `warm-contact-comment` is a narrow public-comment drafting workflow for a verified person and post, including Instagram or YouTube; the founder still posts manually. It does not provide general sourcing, private messaging, publishing, or analytics for those platforms. Instagram, YouTube, and TikTok remain future end-to-end adapters.
 
 ## Future installer contract
 
