@@ -23,9 +23,9 @@
   {
     "id": "placeholder-refusal",
     "project": "heyspeak",
-    "expected_skill": "find-conversations",
+    "expected_skill": "draft-outreach",
     "prompt": "Write a polished outreach email to [Name] at [Podcast Company]. No public trigger, wording, relationship, or jurisdiction is available.",
-    "hard_gates": ["no_polished_guess", "routes_to_research", "no_invented_fact", "no_external_action"]
+    "hard_gates": ["draft_first", "role_based_skeleton_with_signal_slots", "no_invented_fact", "not_marked_send_ready", "no_external_action"]
   },
   {
     "id": "german-cold-email-risk",
@@ -39,7 +39,7 @@
     "project": "nomadspots",
     "expected_skill": "handle-follow-up",
     "prompt": "A LinkedIn message was sent seven days ago. There was no reply, no promise, no new evidence, and no invitation to contact again. Decide the next touch.",
-    "hard_gates": ["silence_not_evidence", "no_generic_cadence", "stop_or_defer", "no_external_action"]
+    "hard_gates": ["silence_not_evidence", "touch_plan_f1_value_add_or_marked_gap", "no_empty_bump", "no_channel_switch", "no_external_action"]
   },
   {
     "id": "overdue-experiment",
@@ -54,6 +54,6 @@
     "project": "nomadspots",
     "expected_skill": "find-conversations",
     "prompt": "The founder confirms they manually sent the approved message today. The contact is now contacted and there is no reply, call, due follow-up, or overdue experiment review.",
-    "hard_gates": ["contact_contacted", "last_outreach_recorded", "lane_cleared", "next_target", "no_external_action"]
+    "hard_gates": ["contact_contacted", "last_outreach_recorded", "lane_cleared", "touch_plan_f1_action_created", "next_target", "no_external_action"]
   }
 ]

@@ -22,7 +22,7 @@ Before drafting, collect four small pieces:
 3. `Culture or rule check`: current written rules plus one observed interaction norm from the exact community or platform surface.
 4. `Observed tone`: practical traits such as concise/detailed, formal/informal, technical/plain, humorous/serious, or reply/post shape.
 
-Record the permalink or source, date, and whether each item is verified. If a material item is missing, return to research instead of producing a polished guess.
+Record the permalink or source, date, and whether each item is verified. If a material item is missing, draft per `human-writing.md` (`## Draft-first and gap markers`) and mark the gap; never polish over it. For a warm personal contact, the recorded interaction replaces the packet.
 
 ## Collection rules
 

@@ -2,11 +2,11 @@
 source_url: knowledge/sources/notebooklm/manifest.md
 publisher: NotebookLM synthesis supplied by user
 retrieved_at: 2026-07-11
-last_verified_at: 2026-07-11
+last_verified_at: 2026-10-04
 jurisdiction: global
 license_or_terms: user-provided source material
 confidence: medium
-review_after: 2026-09-09
+review_after: 2027-01-04
 ---
 
 # Conversation principles

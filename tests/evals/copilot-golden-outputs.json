@@ -2,7 +2,7 @@
   {
     "id": "wrapped-first-touch",
     "specialist": "draft-outreach",
-    "output": "Nächste Aktion:\nSchicke genau diese Nachricht an den verifizierten Kontakt.\n\nFertiges Asset:\nMoin Lea, dein Punkt zur letzten Hörerfrage ist bei mir hängen geblieben: Wo gehen die Antworten heute verloren?\n\nDein manueller Schritt:\nPrüfe die Formulierung und sende sie selbst auf LinkedIn.\n\nSag mir danach:\nOb du sie unverändert oder bearbeitet gesendet hast und welche Antwort kam."
+    "output": "Nächste Aktion:\nSetz die Folge ein und schick die Nachricht selbst an Lea.\n\nFertiges Asset:\nMoin Lea, deine Antwort auf die Hörerfrage in [SIGNAL: Folge und Datum] ist bei mir hängen geblieben: Wo gehen bei euch Hörer-Antworten heute verloren? [PRÜFEN: Thema in der Folge so genannt?]\n\nDein manueller Schritt:\nVor dem Senden prüfen:\n1. Folge und Datum einsetzen.\n2. Ob sie das Thema dort so nennt.\nDann sende sie selbst auf LinkedIn.\n\nSag mir danach:\nOb du sie unverändert oder bearbeitet gesendet hast und welche Antwort kam."
   },
   {
     "id": "positioning-input-gate",

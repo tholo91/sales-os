@@ -12,9 +12,11 @@ const skills = [
   "shape-positioning",
   "validate-problem",
   "find-conversations",
+  "linkedin-multipliers",
   "warm-contact-comment",
   "draft-outreach",
   "draft-public-post",
+  "draft-reel",
   "reddit-dm",
   "record-outreach",
   "handle-reply",
@@ -66,7 +68,7 @@ test("sales copilot end-to-end corpus covers product, community, free, group, an
 });
 
 test("copilot-facing skills share the four-part handoff contract", () => {
-  for (const skill of ["sales-copilot", "shape-positioning", "draft-public-post", "handle-reply", "prepare-call", "prepare-offer"]) {
+  for (const skill of ["sales-copilot", "shape-positioning", "draft-public-post", "draft-reel", "handle-reply", "prepare-call", "prepare-offer"]) {
     const text = read(`.agents/skills/${skill}/SKILL.md`);
     for (const heading of ["Nächste Aktion", "Fertiges Asset", "Dein manueller Schritt", "Sag mir danach"]) {
       assert.match(text, new RegExp(heading), `${skill}: ${heading}`);
@@ -226,6 +228,7 @@ test("all skill procedures are canonical in core steps", () => {
     "call",
     "offer",
     "learn",
+    "pipeline",
   ];
   for (const step of expectedSteps) assert.ok(fs.existsSync(path.join(root, "core", "steps", `${step}.md`)), step);
   for (const skill of skills) assert.doesNotMatch(read(`.agents/skills/${skill}/SKILL.md`), /^## Workflow$/m, skill);
@@ -307,4 +310,67 @@ test("before and after examples are explicitly synthetic and draft-first", () =>
   assert.match(examples, /## HeySpeak/);
   assert.match(examples, /## NomadSpots/);
   assert.equal((examples.match(/^### After$/gm) ?? []).length, 2);
+});
+
+test("every skill directory, catalog workflow, and intent route is registered", () => {
+  const dirs = fs
+    .readdirSync(path.join(root, ".agents", "skills"), { withFileTypes: true })
+    .filter((entry) => entry.isDirectory() && !entry.name.startsWith("."))
+    .map((entry) => entry.name)
+    .sort();
+  assert.deepEqual(dirs, [...skills].sort());
+
+  const catalog = read("core/workflow-catalog.yaml");
+  const catalogSkills = new Set([...catalog.matchAll(/^\s+skill: ([a-z0-9-]+)$/gm)].map((match) => match[1]));
+  assert.deepEqual([...catalogSkills].sort(), [...skills].sort());
+
+  const routes = catalog.split(/^explicit_intent_routes:$/m)[1]?.split(/^\S/m)[0] ?? "";
+  const routed = [...routes.matchAll(/^  [a-z_]+: ([a-z0-9-]+)$/gm)].map((match) => match[1]);
+  assert.ok(routed.length > 0);
+  for (const skill of routed) assert.ok(skills.includes(skill), skill);
+});
+
+test("drafting is draft-first with visible gap markers", () => {
+  const writing = read("knowledge/foundations/human-writing.md");
+  assert.match(writing, /^## Draft-first and gap markers$/m);
+  assert.match(writing, /\[PRÜFEN: /);
+  assert.match(writing, /\[SIGNAL: /);
+  assert.doesNotMatch(read(".agents/skills/draft-outreach/SKILL.md"), /No draft: <missing evidence>/);
+});
+
+test("persona playbooks share one ordered structure", () => {
+  const headings = [
+    "## Who and what they get flooded with",
+    "## What earns a reply",
+    "## Channel and entry path",
+    "## Ask ladder",
+    "## Give-first asset",
+    "## Message skeleton",
+    "## Touch plan",
+    "## Call kit",
+    "## Risks",
+    "## Where to find them",
+  ];
+  const files = fs.readdirSync(path.join(root, "knowledge", "personas")).filter((file) => file.endsWith(".md"));
+  assert.ok(files.length >= 5);
+  for (const file of files) {
+    const found = read(`knowledge/personas/${file}`).split("\n").filter((line) => line.startsWith("## "));
+    assert.deepEqual(found, headings, file);
+  }
+});
+
+test("follow-ups run on one dated touch plan", () => {
+  assert.match(read("knowledge/strategies/follow-up.md"), /^## Touch plan$/m);
+});
+
+test("Brief nach Berlin eval corpus has a valid shape and registered skills", () => {
+  const cases = json("tests/evals/bnb-cases.json");
+  assert.ok(cases.length >= 12);
+  assert.equal(new Set(cases.map(({ id }) => id)).size, cases.length);
+  for (const entry of cases) {
+    assert.equal(typeof entry.id, "string");
+    assert.equal(typeof entry.request, "string", entry.id);
+    assert.ok(skills.includes(entry.skill), entry.id);
+    assert.ok(Array.isArray(entry.hard_gates) && entry.hard_gates.includes("no_external_action"), entry.id);
+  }
 });

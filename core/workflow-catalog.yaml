@@ -5,6 +5,23 @@ principles:
   - real_target_before_final_draft
   - human_approval_before_external_action
   - learning_before_more_work
+  - draft_first_with_marked_gaps
+  - explicit_intent_before_lifecycle
+  - dated_touch_plan
+  - lead_is_dated_commitment
+explicit_intent_routes:
+  first_touch: draft-outreach
+  linkedin_connection_batch: linkedin-multipliers
+  follow_up_named_contact: handle-follow-up
+  received_reply_or_comment: handle-reply
+  call_preparation: prepare-call
+  public_post: draft-public-post
+  short_video: draft-reel
+  contact_warming_comment: warm-contact-comment
+  find_targets: find-conversations
+  weekly_planning: sales-next
+  offer: prepare-offer
+  positioning: shape-positioning
 freshness_defaults_days:
   founder_profile: 180
   project_context: 30
@@ -17,6 +34,12 @@ workflows:
     prerequisites: [active_project]
     required_when: founder_requests_sales_session
     produces: [one_finished_asset, one_manual_action, one_return_signal]
+  - id: weekly
+    sequence: 5
+    skill: sales-next
+    prerequisites: [active_project]
+    required_when: weekly_board_missing_or_past_week_or_review_requested
+    produces: [pipeline_board, scoreboard_line, one_next_action]
   - id: setup
     sequence: 10
     skill: sales-setup
@@ -41,52 +64,68 @@ workflows:
     prerequisites: [problem_hypothesis, target_person, learning_goal]
     required_when: current_outreach_needs_target
     produces: [target_ref, language_evidence, conversation_opportunity]
+  - id: multipliers
+    sequence: 32
+    skill: linkedin-multipliers
+    prerequisites: [active_project, linkedin_connection_scope]
+    required_when: founder_requests_linkedin_multiplier_batch
+    produces: [draft_needs_check, draft_ready]
   - id: warm-comment
     sequence: 38
     skill: warm-contact-comment
-    prerequisites: [active_project, real_person, current_public_post_or_comment, language_evidence]
+    prerequisites: [active_project, real_person, current_public_post_or_comment]
+    send_ready_prerequisites: [language_evidence, no_open_markers]
     required_when: founder_requests_public_contact_warming
     produces: [one_public_comment_draft, manual_review_step]
   - id: engage
     sequence: 40
     skill: draft-outreach
-    prerequisites: [problem_hypothesis, target_person, learning_goal, target_ref, language_evidence]
+    prerequisites: [active_project, founder_intent_or_current_target]
+    send_ready_prerequisites: [target_ref, language_evidence, no_open_markers]
     required_when: current_outreach_needs_draft
-    produces: [draft_ready]
+    produces: [draft_needs_check, draft_ready]
   - id: reddit-dm
     sequence: 41
     skill: reddit-dm
-    prerequisites: [target_ref, current_public_signal, subreddit_rules, language_evidence]
+    prerequisites: [target_ref, current_public_signal]
+    send_ready_prerequisites: [subreddit_rules, language_evidence, no_open_markers]
     required_when: selected_reddit_target_invited_or_supports_private_contact
-    produces: [draft_ready]
+    produces: [draft_needs_check, draft_ready]
   - id: publish
     sequence: 42
     skill: draft-public-post
-    prerequisites: [positioning, source_material, supported_channel]
+    prerequisites: [active_project, founder_intent]
+    send_ready_prerequisites: [source_material_confirmed, no_open_markers]
     required_when: founder_requests_public_post
-    produces: [public_draft_ready]
+    produces: [public_draft_needs_check, public_draft_ready]
+  - id: publish-video
+    sequence: 43
+    skill: draft-reel
+    prerequisites: [active_project, founder_intent]
+    required_when: founder_requests_short_video
+    produces: [reel_script_needs_check, reel_script_ready]
   - id: send
     sequence: 45
     skill: record-outreach
     prerequisites: [target_ref, draft_ready, founder_send_confirmation]
     required_when: current_outreach_awaiting_manual_send
-    produces: [contacted_contact, last_outreach_at, cleared_current_lane]
+    produces: [contacted_contact, last_outreach_at, cleared_current_lane, touch_plan_f1_action]
   - id: continue
     sequence: 50
     skill: handle-follow-up
-    prerequisites: [referenced_open_action, real_interaction]
-    required_when: due_follow_up_or_decision_action
-    produces: [follow_up_decision]
+    prerequisites: [real_prior_touch_or_founder_request]
+    required_when: due_touch_plan_action_or_founder_request
+    produces: [follow_up_decision, next_touch_action]
   - id: reply
     sequence: 55
     skill: handle-reply
-    prerequisites: [referenced_open_action, real_inbound_reply]
-    required_when: due_inbound_or_content_reply_action
+    prerequisites: [real_inbound_reply_or_founder_report]
+    required_when: due_inbound_or_content_reply_action_or_founder_request
     produces: [reply_decision, sales_stage]
   - id: call
     sequence: 60
     skill: prepare-call
-    prerequisites: [referenced_open_action, scheduled_or_offered_call]
+    prerequisites: [founder_states_call_or_scheduled_call]
     required_when: call_preparation_due
     produces: [call_plan]
   - id: offer

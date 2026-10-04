@@ -35,7 +35,7 @@ No host may use browser access to send, post, vote, connect, follow, purchase, c
 
 ## Channel adapters
 
-LinkedIn, Reddit, email, phone, Slack, and personal-network guidance are available in the shared knowledge layer. `warm-contact-comment` is a narrow public-comment drafting workflow for a verified person and post, including Instagram or YouTube; the founder still posts manually. It does not provide general sourcing, private messaging, publishing, or analytics for those platforms. Instagram, YouTube, and TikTok remain future end-to-end adapters.
+LinkedIn, Reddit, email, phone, Slack, and personal-network guidance are available in the shared knowledge layer. `warm-contact-comment` is a narrow public-comment drafting workflow for a verified person and post, including Instagram or YouTube; the founder still posts manually. `draft-reel` drafts Instagram Reel scripts for the founder to film and post manually. Neither provides general sourcing, private messaging, publishing, or analytics for those platforms. Instagram, YouTube, and TikTok remain future end-to-end adapters.
 
 ## Future installer contract
 

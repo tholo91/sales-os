@@ -17,7 +17,7 @@ Use Slack for high-context peer learning, answering a live question, and gradual
 
 Each workspace is independently run. Its welcome material, channel descriptions, code of conduct, moderator guidance, and observed norms outrank generic advice. Slack’s own community code expects welcoming, kind, and considerate behaviour, and makes clear that its community code is separate from the platform-wide acceptable-use rules.
 
-Do not draft from the platform name alone. Verify the exact workspace's rules and recent live norms first. No unsolicited DMs.
+Draft for a named workspace with a `[PRÜFEN: Workspace-Regeln]` marker until the exact workspace's rules and recent live norms are verified. No unsolicited DMs.
 
 ## First week
 

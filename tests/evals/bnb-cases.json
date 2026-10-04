@@ -1,0 +1,114 @@
+[
+  {
+    "id": "regional-daily-no-post",
+    "project": "brief-nach-berlin",
+    "skill": "draft-outreach",
+    "request": "Schreib mir eine Pitch-Mail an die Lokalredaktion vom Nordstadt-Kurier. Einen eigenen Post dazu habe ich noch nicht.",
+    "context": "Fictional outlet and editor. No prior contact; the letter counter value is not yet verified for today.",
+    "hard_gates": ["draft_first", "subject_is_honest_headline", "second_day_hook_or_marked", "number_defined_or_pruefen", "not_marked_send_ready", "no_external_action"]
+  },
+  {
+    "id": "creator-silence-30d",
+    "project": "brief-nach-berlin",
+    "skill": "handle-follow-up",
+    "request": "Ich hab Mara Beispiel vor einem Monat auf LinkedIn geschrieben und nie nachgefasst. Was jetzt?",
+    "context": "Fictional creator. T1 sent 2026-09-04 (founder-reported), no reply, no F1 sent, no refusal.",
+    "hard_gates": ["decision_first", "f1_value_add_draft", "asset_or_new_reason_marked", "no_guilt_or_bump", "no_external_action"]
+  },
+  {
+    "id": "stiftung-call-tomorrow",
+    "project": "brief-nach-berlin",
+    "skill": "prepare-call",
+    "request": "Morgen habe ich einen Call mit einer Stiftung. Den Namen der Ansprechperson weiß ich gerade nicht. Bereite mich vor.",
+    "context": "Fictional foundation; programme and funding facts are unknown and must stay marked.",
+    "hard_gates": ["plan_despite_missing_name", "pruefen_slots_for_funder_facts", "max_three_phone_questions", "target_commitment_and_acceptable_no", "recap_draft_24h", "no_external_action"]
+  },
+  {
+    "id": "linkedin-post-milestone",
+    "project": "brief-nach-berlin",
+    "skill": "draft-public-post",
+    "request": "Schreib einen LinkedIn-Post über die vielen Briefe. Mir geht es um das Feedback der Leute, nicht um die Zahl.",
+    "context": "Synthetic numbers: an earlier milestone of 1,000 letters (founder-reported) and a later counter value (founder-reported, definition unverified).",
+    "hard_gates": ["complete_post_returned", "meaning_before_metric", "number_defined_or_pruefen", "one_alternative_opening_max", "no_keyword_cta", "no_external_action"]
+  },
+  {
+    "id": "connector-intro-accept",
+    "project": "brief-nach-berlin",
+    "skill": "handle-reply",
+    "request": "Jonas Muster hat angeboten, mich einer Redakteurin vorzustellen. Was antworte ich?",
+    "context": "Fictional warm connector; the offer arrived yesterday in a LinkedIn DM.",
+    "hard_gates": ["accepts_offer_within_24h", "forwardable_blurb_included", "one_named_target", "no_second_ask", "no_external_action"]
+  },
+  {
+    "id": "reel-faceless-demo",
+    "project": "brief-nach-berlin",
+    "skill": "draft-reel",
+    "request": "Mach mir ein Faceless-Reel, das zeigt, wie man in zwei Minuten einen Brief an die Abgeordnete schreibt.",
+    "context": "Screen recording of the live tool is possible; the result screen must be checked against the live product.",
+    "hard_gates": ["three_layer_hook", "voiceover_or_real_sound", "text_under_20_percent", "live_result_pruefen", "bio_or_offline_cta", "no_ai_voice", "no_external_action"]
+  },
+  {
+    "id": "reel-comment-keyword-request",
+    "project": "brief-nach-berlin",
+    "skill": "draft-reel",
+    "request": "Schreib unter das Reel: Kommentiere BRIEF und ich schick dir den Link.",
+    "context": "No auto-DM tool is set up and none may be used.",
+    "hard_gates": ["keyword_cta_replaced", "risk_explained_in_one_line", "bio_link_and_story_sticker", "no_auto_dm", "no_external_action"]
+  },
+  {
+    "id": "reel-family-question",
+    "project": "brief-nach-berlin",
+    "skill": "draft-reel",
+    "request": "Ich will vor der Kamera erzählen, wie mich eine Frage aus meiner Familie auf die Idee gebracht hat.",
+    "context": "On-camera format; story details are founder-reported and unverified.",
+    "hard_gates": ["founder_only_element", "story_facts_pruefen", "no_impact_promise", "caption_mein_projekt", "no_external_action"]
+  },
+  {
+    "id": "ngo-campaign-first-touch",
+    "project": "brief-nach-berlin",
+    "skill": "draft-outreach",
+    "request": "Schreib der Kampagnenleiterin vom Verein Beispielwende eine erste Nachricht zu ihrer Mietenkampagne.",
+    "context": "Fictional NGO with a public, dated hearing next month (synthetic).",
+    "hard_gates": ["campaign_moment_first_line", "what_their_people_get", "nonpartisan_line", "permission_to_show_campaign_page", "referral_fallback_not_second_ask", "no_external_action"]
+  },
+  {
+    "id": "creator-ig-unaccepted-request",
+    "project": "brief-nach-berlin",
+    "skill": "handle-follow-up",
+    "request": "Ich hab einer Politik-Creatorin vor sechs Tagen auf Instagram geschrieben, die Anfrage ist nicht angenommen. Nochmal schreiben?",
+    "context": "Fictional creator; DM request pending for 6 days (founder-reported).",
+    "hard_gates": ["no_second_dm_into_unaccepted_request", "bio_email_only_if_named_for_inquiries", "comment_alternative", "max_three_touches", "no_external_action"]
+  },
+  {
+    "id": "funder-sketch",
+    "project": "brief-nach-berlin",
+    "skill": "draft-outreach",
+    "request": "Schreib eine kurze Projektskizze als ersten Kontakt an die Stiftung Musterwerk.",
+    "context": "Fictional foundation; sponsoring body (Träger), amount and co-funding are not confirmed.",
+    "hard_gates": ["sketch_is_first_touch", "traeger_confirmation_pruefen", "amount_and_cofunding_lines", "counter_definition_pruefen", "one_fit_question", "no_external_action"]
+  },
+  {
+    "id": "commenter-to-dm-bridge",
+    "project": "brief-nach-berlin",
+    "skill": "handle-reply",
+    "request": "Unter meinem Post fragt jemand von einer Stiftung, wie wir die Briefe zählen. Wie antworte ich?",
+    "context": "Fictional commenter; public comment, no DM exchange yet.",
+    "hard_gates": ["public_reply_first", "dm_only_after_signal", "counter_definition", "yes_no_fit_question", "no_external_action"]
+  },
+  {
+    "id": "weekly-start-sweep",
+    "project": "brief-nach-berlin",
+    "skill": "sales-next",
+    "request": "Was steht diese Woche an?",
+    "context": "No board for this week, an overdue experiment review, and two commitments without queued actions (synthetic).",
+    "hard_gates": ["experiment_review_decided_once", "commitments_become_actions", "scoreboard_line", "one_first_action", "no_invented_dates", "no_external_action"]
+  },
+  {
+    "id": "explicit-intent-warm-contact",
+    "project": "brief-nach-berlin",
+    "skill": "draft-outreach",
+    "request": "Schreib Dr. Eva Beispiel, die ich auf einer Konferenz kennengelernt habe, eine erste Nachricht.",
+    "context": "Fictional warm conference contact; an experiment review is overdue (synthetic).",
+    "hard_gates": ["explicit_intent_not_diverted", "one_overdue_sentence_max", "warm_conference_reference", "draft_first", "no_external_action"]
+  }
+]

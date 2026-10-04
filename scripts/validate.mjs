@@ -10,9 +10,11 @@ const expectedSkills = [
   "shape-positioning",
   "validate-problem",
   "find-conversations",
+  "linkedin-multipliers",
   "warm-contact-comment",
   "draft-outreach",
   "draft-public-post",
+  "draft-reel",
   "reddit-dm",
   "record-outreach",
   "handle-reply",
@@ -57,6 +59,7 @@ const expectedSteps = [
   "call",
   "offer",
   "learn",
+  "pipeline",
 ];
 
 function read(relative) {
@@ -87,6 +90,8 @@ for (const name of expectedSkills) {
   if (!meta) errors.push(`${relative}: missing YAML frontmatter`);
   if (meta?.name !== name) errors.push(`${relative}: name must match directory`);
   if (!meta?.description) errors.push(`${relative}: description is required`);
+  if ((meta?.description ?? "").length > 1024) errors.push(`${relative}: description must be 1024 characters or fewer`);
+  if (!/^[a-z0-9-]{1,64}$/.test(name)) errors.push(`${relative}: name must be lowercase letters, digits, and hyphens (max 64)`);
   if (/\[TODO|TODO:/.test(text)) errors.push(`${relative}: unresolved TODO`);
   if (text.split("\n").length >= 500) errors.push(`${relative}: must stay below 500 lines`);
   if (/^## Workflow$/m.test(text)) errors.push(`${relative}: numbered procedure belongs in core/steps`);
@@ -97,6 +102,14 @@ for (const name of expectedSkills) {
   }
   const openai = read(`.agents/skills/${name}/agents/openai.yaml`);
   if (!openai.includes(`$${name}`)) errors.push(`${relative}: openai.yaml default_prompt must invoke $${name}`);
+}
+
+const skillDirs = fs
+  .readdirSync(path.join(root, ".agents", "skills"), { withFileTypes: true })
+  .filter((entry) => entry.isDirectory() && !entry.name.startsWith("."))
+  .map((entry) => entry.name);
+for (const dir of skillDirs) {
+  if (!expectedSkills.includes(dir)) errors.push(`unregistered skill directory ${dir}`);
 }
 
 for (const step of expectedSteps) read(`core/steps/${step}.md`);
@@ -116,7 +129,7 @@ for (const file of fs.readdirSync(knowledgeRoot, { recursive: true })) {
   }
 }
 
-for (const name of ["profile.md", "project.md", "positioning.md", "offer.md", "validation.md", "icp.md", "evidence.md", "contacts.md", "contact.md", "experiments.md", "interaction.md", "voice.md"]) {
+for (const name of ["profile.md", "project.md", "positioning.md", "offer.md", "validation.md", "icp.md", "evidence.md", "contacts.md", "contact.md", "experiments.md", "interaction.md", "voice.md", "pipeline.md"]) {
   const relative = `templates/${name}`;
   const meta = frontmatter(read(relative));
   if (!meta) {
@@ -140,6 +153,13 @@ const catalog = read("core/workflow-catalog.yaml");
 for (const skill of expectedSkills) {
   if (!catalog.includes(skill)) errors.push(`workflow catalog does not reference ${skill}`);
 }
+const catalogSkills = new Set([...catalog.matchAll(/^\s+skill: ([a-z0-9-]+)$/gm)].map((match) => match[1]));
+for (const skill of catalogSkills) {
+  if (!expectedSkills.includes(skill)) errors.push(`workflow catalog skill ${skill} is not registered`);
+}
+for (const skill of expectedSkills) {
+  if (!catalogSkills.has(skill)) errors.push(`workflow catalog has no workflow entry with skill: ${skill}`);
+}
 
 const status = read("templates/status.yaml");
 for (const field of ["schema_version: 3", "commercial_mode: null", "positioning: missing", "offer: missing", "current_outreach:", "draft_mode: outreach", "pending_actions_ref: pending-actions.yaml", "activity:", "experiment_review_at:", "last_outreach_at:"]) {
@@ -160,6 +180,11 @@ read("tests/evals/trigger-cases.json");
 read("tests/evals/output-cases.json");
 read("tests/evals/sales-copilot-cases.json");
 read("tests/evals/copilot-golden-outputs.json");
+read("tests/evals/bnb-cases.json");
+for (const persona of ["media-podcasts", "creators-influencers", "ngos-civic-orgs", "funders-foundations", "buyers-users"]) {
+  read(`knowledge/personas/${persona}.md`);
+}
+read("knowledge/channels/instagram-reels.md");
 
 if (errors.length) {
   console.error(errors.map((error) => `- ${error}`).join("\n"));

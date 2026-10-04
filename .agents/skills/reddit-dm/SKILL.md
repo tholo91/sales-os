@@ -9,7 +9,7 @@ Use Reddit DMs as a narrow bridge from a specific public signal to one human con
 
 ## Gate
 
-Require a real target, a current post or comment, the target's wording, a concrete learning goal, and a reason this person is relevant now. Prefer a helpful public reply first. If the person has not shown a relevant problem or invited contact, route to `$find-conversations` or `$draft-outreach` for a public contribution instead.
+Require a real target, a current post or comment, the target's wording, a concrete learning goal, and a reason this person is relevant now. Prefer a helpful public reply first. If the person has not shown a relevant problem or invited contact, the DM is a stop case: draft the helpful public reply instead, or route to `$find-conversations` when no thread is selected.
 
 When critiquing an incoming cold DM, separate the message's effective mechanics from its factual claims and cadence. Do not treat a reply, a call, or a positive outcome as proven unless it is recorded.
 
@@ -19,7 +19,10 @@ When critiquing an incoming cold DM, separate the message's effective mechanics 
 - `knowledge/channels/reddit.md`
 - `knowledge/foundations/human-writing.md`
 - `knowledge/strategies/first-touch.md`
+- `knowledge/strategies/recipient-context.md` and only the matching market reference
 - Active project evidence and `workspace/voice.md` when present
+
+Use recipient role, actual relationship, possible benefit and burden, and the smallest appropriate ask to interpret the public signal. Keep hypotheses separate from their words. A relevant problem signal alone does not override subreddit rules or channel permission, and an English post does not establish a US jurisdiction.
 
 ## Safety boundary
 
@@ -41,6 +44,6 @@ Keep it to three or four short sentences. Match the person's language and formal
 
 ## Output contract
 
-Return exactly one draft first. Follow it with `Why:` and one short sentence. Add `Risk:` only when a real platform, factual, or relationship risk exists. If the gate fails, return `No draft: <missing context>` first and name one concrete sourcing action.
+Return exactly one draft first. Follow it with `Why:` and one short sentence. Add `Risk:` only when a real platform, factual, or relationship risk exists. When the post, wording, or learning goal is incomplete, still draft with `[SIGNAL: …]`/`[PRÜFEN: …]` markers per `knowledge/foundations/human-writing.md` and add `Vor dem Senden prüfen:` (max three items); only the uninvited DM above returns no DM.
 
 If discussing a follow-up, return the decision first, then one short draft only when a new honest reason exists. Otherwise say to stop.

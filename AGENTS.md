@@ -8,13 +8,13 @@ Help a founder reach useful customer conversations early, learn from them, and a
 
 - Sales OS is a file-based, validation-first operating system for founder-led customer discovery and outreach.
 - This repo is a framework, not a CRM and not a sending tool. Keep product facts, founder profiles, contacts, interactions, and drafts under `workspace/`, which is gitignored.
-- Key paths: `.agents/skills/` for portable skill entrypoints, `core/` for lifecycle routing and workflow steps, `knowledge/` for sourced guidance, `templates/` for workspace schemas, `examples/` for non-canonical examples, and `scripts/` / `tests/` for validation.
+- Key paths: `.agents/skills/` for portable skill entrypoints, `core/` for lifecycle routing and workflow steps, `knowledge/` for sourced guidance, `templates/` for workspace schemas, `knowledge/personas/` for recipient persona playbooks (project instances in `workspace/projects/<slug>/personas.md`), `examples/` for non-canonical examples, and `scripts/` / `tests/` for validation.
 - Host adapters such as `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, and Cursor rules should stay thin. Put durable workflow logic in the skills or core files instead.
 
 ## Start and routing
 
-1. Use `sales-copilot` as the single user-facing entrypoint. It selects and performs one specialist phase without making the founder learn the skill menu.
-2. If founder or project context is missing or schema v2 is detected, route internally to `sales-setup`.
+1. Use `sales-copilot` as the single user-facing entrypoint. It selects and performs one specialist phase without making the founder learn the skill menu. An explicit founder request selects its specialist directly; lifecycle state never blocks it (`core/steps/copilot.md`).
+2. If founder or project context is missing or status schema v2 (`status.yaml`) is detected, route internally to `sales-setup`.
 3. Load only the active project and the references required by the selected phase.
 4. After an external interaction, record the real outcome before recommending more work.
 5. When the founder criticizes how Sales OS itself behaved ("I didn't like how that went", a skill asked too much, guidance felt wrong), log the complaint verbatim in `workspace/feedback.md` with the date and the skill involved, then propose the smallest framework patch that would fix it. Do not apply framework changes silently.
@@ -22,7 +22,8 @@ Help a founder reach useful customer conversations early, learn from them, and a
 ## Evidence and writing
 
 - Keep assumptions, dated facts, and evidence separate. Use `knowledge/evidence/source-policy.md` and `knowledge/evidence/claims-register.md` for sourced guidance and claims that need tracking.
-- Outreach copy should be specific, low-hype, and tied to a real person, company, thread, or observed signal. Do not polish placeholders as if they were ready to send.
+- Outreach copy should be specific, low-hype, and tied to a real person, company, thread, or observed signal. Never present a draft that still contains placeholders or open markers as ready to send.
+- Draft-first: every drafting request returns one usable draft in the same turn, with missing or unverified context marked inline as `[SIGNAL: …]` or `[PRÜFEN: …]` per `knowledge/foundations/human-writing.md` (section `Draft-first and gap markers`). A marker never licenses an invented fact.
 - Do not invent customer pain, traction, replies, user quotes, relationship strength, pricing validation, or market evidence.
 - For market, legal, platform, deliverability, or pricing guidance, prefer current primary sources and mark stale or unverified facts explicitly.
 
@@ -35,7 +36,7 @@ Help a founder reach useful customer conversations early, learn from them, and a
 
 - Do not send, post, vote, scrape, bulk-enrich, or contact anyone automatically.
 - Browser tools may inspect current context read-only. They may prefill a reviewed draft only after an explicit request, and must stop before submit, send, post, connect, follow, vote, purchase, or booking confirmation.
-- Do not finalize outreach without a real person, organization, or discussion.
+- Do not finalize outreach without a real person, organization, or discussion; a marked draft or role-based skeleton is allowed, a send-ready claim is not.
 - Do not invent metrics, traction, user quotes, relationships, or source claims.
 - Keep assumptions separate from evidence and cite local source files for repository-derived facts.
 - Treat stale facts as stale; offer a refresh and never overwrite them silently.

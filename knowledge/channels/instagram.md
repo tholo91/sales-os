@@ -13,6 +13,8 @@ review_after: 2026-12-21
 
 Use this file only for a verified, individual public-comment draft. It is not a general Instagram sourcing, publishing, messaging, or analytics adapter.
 
+Reel scripts and the Instagram-Basis pack follow `knowledge/channels/instagram-reels.md`.
+
 - Inspect the actual post or Reel, its caption, the relevant comment, and nearby replies. A caption alone may not establish what the visual content says.
 - Reply to the author's point in the register visible in that thread. A short observation or good question is stronger than a rehearsed compliment; humor must fit the subject and the person's own tone.
 - If the target is another commenter, reply to that comment rather than addressing the post author as though they were the target.

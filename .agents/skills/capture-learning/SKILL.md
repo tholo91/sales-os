@@ -16,6 +16,7 @@ Require a real dated interaction or real set of logged interactions for review. 
 - `core/steps/learn.md`
 - `core/steps/route.md`
 - `templates/interaction.md`
+- `knowledge/strategies/recipient-context.md` when reviewing outreach outcomes
 - Contact, experiment, validation, ICP, and evidence artifacts affected by the interaction
 
 ## Safety boundary

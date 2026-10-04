@@ -27,12 +27,12 @@ Before publishing, have all five:
 
 ## A low-key founder pattern
 
-Use a small, credible claim rather than an announcement:
+For a peer-learning post, use a small, credible claim. For an explicit announcement, follow the supported channel adapter instead of forcing this pattern:
 
 1. Start with a specific situation or decision a peer will recognize.
 2. Show the evidence, failed attempt, trade-off, or useful artifact.
 3. State the narrow lesson; avoid declaring a universal truth.
-4. Ask one question that someone with relevant experience can answer.
+4. End with a relevant statement or one question that someone with relevant experience can answer.
 5. Reply in the same useful tone, including when the response is critical.
 
 Good: “We tested three ways to ask customers about [workflow]. The only version that produced concrete examples was [approach]. What wording has worked for you?”

@@ -11,6 +11,14 @@ Select a small set of real, newly added LinkedIn contacts who can plausibly crea
 
 Require an active project, a LinkedIn connection scope (default: newest 100), a target outcome, and a requested maximum number of drafts. If the founder has already contacted someone, do not create a new first-touch draft; route an existing exchange to follow-up or reply handling.
 
+## Required references
+
+- `knowledge/strategies/recipient-context.md` and `knowledge/strategies/first-touch.md` (`## Drafting card`)
+- `knowledge/personas/<persona>.md` sections `## Ask ladder` and `## Give-first asset` for the selected person's persona
+- `knowledge/channels/linkedin.md` and only the matching Germany/EU, US, or cross-border market reference
+- Active project evidence and the founder's matching channel/language voice
+- `knowledge/strategies/editorial-pitch.md` only for a verified, expected editorial route
+
 ## Selection priority
 
 Inspect the visible connection list newest-first. A contact qualifies only when at least one selection signal is verified from the current profile or public activity:
@@ -35,6 +43,8 @@ Use the score only to make selection consistent; do not present it as a factual 
 
 Select the highest-scoring contacts until the requested count is reached. If fewer qualify, say so instead of padding the list with famous but irrelevant names.
 
+This score is an internal prioritization heuristic, not a prediction of replies or permission to request distribution. Before drafting, use the five-field recipient-context check to choose the ask from the person's actual capability, relationship, possible benefit, and possible burden. A creator, researcher, editor, or NGO contact with similar reach may warrant a different purpose and next move. Keep motives as hypotheses and distinguish voluntary civic support from paid content deliverables.
+
 ## Freshness and evidence
 
 - A post may be used as a personalization hook only when its visible date is no older than 14 days by default. If the founder sets another window, record it explicitly.
@@ -45,19 +55,21 @@ Select the highest-scoring contacts until the requested count is reached. If few
 
 ## Draft shape
 
-Write one short LinkedIn DM per selected person, normally 45–90 words:
+Apply the first-message coaching in `knowledge/strategies/first-touch.md`. If the requested batch jumps prematurely to shares, introductions, or meetings, explain the correction once in the existing selection rationale and prepare the fitting drafts. Do not repeat the nudge for every contact or manufacture a question, compliment, or skill endorsement.
+
+Write one short LinkedIn DM per selected person, normally 40–90 words:
 
 1. one specific, verified opener from the profile or fresh public signal; this first sentence carries the reason to keep reading, but must not imitate an email subject or press headline;
 2. one short, honest reason for writing; mention the relevant Brief nach Berlin angle only when it explains the connection, without a product explanation;
-3. an optional, easy-to-answer question about the person's work or permission to share one relevant example. Omit it when it would feel forced.
+3. exactly one easy question from the ask ladder: permission to share one relevant example or a short question about the person's work or situation. For an organisation, the referral fallback line from `first-touch.md` belongs to that same ask.
 
-Every sentence must serve one of those three functions. Cut project history, feature lists, multiple story angles, a default meeting pitch, an early calendar link, and a second fallback ask. A short thank-you is optional when it sounds natural. Do not ask for a story, podcast booking, introduction, referral, share, or pilot in a cold first DM. After a substantive reply, respond to its content before proposing a larger next step; a referral or forward request must then be the single primary ask, not an extra request after another CTA.
+Every sentence must serve one of those three functions. Cut project history, feature lists, multiple story angles, a default meeting pitch, an early calendar link, and a second fallback ask. A short thank-you is optional when it sounds natural. Do not ask for a story, podcast booking, introduction, referral, share, or pilot in a cold first DM by default. An editorial pitch may instead offer one verified story angle and ask about editorial interest when this person's beat and exact contact route demonstrably invite such pitches; a journalist title or connection acceptance alone is insufficient. Follow `editorial-pitch.md` while retaining LinkedIn's native DM shape. After a substantive reply, respond to its content before proposing a larger next step; a referral or forward request must then be the single primary ask, not an extra request after another CTA. A reply to a narrow factual question does not by itself justify asking for an endorsement or share.
 
-Use Thomas's confirmed German voice from `workspace/voice.md`: personal, spoken, warm, low-hype, selective emojis, Bremen sign-off, and light human roughness. Do not copy the same opener across contacts, mention follower counts, or over-explain the product. If several well-matched contacts ignore the same angle, revisit the angle and evidence before cosmetically rewriting the opener or increasing volume; silence alone does not prove why they did not respond.
+Use the recipient's evidenced language and Thomas's confirmed matching voice from `workspace/voice.md`: personal, spoken, warm, and low-hype. For German recipients, retain his recorded German style; for English recipients, use recorded English voice when available or plain English without imitating a US sales script. Use emojis and a sign-off only when the channel and relationship support them. Check sender and recipient jurisdictions separately; Germany/EU and US writing defaults are hypotheses, not nationality rules. Do not copy the same opener across contacts, mention follower counts, or over-explain the product. If several well-matched contacts ignore the same angle, revisit the angle and evidence before cosmetically rewriting the opener or increasing volume; silence alone does not prove why they did not respond.
 
 ## Browser and safety boundary
 
-Use the user's logged-in Chrome only when explicitly requested. Inspect visible LinkedIn UI; do not scrape, export, bulk-enrich, or use private data. Prepare each reviewed message in its own compose tab, verify the recipient chip and body, and mark the tab as a deliverable. Never click Send, connect, follow, react, post, or submit. If the current signal or recipient identity is ambiguous, stop that draft and report the missing evidence.
+Use the user's logged-in Chrome only when explicitly requested. Inspect visible LinkedIn UI; do not scrape, export, bulk-enrich, or use private data. Prepare each reviewed message in its own compose tab, verify the recipient chip and body, and mark the tab as a deliverable. Never click Send, connect, follow, react, post, or submit. If the current signal is missing or ambiguous, still draft with `[SIGNAL: …]`/`[PRÜFEN: …]` markers per `knowledge/foundations/human-writing.md` and list it as not send-ready; if the recipient identity is ambiguous, do not prefill a compose tab until Thomas confirms the person.
 
 ## Direct output
 

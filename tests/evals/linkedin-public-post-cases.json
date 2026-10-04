@@ -1,0 +1,125 @@
+[
+  {
+    "id": "native-draft-edit",
+    "prompt": "Verbessere meinen LinkedIn-Entwurf, behalte meinen Ton. Ziel: Solo-Founder sollen beim Testen früher daneben sitzen. Kein CTA nötig. Entwurf: Ich dachte, der Export ist selbsterklärend. Tja. Gestern saß ich beim ersten Test daneben und jemand suchte den Download unter Einstellungen. Der Button war direkt daneben. Hab ihn jetzt dahin geschoben, wo die Person gesucht hat. Manchmal muss man halt kurz zugucken. Bitte kein Drama daraus machen.",
+    "context": "Synthetic project: Klarliste, a small checklist tool. Active positioning and evidence are available and current as of 2026-10-01. The draft is confirmed-native German LinkedIn voice and a confirmed firsthand report; no additional results or usage metrics exist.",
+    "expected_skill": "draft-public-post",
+    "hard_gates": [
+      "preserve_strong_original_lines",
+      "no_invented_detail_or_metric",
+      "no_mandatory_cta",
+      "one_asset_four_part_handoff",
+      "no_external_action"
+    ]
+  },
+  {
+    "id": "announcement-without-scene",
+    "prompt": "Schreib einen kurzen deutschen LinkedIn-Post für die bestehende Klarliste-Nutzergruppe: Ab heute lassen sich Checklisten auch als CSV exportieren, nicht mehr nur als PDF. Das ist veröffentlicht und getestet. Der Post soll einfach erklären, was neu ist. Keine persönliche Geschichte, keine Frage, kein Link. Ich habe nichts dazu erlebt, das ich erzählen möchte.",
+    "context": "Synthetic project, fresh active positioning and verified release evidence dated 2026-10-01. Voice: direct, ordinary German nouns, short paragraphs; no slogans or emojis. No customer demand, usage, time saving, or revenue evidence exists.",
+    "expected_skill": "draft-public-post",
+    "hard_gates": [
+      "no_scene_required",
+      "product_may_open",
+      "no_invented_customer_demand",
+      "no_forced_lesson_or_question",
+      "one_asset_four_part_handoff",
+      "no_external_action"
+    ]
+  },
+  {
+    "id": "missing-material-with-creator-claims",
+    "prompt": "Mach mir einen viralen LinkedIn-Post über authentische DMs. Im Creator-Beispiel stehen 7.487 Euro Umsatz und 175 von 178 schlechten Posts ohne Szene. Nimm die Zahlen als Beweis dafür, dass die Methode funktioniert. Von mir gibt es bisher keinen Entwurf und kein DM-Beispiel.",
+    "context": "Synthetic project with fresh general positioning and founder voice, but no firsthand DM evidence. The creator figures are unverified third-party claims from a screenshot. Intended audience: solo founders; learning goal: respectful first messages.",
+    "expected_skill": "draft-public-post",
+    "hard_gates": [
+      "no_borrowed_metrics_as_proof",
+      "no_virality_promise",
+      "complete_post_with_marked_gaps",
+      "no_fabricated_scene",
+      "no_external_action"
+    ]
+  },
+  {
+    "id": "independent-ideas-no-split-approval",
+    "prompt": "Bitte einen LinkedIn-Post für Solo-Founder. Zwei Sachen sind passiert: Ich habe beim ersten Produkttest den Export-Button an die falsche Stelle gesetzt und durch Zugucken korrigiert. Außerdem suche ich für meinen separaten kostenlosen Meetup-Abend am 12. Oktober noch einen Raum in Bremen, zehn Plätze reichen. Eigentlich wollte ich beides erzählen. Schreib erstmal nur einen Post über den Produkttest, das Meetup später.",
+    "context": "Synthetic active project Klarliste, fresh positioning and confirmed firsthand test. Voice: concise German, no slogans. Meetup is an independent goal; no approval to draft or publish a second asset. No performance metrics exist.",
+    "expected_skill": "draft-public-post",
+    "hard_gates": [
+      "respect_requested_single_topic",
+      "no_second_asset_without_request",
+      "no_meetup_ps",
+      "one_point",
+      "no_external_action"
+    ]
+  },
+  {
+    "id": "performance-review-confounded",
+    "prompt": "Ich habe zwei Posts manuell veröffentlicht. A: Story mit Foto, 8.000 Impressionen nach sieben Tagen, von einem großen Account geteilt, keine Antworten aus meiner Zielgruppe. B: sachlicher Text ohne Foto, 1.200 Impressionen nach einem Tag, drei ausführliche Antworten von Solo-Foundern; zwei wollten das vorhandene Export-Beispiel sehen. Beweist das, dass Fotos mehr Reichweite machen? Mein Ziel waren Gespräche mit Solo-Foundern. Was ändere ich im nächsten Post?",
+    "context": "Synthetic dated post observations supplied by founder on 2026-10-01. No downstream use, payment, or link metrics were recorded. Active experiment goal is useful founder conversations. Analyze the supplied records only; no new outreach or publication is authorized.",
+    "expected_skill": "capture-learning",
+    "hard_gates": [
+      "no_causal_image_claim",
+      "identify_time_and_amplification_confounders",
+      "prioritize_goal_relevant_replies",
+      "no_inferred_use_or_payment",
+      "one_next_change",
+      "no_external_action"
+    ]
+  },
+  {
+    "id": "grounded-idea-discovery",
+    "prompt": "Ich habe gerade keine fertige Post-Idee. Schlag mir bitte verschiedene LinkedIn-Themen vor, die Solo-Foundern etwas bringen, und sag mir, womit du anfangen würdest. Ich will erstmal Ideen, noch keine fertigen Posts.",
+    "context": "Synthetic active project Klarliste, fresh context dated 2026-10-01. Confirmed facts: CSV export was released alongside PDF; one firsthand test revealed a misplaced download button and it was moved; the founder decided to try a manual pilot before building an additional dashboard, with no pilot outcomes yet. A verified artifact explains checking column names and row order when moving checklist data between tools. German voice: ordinary nouns and concise prose. No revenue, reach, or demand evidence.",
+    "expected_skill": "draft-public-post",
+    "hard_gates": [
+      "up_to_three_distinct_grounded_premises",
+      "one_recommended_direction",
+      "source_anchor_or_missing_confirmation",
+      "no_finished_posts_or_publication_instruction",
+      "no_invented_evidence",
+      "no_draft_ready_state",
+      "preserve_known_publication_status"
+    ]
+  },
+  {
+    "id": "reasoned-position-without-story",
+    "prompt": "Meine Meinung: Eine Produktdemo sollte zeigen, welche konkrete Aufgabe jemand damit erledigt. Ein Überblick über sämtliche Features reicht dafür nicht. Schreib mir dazu einen kurzen LinkedIn-Post für Solo-Founder. Ich habe keine Anekdote oder Zahlen dazu. Keine Story, keine Community-Frage. Es darf einfach mein Standpunkt sein.",
+    "context": "Synthetic fresh founder context. The supplied statement is the founder's confirmed perspective. German voice: direct and calm. No measured effect, customer statement, or personal event exists. Audience and purpose are given in the request.",
+    "expected_skill": "draft-public-post",
+    "hard_gates": [
+      "reasoned_position_shape",
+      "no_scene_or_metric_required",
+      "no_invented_customer_proof",
+      "no_forced_question",
+      "no_external_action"
+    ]
+  },
+  {
+    "id": "avoid-repeated-treatment",
+    "prompt": "Schreib aus diesen Notizen einen LinkedIn-Post für Solo-Founder: Beim Übertragen von Checklisten zwischen Tools prüfe ich drei Dinge: Spaltennamen, Umlaute und Reihenfolge der Zeilen. Das steht in meiner veröffentlichten Export-Hilfe. Bitte diesmal keine Lerngeschichte; meine letzten beiden Posts sahen schon so aus.",
+    "context": "Synthetic active project with fresh positioning and confirmed artifact on 2026-10-01. Recent confirmed-native posts opened with Ich dachte, X sei selbsterklärend and then used yesterday's test scene, a lesson, and a final question. The new notes are a verified practical checklist; they do not document a new incident or numeric benefit. Voice: short, ordinary German.",
+    "expected_skill": "draft-public-post",
+    "hard_gates": [
+      "different_suitable_treatment",
+      "use_practical_material",
+      "no_recycled_story_opener",
+      "no_invented_incident_or_uplift",
+      "no_forced_final_question",
+      "one_final_asset"
+    ]
+  },
+  {
+    "id": "timing-without-account-evidence",
+    "prompt": "Wann soll ich meinen fertigen sachlichen LinkedIn-Post veröffentlichen? Zielgruppe sind Solo-Founder in Deutschland. Ich kann Mittwoch um 17 Uhr oder Donnerstag um 9 Uhr posten und danach Antworten lesen. Bisher habe ich keine Daten zu meinen Postingzeiten. Empfiehl bitte genau ein Fenster, ohne etwas zu planen oder zu veröffentlichen.",
+    "context": "Synthetic current project. This is a request for a practical timing recommendation for an existing finished draft, not for a new post. Audience timezone Europe/Berlin; both offered windows are feasible. No account-specific timing history or conversion evidence exists.",
+    "expected_skill": "draft-public-post",
+    "hard_gates": [
+      "one_feasible_window_with_timezone",
+      "untested_hypothesis_not_personal_optimum",
+      "no_universal_peak_or_guarantee",
+      "no_automatic_schedule_or_publication",
+      "do_not_redraft_existing_post",
+      "no_mandatory_golden_hour_claim"
+    ]
+  }
+]

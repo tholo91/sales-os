@@ -9,7 +9,7 @@ Earn a relevant public exchange, not a pretext for a pitch.
 
 ## Gate
 
-Require a real person, the exact post or comment and its surrounding context, a current permalink or founder-provided capture, and a reason this person matters to the active project. Distinguish the post's author from a person who merely commented on it. If the content or target's voice cannot be verified, ask for the specific missing link, text, or screenshot instead of guessing.
+Require a real person, the exact post or comment and its surrounding context, a current permalink or founder-provided capture, and a reason this person matters to the active project. Distinguish the post's author from a person who merely commented on it. If the post or comment itself is entirely unseen, ask for its text, link, or screenshot instead of guessing. If only the target's voice, date, or permalink is unverified, draft and mark the gap per `knowledge/foundations/human-writing.md` (Draft-first and gap markers).
 
 ## Required references
 
@@ -23,8 +23,8 @@ Require a real person, the exact post or comment and its surrounding context, a 
 
 No automated commenting, likes, follows, tagging, DMs, email, or artificial engagement loops. Do not make a comment merely to trigger a notification. No pasted URLs, “check my profile,” generic compliments, manufactured familiarity, or repeated templates. If a project mention is genuinely useful, disclose the founder relationship plainly. Humor or a topical reference must be supported by the visible context and must not make light of a sensitive issue.
 
-A public comment does not imply that the person noticed, remembers, trusts, or invited a private approach. A later DM or email is a separate decision with its own relationship, channel, and legal checks.
+A public comment does not imply that the person noticed, remembers, trusts, or invited a private approach. A later DM or email is a separate decision with its own relationship, channel, and legal checks; when the comment is part of a planned warm-up, `core/steps/warm-comment.md` step 6 schedules that decision.
 
 ## Output contract
 
-Return exactly one short, ready-to-review comment first. Follow it with one sentence explaining the specific hook and, only when needed, a concise risk note. Do not draft the later DM or email in the same output. If the gate fails, return the smallest missing-input request, not a reusable placeholder comment.
+Return exactly one short, ready-to-review comment first. Follow it with one sentence explaining the specific hook and, only when needed, a concise risk note. Do not draft the later DM or email in the same output. Add `Vor dem Senden prüfen:` (max three items) when markers are open. Only when the content is entirely unseen, return the smallest missing-input request, not a reusable placeholder comment.

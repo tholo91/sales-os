@@ -9,4 +9,7 @@ updated_at: null
 # `contacts/<target_ref>.md`; the source must resolve to an interaction record.
 # Contact files may reference an action id but must not duplicate its due date
 # or reason. Status is one of: open, blocked, completed, or cancelled.
+# Optional on follow_up, decision_follow_up and inbound_reply: `touch`
+# (T1 | F1 | F2 | commitment | RC, per the touch plan in
+# knowledge/strategies/follow-up.md) and `persona` (slug). The router ignores both.
 actions: []

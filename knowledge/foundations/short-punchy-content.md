@@ -2,11 +2,11 @@
 source_url: null
 publisher: Sales OS
 retrieved_at: 2026-09-01
-last_verified_at: 2026-09-01
+last_verified_at: 2026-10-01
 jurisdiction: global
 license_or_terms: project guidance
 confidence: high
-review_after: 2027-03-01
+review_after: 2027-04-01
 ---
 
 # Short, punchy public content
@@ -19,15 +19,17 @@ This is a skeleton, not a persona. The founder's real wording, rhythm, humour, r
 
 ## Core shape
 
-Build each post around one earned idea:
+Build each post around one earned idea. For a personal learning story, this shape can help:
 
 1. **Scene:** a real moment, observation, result, failed attempt, or quote the founder can own.
 2. **Tension:** what was unclear, difficult, surprising, or emotionally relevant.
 3. **Lesson:** one narrow thing learned from that moment.
 4. **Payoff:** one to three concrete actions, examples, or implications.
-5. **Handoff:** one question or next step for the intended reader.
+5. **Handoff:** a relevant statement, question, or next step for the intended reader.
 
-The first lines should create curiosity through a specific detail and an open loop. They should sound like a thought from the story, not a generic headline. Cut greetings, scene-setting, product history, and broad mission language unless the story needs them.
+An evidence-led insight can start with an observation or artifact; an announcement can start with what changed and who benefits. Do not require a scene, dramatic tension, or life lesson when the material does not support it.
+
+The first lines should make a concrete, relevant promise that the body delivers. Curiosity may come from a specific detail; an open loop is optional. Preserve strong original wording when editing. Cut greetings, preamble, product history, and broad mission language unless the point needs them.
 
 ## Punchy default
 
@@ -36,7 +38,7 @@ The first lines should create curiosity through a specific detail and an open lo
 - Keep one point per paragraph.
 - Prefer a real number, object, place, or quote over an adjective.
 - Remove any sentence that does not advance the story, lesson, payoff, or question.
-- Use one CTA at most. A question is enough when the goal is learning or conversation.
+- Use one CTA at most, counting any PS or second invitation. A natural statement can be enough; a question belongs only when the reader's experience would advance the goal.
 - Stop when the point is made. Do not expand to fill a platform's presumed ideal length.
 
 Short does not mean shallow. Keep facts, uncertainty, source boundaries, privacy information, and relevant context when they are necessary for trust.
@@ -57,7 +59,7 @@ When the founder asks for one post but the material clearly contains two strong 
 
 Emotional language must come from a true human detail, not from motivational decoration. A family story, a thank-you message, a first user action, or a funny physical comparison can be powerful when it is documented and used in its real context.
 
-For Brief nach Berlin, the mother's story, messages from people who wrote their first letter, and the freshly-pierced Nutella-jar comparison are available angles only when the exact wording and facts are confirmed for the specific post. Do not turn one thank-you into a general traction claim, or describe someone as “democratically active” unless that is their own or the founder's precise, defensible framing.
+Keep founder anecdotes and sample wording in the private workspace. Use them only when the exact wording and facts are confirmed for the specific post. Do not turn one thank-you into a general traction claim or a created document into proof that someone sent it.
 
 Emotion opens attention. Evidence earns trust. The post needs both when the topic involves a product, civic action, money, health, or another high-trust decision.
 
@@ -66,12 +68,13 @@ Emotion opens attention. Evidence earns trust. The post needs both when the topi
 Before returning a draft, check:
 
 - Can the story be traced to a real source or founder experience?
-- Is there exactly one central lesson?
+- Is there one central point, whether lesson, observation, or announcement?
 - Does the reader get a useful payoff without clicking or buying?
-- Is the question answerable from personal experience?
+- If there is a question, is it answerable from relevant personal experience?
 - Would splitting create two stronger posts?
 - Is the CTA asking for the intended learning, not vanity engagement?
 - Does the draft sound like this founder on this platform?
 - Would the founder actually say it this way without the framework?
+- Does the ending fulfill the opening's promise without introducing another pitch?
 
 Virality is an outcome to observe, never a promise or the primary success criterion. Track substantive replies, relevant conversations, and the next behavioural signal alongside reach.

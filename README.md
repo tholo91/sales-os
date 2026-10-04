@@ -6,7 +6,7 @@ Sales OS is a private, file-based sales copilot for founder-led customer discove
 
 1. Open this repository with a supported agent and say: **`Use $sales-copilot for <project>.`**
 2. Answer only the missing setup questions. Sales OS stores founder, project, contact, interaction, and draft context under the gitignored `workspace/` directory.
-3. Review the one recommended action or draft, then send, post, call, or reply yourself.
+3. Review the one recommended action or draft, resolve any `[SIGNAL: …]` or `[PRÜFEN: …]` markers, then send, post, call, or reply yourself.
 4. Return with the real outcome. `$sales-copilot` records the learning and routes the next phase.
 
 Use `$sales-copilot` as the single user-facing entrypoint. The specialist skills in `.agents/skills/` are internal routing targets, not a menu the founder must learn.
@@ -54,9 +54,9 @@ When live access is unavailable, provide the permalink, pasted text, screenshot,
 
 ## Status
 
-The current system supports setup, validation, live public-context research, evidence-based drafting, manual outreach logging, follow-up decisions, call preparation, objection and pricing preparation, learning capture, and lifecycle routing. Sending automation, scraping, CRM sync, ads, and bulk enrichment are intentionally out of scope.
+The current system supports setup, validation, live public-context research, draft-first drafting with marked gaps, persona playbooks for recipients such as media, creators, NGOs, funders, and buyers, a weekly pipeline board, manual outreach logging, follow-up decisions, call preparation, objection and pricing preparation, learning capture, and lifecycle routing. Sending automation, scraping, CRM sync, ads, and bulk enrichment are intentionally out of scope.
 
-LinkedIn, Reddit, email, phone, Slack, and warm-network guidance are curated today. A narrow `warm-contact-comment` skill can draft one manually reviewed public comment for a verified person and post, including on Instagram or YouTube. It does not source targets, post comments, or grant permission for a later DM or email. Instagram, YouTube, and TikTok do not have general end-to-end channel adapters.
+LinkedIn, Reddit, email, phone, Slack, and warm-network guidance are curated today. A narrow `warm-contact-comment` skill can draft one manually reviewed public comment for a verified person and post, including on Instagram or YouTube. It does not source targets, post comments, or grant permission for a later DM or email. `draft-reel` writes Instagram Reel scripts (on-camera or faceless) that the founder films and posts. Instagram, YouTube, and TikTok still do not have general end-to-end channel adapters, and nothing is sent or posted automatically.
 
 ## Community
 

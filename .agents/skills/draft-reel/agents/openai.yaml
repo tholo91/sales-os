@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft Reel"
+  short_description: "Draft one on-camera or faceless Reel script"
+  default_prompt: "Use $draft-reel to turn this real project material into one Instagram Reel script with hook, beats, caption, and test plan."

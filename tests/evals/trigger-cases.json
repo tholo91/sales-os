@@ -37,7 +37,7 @@
   {"id":"draft-outreach-p1","subject_skill":"draft-outreach","kind":"positive","prompt":"Draft one LinkedIn message for the selected founder using their verified post wording and visible formality.","expected_skill":"draft-outreach"},
   {"id":"draft-outreach-p2","subject_skill":"draft-outreach","kind":"positive","prompt":"Critique my first-touch email to this real editor; the relationship and jurisdiction checks are attached.","expected_skill":"draft-outreach"},
   {"id":"draft-outreach-p3","subject_skill":"draft-outreach","kind":"positive","prompt":"Write a Reddit comment for this verified thread after checking the subreddit rule and tone notes.","expected_skill":"draft-outreach"},
-  {"id":"draft-outreach-n1","subject_skill":"draft-outreach","kind":"near_miss","prompt":"Write a polished DM to [Name] at [Company]; I have no post or context yet.","expected_skill":"find-conversations"},
+  {"id":"draft-outreach-n1","subject_skill":"draft-outreach","kind":"near_miss","prompt":"Nobody is selected yet. Who could I contact this week for the NGO campaign angle?","expected_skill":"find-conversations"},
   {"id":"draft-outreach-n2","subject_skill":"draft-outreach","kind":"near_miss","prompt":"Find five current discussions and record how people describe the problem.","expected_skill":"find-conversations"},
   {"id":"draft-outreach-n3","subject_skill":"draft-outreach","kind":"near_miss","prompt":"We messaged this person last week and now have a new reason to reappear.","expected_skill":"handle-follow-up"},
 
@@ -55,7 +55,7 @@
   {"id":"handle-follow-up-n2","subject_skill":"handle-follow-up","kind":"near_miss","prompt":"I sent a message yesterday but never logged the attempt, and nobody replied. Record the manual send.","expected_skill":"record-outreach"},
   {"id":"handle-follow-up-n3","subject_skill":"handle-follow-up","kind":"near_miss","prompt":"A real reply arrived and has not been logged yet.","expected_skill":"capture-learning"},
 
-  {"id":"prepare-call-p1","subject_skill":"prepare-call","kind":"positive","prompt":"A podcast host agreed to a validation call Friday. Prepare five behavior questions.","expected_skill":"prepare-call"},
+  {"id":"prepare-call-p1","subject_skill":"prepare-call","kind":"positive","prompt": "Morgen habe ich ein Vorgespräch mit einer Stiftung, Name weiß ich noch nicht.","expected_skill":"prepare-call"},
   {"id":"prepare-call-p2","subject_skill":"prepare-call","kind":"positive","prompt":"My product demo is tomorrow; define what to show, what not to show, and one close.","expected_skill":"prepare-call"},
   {"id":"prepare-call-p3","subject_skill":"prepare-call","kind":"positive","prompt":"Prepare the real pilot conversation, including likely price resistance and the scope boundary.","expected_skill":"prepare-call"},
   {"id":"prepare-call-n1","subject_skill":"prepare-call","kind":"near_miss","prompt":"No participant exists yet. Give me questions to validate the general idea.","expected_skill":"validate-problem"},
@@ -109,5 +109,19 @@
   {"id":"reddit-dm-p3","subject_skill":"reddit-dm","kind":"positive","prompt":"Critique this incoming Reddit cold DM using the exact thread and subreddit context.","expected_skill":"reddit-dm"},
   {"id":"reddit-dm-n1","subject_skill":"reddit-dm","kind":"near_miss","prompt":"The subreddit prefers public answers and the person did not invite a DM. Write a useful comment.","expected_skill":"draft-outreach"},
   {"id":"reddit-dm-n2","subject_skill":"reddit-dm","kind":"near_miss","prompt":"Find five current Reddit discussions where this problem appears.","expected_skill":"find-conversations"},
-  {"id":"reddit-dm-n3","subject_skill":"reddit-dm","kind":"near_miss","prompt":"I already sent a Reddit DM and now have a new promised reason to follow up.","expected_skill":"handle-follow-up"}
+  {"id":"reddit-dm-n3","subject_skill":"reddit-dm","kind":"near_miss","prompt":"I already sent a Reddit DM and now have a new promised reason to follow up.","expected_skill":"handle-follow-up"},
+
+  {"id":"draft-reel-p1","subject_skill":"draft-reel","kind":"positive","prompt":"Write a 20-second faceless Reel script that demos the tool with a bus complaint and my own voiceover.","expected_skill":"draft-reel"},
+  {"id":"draft-reel-p2","subject_skill":"draft-reel","kind":"positive","prompt":"Ich will ein Reel mit mir vor der Kamera über eine Frage aus meiner Familie. Gib mir Hook, Beats und Caption.","expected_skill":"draft-reel"},
+  {"id":"draft-reel-p3","subject_skill":"draft-reel","kind":"positive","prompt":"Give me the faceless twin and two test hooks for my existing on-camera Reel body so I can run the face-vs-faceless pair.","expected_skill":"draft-reel"},
+  {"id":"draft-reel-n1","subject_skill":"draft-reel","kind":"near_miss","prompt":"Turn yesterday's bus-complaint demo into a LinkedIn text post with one real photo.","expected_skill":"draft-public-post"},
+  {"id":"draft-reel-n2","subject_skill":"draft-reel","kind":"near_miss","prompt":"This creator's Reel asks viewers what they can do about rents. Draft one public comment before I consider a DM.","expected_skill":"warm-contact-comment"},
+  {"id":"draft-reel-n3","subject_skill":"draft-reel","kind":"near_miss","prompt":"Draft my first Instagram DM to the politics creator whose Reel I commented on last week; we have never messaged.","expected_skill":"draft-outreach"},
+
+  {"id":"linkedin-multipliers-p1","subject_skill":"linkedin-multipliers","kind":"positive","prompt":"Geh meine neuesten 100 LinkedIn-Kontakte durch und such mir fünf Multiplikatoren für Brief nach Berlin raus, mit je einem Entwurf.","expected_skill":"linkedin-multipliers"},
+  {"id":"linkedin-multipliers-p2","subject_skill":"linkedin-multipliers","kind":"positive","prompt":"Rank this week's newly added LinkedIn connections by media access and visible reach, then prepare three unsent DMs.","expected_skill":"linkedin-multipliers"},
+  {"id":"linkedin-multipliers-p3","subject_skill":"linkedin-multipliers","kind":"positive","prompt":"Which of my recent LinkedIn connections could get Brief nach Berlin in front of journalists or NGOs? Draft for the top two.","expected_skill":"linkedin-multipliers"},
+  {"id":"linkedin-multipliers-n1","subject_skill":"linkedin-multipliers","kind":"near_miss","prompt":"I already picked one person: draft a LinkedIn message to the local editor I connected with yesterday.","expected_skill":"draft-outreach"},
+  {"id":"linkedin-multipliers-n2","subject_skill":"linkedin-multipliers","kind":"near_miss","prompt":"Find NGOs outside my network that announced a rent campaign for next month.","expected_skill":"find-conversations"},
+  {"id":"linkedin-multipliers-n3","subject_skill":"linkedin-multipliers","kind":"near_miss","prompt":"A new LinkedIn connection answered my DM with a question about data protection. Draft my answer.","expected_skill":"handle-reply"}
 ]
