@@ -11,7 +11,7 @@ review_after: 2027-01-04
 
 # Persona: creators and influencers
 
-Load for unpaid civic asks to politics and explainer creators (Instagram/TikTok), independent YouTube explainers, LinkedIn society creators, local micro creators, satire and activist creators. Public-broadcaster formats (funk/ARD/ZDF) are journalism: use `knowledge/personas/media-podcasts.md` and `knowledge/strategies/editorial-pitch.md`, never a "Kooperation". Gap markers follow `knowledge/foundations/human-writing.md` `## Draft-first and gap markers`. Evidence: Medienanstalten Leitfaden Werbekennzeichnung 2024, § 5a UWG, TechCrunch 2023-08-03, Engadget 2024-11-01, Bertelsmann 2025, LfM NRW 2025, CreatorIQ 2025 (vendor, paid deals); details in the research file. No reply-rate benchmark for unpaid civic creator asks exists; only tracked outcomes count.
+Load for unpaid civic asks to politics and explainer creators (Instagram/TikTok), independent YouTube explainers, LinkedIn society creators, local micro creators, satire and activist creators. Public-broadcaster formats (funk/ARD/ZDF) are journalism: use `knowledge/personas/media-podcasts.md` and `knowledge/strategies/editorial-pitch.md`, never a "Kooperation". Gap markers follow `knowledge/foundations/human-writing.md` `## Draft-first and gap markers`. Evidence: Medienanstalten Leitfaden Werbekennzeichnung 2024, § 5a UWG, TechCrunch 2023-08-03, Engadget 2024-11-01, Bertelsmann 2025, LfM NRW 2025, CreatorIQ 2025 (vendor, paid deals), Blume 2026 (one education creator's practitioner report, `research/2026-10-07-creator-reach-practitioner-report.md`); details in the research files. No reply-rate benchmark for unpaid civic creator asks exists; only tracked outcomes count.
 
 ## Who and what they get flooded with
 
@@ -31,10 +31,14 @@ Load for unpaid civic asks to politics and explainer creators (Instagram/TikTok)
 - Vet their last ~10 posts first. 28% of high-reach political influencer posts build enemy images (LfM NRW 2025): skip accounts that would frame the project as a weapon, or ask for the neutral frame ("egal, wo du stehst").
 - Direct address beats self-praise for young audiences (Bertelsmann 2025, experiment): "Du ärgerst dich über X? So landet das bei der zuständigen Stelle", not "tolles Tool". No follower counts, no generic praise.
 - Sort order is real: creator inboxes filter requests by sender type and sort by follower count (Engadget 2024-11-01), so a thread they started or answered beats a cold request.
+- Reach is their work, built over years. One ask covers one role: trying the project (their time), giving feedback (their expertise) or sharing it (their reach). Bundling all three is the most expensive ask and reads as entitled (Blume 2026).
+- Say exactly what you want. A friendly "Darf ich dir was schicken?" that hides a share request reads as evasive; name the real goal in half a sentence (Blume 2026).
+- Mass-sent or recognisably AI-written messages get ignored; most creators answer alone, without a team. Name the specific piece of their work and one detail only the founder can know (Blume 2026).
 
 ## Channel and entry path
 
-- Warm up first: 1–2 substantive comments or one story reply over 7–14 days, no link, no pitch (`core/steps/warm-comment.md`).
+- Size the target to the founder (Treppe): prefer many creators near the founder's own reach over one far larger account, and move up as own reach grows. Without own reach, the argument is content value for their audience (the angle above), never reach for reach (Blume 2026; heuristic, see claims register).
+- Warm up first: follow them, then 1–2 substantive comments or one story reply over 7–14 days, no link, no pitch (`core/steps/warm-comment.md`). That fits creators near the founder's size. For far larger creators the runway is months of following, commenting and, where it genuinely fits, sharing their work, so they know the name when the ask comes; otherwise park them. Only for creators whose work the founder genuinely follows (Blume 2026).
 - Instagram, non-follower: ONE text-only message request until accepted; no link, clip, image or voice note (TechCrunch 2023-08-03) [PRÜFEN: current Meta rules]. It must stand alone in about 80 words or fewer. A second DM into an unaccepted request is not possible and not drafted.
 - The founder profile must already have the Instagram-Basis (bio, 2 pinned carousels, 1 demo Reel; `knowledge/channels/instagram-reels.md`) before the first creator DM.
 - Under ~50k followers: comment or story reply → one DM. Above ~50k: the bio email or management. Always honour the contact preference in the bio; a published "Kooperationsanfragen" address is still email under UWG §7.
@@ -42,7 +46,7 @@ Load for unpaid civic asks to politics and explainer creators (Instagram/TikTok)
 
 ## Ask ladder
 
-1. Permission: "Soll ich dir mal ein Beispiel zu [Thema] schicken?" (for a letter tool: a Beispielbrief).
+1. Permission plus the honest goal: "Mein Hintergedanke, ganz offen: dass du's irgendwann deinen Leuten zeigst. Soll ich dir mal ein Beispiel zu [Thema] schicken?" (for a letter tool: a Beispielbrief). Naming the goal avoids the vague ask (Blume 2026) and promises nothing in return.
 2. After a yes and the kit: "Wann planst du das nächste Video zu [Thema]?" Offer one topical date only if they have no plan; two date options read like a sales close on an unpaid favour.
 3. Commitment: a dated story or Reel in their own format and words. A Collab post only if the creator initiates it [PRÜFEN: rechtliche Sicht].
 
@@ -59,14 +63,14 @@ Lead = a dated commitment (story or Reel on a named day, pinned link, campaign p
 
 Skelett – nicht sendefertig. Instagram DM after the creator answered a comment; text only, no link, under 80 words.
 
-> Moin [Vorname], [SIGNAL: was sie geantwortet hat, sinngemäß] (unter deinem Reel zu [SIGNAL: Thema + Datum]). Darunter fragen einige „[SIGNAL: Frage aus den Kommentaren, wörtlich, nur wenn sie dort steht]“. Ich hab [Projekt in einem Satz: was man eingibt, was rauskommt, wer selbst handelt] gebaut, kostenlos und parteiunabhängig [PRÜFEN: Formulierung, Träger/Förderhinweis]. Soll ich dir mal ein Beispiel zu [SIGNAL: Thema] schicken?
+> Moin [Vorname], [SIGNAL: was sie geantwortet hat, sinngemäß] (unter deinem Reel zu [SIGNAL: Thema + Datum]). Darunter fragen einige „[SIGNAL: Frage aus den Kommentaren, wörtlich, nur wenn sie dort steht]“. Ich hab [Projekt in einem Satz: was man eingibt, was rauskommt, wer selbst handelt] gebaut, kostenlos und parteiunabhängig [PRÜFEN: Formulierung, Träger/Förderhinweis]. Mein Hintergedanke, ganz offen: dass du's irgendwann deinen Leuten zeigst. Soll ich dir mal ein Beispiel zu [SIGNAL: Thema] schicken?
 > [Vorname]
 
 Variants: LinkedIn creator = their post → one checked observation from the project [PRÜFEN: belegbar] → "Deckt sich das mit dem, was du hörst?". Local micro creator = their local story → "Soll ich dir zeigen, wie das zu [SIGNAL: lokales Thema] aussehen würde?" [PRÜFEN: lokales Routing live?]. If the draft works unchanged for another creator, it is not ready.
 
 ## Touch plan
 
-Override of the default table in `knowledge/strategies/follow-up.md`: T1 only after the 7–14-day warm-up; F1 +5–8 days only with new value and only in an accepted thread (LinkedIn creators: F1 +5–8 days in the existing thread). F1 value is an existing example only; no custom build unless the contact is one of the week's ≤3 top targets, else park. Unaccepted IG request: no DM; an inquiry email named in the bio is a stated route, allowed once; else one more genuine comment and stop. No F2; at most 3 touches across channels, public comments included.
+Override of the default table in `knowledge/strategies/follow-up.md`: T1 only after the warm-up (7–14 days near the founder's own reach, months for far larger creators); F1 +5–8 days only with new value and only in an accepted thread (LinkedIn creators: F1 +5–8 days in the existing thread). F1 value is an existing example only; no custom build unless the contact is one of the week's ≤3 top targets, else park. Unaccepted IG request: no DM; an inquiry email named in the bio is a stated route, allowed once; else one more genuine comment and stop. No F2; at most 3 touches across channels, public comments included.
 Reopen only on a new trigger, at most once a quarter, as a new T1. After a yes: kit within 24 h, one line 2 days before the date ("fehlt dir noch was?"), reshare on post day, thanks plus result after 3–7 days only if measurable.
 
 ## Call kit
@@ -81,7 +85,8 @@ Creators rarely want calls: offer 15 minutes or a voice note.
 ## Risks
 
 - Disclosure, political-ad and email rules (§ 5a UWG, Werbekennzeichnung, UWG §7, Meta EU issue-ad stop): `knowledge/markets/germany-eu.md` `## Rechtliche Kurzreferenz für Outreach`. Risk guidance, not legal advice; whether a non-partisan civic tool counts as political advertising is open.
-- Never: payment, perks, tickets, travel, merch, reciprocal promo or boosting (any consideration turns a share into labelled, partly prohibited political advertising); "unbezahlte Werbung" labels; scripts or captions to copy; a link in the first IG DM; a founder-scripted Collab; "teilt das" CTAs; follower-count mentions; generic praise.
+- Never: payment, perks, tickets, travel, merch, reciprocal promo or boosting (any consideration turns a share into labelled, partly prohibited political advertising); "unbezahlte Werbung" labels; scripts or captions to copy; a link in the first IG DM; a founder-scripted Collab; "teilt das" CTAs; follower-count mentions; generic praise; one ask bundling trial, feedback and sharing; repeated tags or forwards without a personal line; asking someone the founder does not follow.
+- Reciprocity: a practitioner creator explicitly values asks that acknowledge support is not one-way (Blume 2026). Keep it to acknowledgment ("ist nicht selbstverständlich") and to genuine earlier shares of their work; never promise a return favour for the share (consideration risk above). Conflict recorded in the research file.
 - Reputation: enemy-framed creators make the project look like one camp's tool; activist creators fear an "AI letter generator" label, so stress that people edit and send themselves, offer the same tool to everyone, and let them pick the issue.
 - Data: minimal creator notes in `workspace/`, UTM carries only the handle, no scraping or bulk enrichment. Write and post every comment and DM manually.
 
