@@ -11,7 +11,9 @@ review_after: 2027-01-04
 
 # Persona: creators and influencers
 
-Load for unpaid civic asks to politics and explainer creators (Instagram/TikTok), independent YouTube explainers, LinkedIn society creators, local micro creators, satire and activist creators. Public-broadcaster formats (funk/ARD/ZDF) are journalism: use `knowledge/personas/media-podcasts.md` and `knowledge/strategies/editorial-pitch.md`, never a "Kooperation". Gap markers follow `knowledge/foundations/human-writing.md` `## Draft-first and gap markers`. Evidence: Medienanstalten Leitfaden Werbekennzeichnung 2024, § 5a UWG, TechCrunch 2023-08-03, Engadget 2024-11-01, Bertelsmann 2025, LfM NRW 2025, CreatorIQ 2025 (vendor, paid deals), Blume 2026 (one education creator's practitioner report, `research/2026-10-07-creator-reach-practitioner-report.md`); details in the research files. No reply-rate benchmark for unpaid civic creator asks exists; only tracked outcomes count.
+Load for unpaid civic asks to politics and explainer creators (Instagram/TikTok), independent YouTube explainers, LinkedIn society creators, local micro creators, satire and activist creators. Public-broadcaster formats (funk/ARD/ZDF) are journalism: use `knowledge/personas/media-podcasts.md` and `knowledge/strategies/editorial-pitch.md`, never a "Kooperation". Gap markers follow `knowledge/foundations/human-writing.md` `## Draft-first and gap markers`. Evidence: Medienanstalten Leitfaden Werbekennzeichnung 2024, § 5a UWG, TechCrunch 2023-08-03, Engadget 2024-11-01, Bertelsmann 2025, LfM NRW 2025, CreatorIQ 2025 (vendor, paid deals), Blume 2026 (one education creator's practitioner report, `research/2026-10-07-creator-reach-practitioner-report.md`), Blume Q&A 2026 (same creator's live Q&A follow-up, `research/2026-10-13-creator-outreach-live-qa.md`); details in the research files. No reply-rate benchmark for unpaid civic creator asks exists; only tracked outcomes count.
+
+Reach comes after need: if the end users (e.g. schools for a school product) have not confirmed the problem and when they would use the solution, route to `validate-problem` first. Creator reach does not fix a product nobody asked for (Blume Q&A 2026).
 
 ## Who and what they get flooded with
 
@@ -34,14 +36,16 @@ Load for unpaid civic asks to politics and explainer creators (Instagram/TikTok)
 - Reach is their work, built over years. One ask covers one role: trying the project (their time), giving feedback (their expertise) or sharing it (their reach). Bundling all three is the most expensive ask and reads as entitled (Blume 2026).
 - Say exactly what you want. A friendly "Darf ich dir was schicken?" that hides a share request reads as evasive; name the real goal in half a sentence (Blume 2026).
 - Mass-sent or recognisably AI-written messages get ignored; most creators answer alone, without a team. Name the specific piece of their work and one detail only the founder can know (Blume 2026).
+- Write it like a job application: why this creator, specifically, fits what the project does, and proof that the founder understood their work. The strongest proof is something the founder already made about it (a lesson built on their video, a post analysing it); mention it only if it exists (Blume Q&A 2026).
 
 ## Channel and entry path
 
-- Size the target to the founder (Treppe): prefer many creators near the founder's own reach over one far larger account, and move up as own reach grows. Without own reach, the argument is content value for their audience (the angle above), never reach for reach (Blume 2026; heuristic, see claims register).
+- Size the target to the founder (Treppe): prefer many creators near the founder's own reach over one far larger account, and move up as own reach grows. Without own reach, the argument is content value for their audience (the angle above), never reach for reach. Audience fit beats size: a large account with a broad audience may move nothing for a niche project, while many small creators inside the niche build awareness (Blume 2026; Blume Q&A 2026; heuristic, see claims register).
 - Warm up first: follow them, then 1–2 substantive comments or one story reply over 7–14 days, no link, no pitch (`core/steps/warm-comment.md`). That fits creators near the founder's size. For far larger creators the runway is months of following, commenting and, where it genuinely fits, sharing their work, so they know the name when the ask comes; otherwise park them. Only for creators whose work the founder genuinely follows (Blume 2026).
 - Instagram, non-follower: ONE text-only message request until accepted; no link, clip, image or voice note (TechCrunch 2023-08-03) [PRÜFEN: current Meta rules]. It must stand alone in about 80 words or fewer. A second DM into an unaccepted request is not possible and not drafted.
 - The founder profile must already have the Instagram-Basis (bio, 2 pinned carousels, 1 demo Reel; `knowledge/channels/instagram-reels.md`) before the first creator DM.
 - Under ~50k followers: comment or story reply → one DM. Above ~50k: the bio email or management. Always honour the contact preference in the bio; a published "Kooperationsanfragen" address is still email under UWG §7.
+- Via management: say openly whether there is a budget and how small it is, show you know their work, and expect a paid request; effort such as travel days often weighs more than the fee. Do not expect top-celebrity management to answer a small project (Blume Q&A 2026). Paid civic shares: see `## Risks`.
 - LinkedIn creators: substantive comment → note-free connect → DM with one observation and a conversation question. Register: du unless their channel signals Sie.
 
 ## Ask ladder
@@ -72,6 +76,7 @@ Variants: LinkedIn creator = their post → one checked observation from the pro
 
 Override of the default table in `knowledge/strategies/follow-up.md`: T1 only after the warm-up (7–14 days near the founder's own reach, months for far larger creators); F1 +5–8 days only with new value and only in an accepted thread (LinkedIn creators: F1 +5–8 days in the existing thread). F1 value is an existing example only; no custom build unless the contact is one of the week's ≤3 top targets, else park. Unaccepted IG request: no DM; an inquiry email named in the bio is a stated route, allowed once; else one more genuine comment and stop. No F2; at most 3 touches across channels, public comments included.
 Reopen only on a new trigger, at most once a quarter, as a new T1. After a yes: kit within 24 h, one line 2 days before the date ("fehlt dir noch was?"), reshare on post day, thanks plus result after 3–7 days only if measurable.
+Yes without a date ("grundsätzlich gern, gerade schwierig", "erinner mich"): the thread stays open as an invited delay (`core/steps/reply.md`). Ask once when to check back, then remind on that timing and again after each postponement with its new date: short, transparent about the open point, acknowledging their workload, until it happens or they say no. If unsure whether a reminder is welcome, ask. Without such a signal the limits above stand (Blume Q&A 2026; heuristic, see claims register).
 
 ## Call kit
 
@@ -86,7 +91,7 @@ Creators rarely want calls: offer 15 minutes or a voice note.
 
 - Disclosure, political-ad and email rules (§ 5a UWG, Werbekennzeichnung, UWG §7, Meta EU issue-ad stop): `knowledge/markets/germany-eu.md` `## Rechtliche Kurzreferenz für Outreach`. Risk guidance, not legal advice; whether a non-partisan civic tool counts as political advertising is open.
 - Never: payment, perks, tickets, travel, merch, reciprocal promo or boosting (any consideration turns a share into labelled, partly prohibited political advertising); "unbezahlte Werbung" labels; scripts or captions to copy; a link in the first IG DM; a founder-scripted Collab; "teilt das" CTAs; follower-count mentions; generic praise; one ask bundling trial, feedback and sharing; repeated tags or forwards without a personal line; asking someone the founder does not follow.
-- Reciprocity: a practitioner creator explicitly values asks that acknowledge support is not one-way (Blume 2026). Keep it to acknowledgment ("ist nicht selbstverständlich") and to genuine earlier shares of their work; never promise a return favour for the share (consideration risk above). Conflict recorded in the research file.
+- Reciprocity: a practitioner creator explicitly values asks that acknowledge support is not one-way (Blume 2026). Keep it to acknowledgment ("ist nicht selbstverständlich"), which names the years of work behind their reach without flattery or servility (Blume Q&A 2026), and to genuine earlier shares of their work; never promise a return favour for the share (consideration risk above). Conflict recorded in the research file.
 - Reputation: enemy-framed creators make the project look like one camp's tool; activist creators fear an "AI letter generator" label, so stress that people edit and send themselves, offer the same tool to everyone, and let them pick the issue.
 - Data: minimal creator notes in `workspace/`, UTM carries only the handle, no scraping or bulk enrichment. Write and post every comment and DM manually.
 
@@ -95,4 +100,5 @@ Creators rarely want calls: offer 15 minutes or a voice note.
 - Comment sections where viewers ask "und was kann ich jetzt tun?" under political or explainer videos.
 - Local keywords, Stadtteil and city accounts, local event pages; meet micro creators in person.
 - LinkedIn society and social-impact creators already in the founder's comment exchanges.
+- A creator-search tool filtering by niche, size and topic may help build a manual shortlist [PRÜFEN: Tool, Kosten, Datenschutz]; contact each one individually, never in bulk (Blume Q&A 2026).
 - The bio contact preference decides the route; record route, size band and two notes on what they cover. No list scraping, bulk enrichment or follow/unfollow tactics.
