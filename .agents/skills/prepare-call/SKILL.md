@@ -18,6 +18,7 @@ The founder's statement that a call is scheduled, offered, or wanted is sufficie
 - `knowledge/personas/<persona>.md` section `## Call kit` for multiplier calls; `workspace/projects/<slug>/personas.md` sections `## Call-Kit` and `## <persona>` when present (pitch lines, approved proof, objection answers, demo example)
 - `knowledge/channels/personal-network.md` (`## Intro kit`) for intro asks and the forwardable blurb
 - `knowledge/strategies/follow-up.md` (`## Commitments become actions`) for the recap and commitments
+- `knowledge/strategies/call-spickzettel.md` for the in-call cheat sheet
 - Active project evidence, the contact's interaction history, and `workspace/voice.md` when present
 - `knowledge/foundations/mindset.md` only for nerves or avoidance
 - Pricing guidance only for pilot or price conversations
@@ -58,6 +59,10 @@ Aufnahme: nein / Einwilligung vorab am [Datum].
 
 On a low-energy day, a 3-line minimum brief beats skipping prep: target commitment plus date, one `[SIGNAL: …]` for minute one, one tested demo moment. When the call is within 24 h and more than 5 markers remain, lead with the 3-line minimum brief.
 
+## Call-Spickzettel
+
+For every real call (not practice), derive a Markdown cheat sheet from the brief per `knowledge/strategies/call-spickzettel.md` and show it in the chat, not as an HTML page or image unless the founder asks: call-order blocks, at most four bold-keyword lines each, verbatim only opener, starred key question and close, at most three proof lines with Stand, no open markers, and a short "Nicht sagen" line. Within 24 h of the call, put the Spickzettel first.
+
 ## RC recap
 
 Draft the 24-hour recap (touch `RC`) with the brief. Match du/Sie (funders and media: Sie).
@@ -75,7 +80,7 @@ Falls ich etwas falsch verstanden habe, korrigier mich gern. Viele Grüße, Thom
 Return exactly these four sections in the founder's language:
 
 1. `Nächste Aktion:` name the call mode, the single objective, and the target commitment with date.
-2. `Fertiges Asset:` the one-screen call brief followed by the RC recap draft, or the current practice turn. Include only mode-relevant lines.
+2. `Fertiges Asset:` the one-screen call brief, the Call-Spickzettel, and the RC recap draft, or the current practice turn. Include only mode-relevant lines.
 3. `Dein manueller Schritt:` start with `Vor dem Senden prüfen:` and at most three open markers; then conduct the call or answer the current rehearsal turn, send the recap within 24 h and promised assets the same day.
 4. `Sag mir danach:` (1) Ergebnis und jede Zusage mit Wer/Was/Datum, (2) ihr wörtlicher Satz zum nächsten Schritt, (3) genannte Personen oder Programme mit Erlaubnis.
 
