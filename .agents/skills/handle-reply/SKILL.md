@@ -34,4 +34,4 @@ Return exactly these four sections in the founder's language:
 3. `Dein manueller Schritt:` `Vor dem Senden prüfen:` (max three items) when markers are open; then manually send, post, defer, or close the loop.
 4. `Sag mir danach:` the sent confirmation, next reply, booked commitment, or closure outcome needed to continue.
 
-A public comment reply is 2–4 sentences, answer first, no question that guesses their motive; DM only after their next reply states a need or interest. Use at most one ask; delivery, thanks, and closure may need none. Add no rationale unless a factual, relationship, legal, or platform risk changes the founder's decision.
+When the brief ends with `kurz`, a private reply follows `**Kurz-Modus:**` in `knowledge/strategies/first-touch.md`. A public comment reply is 2–4 sentences, answer first, no question that guesses their motive; DM only after their next reply states a need or interest. Use at most one ask; delivery, thanks, and closure may need none. Add no rationale unless a factual, relationship, legal, or platform risk changes the founder's decision.

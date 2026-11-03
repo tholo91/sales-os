@@ -41,6 +41,14 @@ No ask only for pure thank-yous, public comments, and warming touches. **Referra
 - Warm email after an in-person meeting: 60–120 words; line 1 names the meeting and the topic discussed.
 - Funder sketch: per `knowledge/personas/funders-foundations.md`.
 
+**Kurz-Modus:** when the founder's brief ends with `kurz`, this overrides the length list, the line order, and a persona's `## Message skeleton`, for first touches, follow-ups, and replies alike; voice comes from `write-like-me` (its `Kurz` rule) or `workspace/voice.md`.
+- Shape: greeting, two or three one-sentence lines (each its own paragraph), first-name sign-off. Body at most about 40 words; email subject two to five words.
+- Line 1 = the opener from this card (dated moment, shared context, or the earlier exchange); line 2 = the one new fact; last line = the one ask from the ladder, or the link.
+- Cut product explanation, proof line, give-first description, referral fallback, and PS. Gap markers, the recognition test, one ask, and the legal route still apply.
+- Not for a funder sketch; there, say once that the sketch route sets its own form.
+
+Example, follow-up after a meeting (synthetic): „Moin Eva, / weißt du noch, die Briefaktion vor der Anhörung? / Der Beispielbrief zu eurem Thema steht jetzt. / Soll ich ihn dir schicken? / Grüße aus Bremen, Thomas“
+
 **No channel named:** use the contact's `primary_channel`, else the persona's default entry path, and make the channel one check item.
 
 **Proof:** real social proof only, from the project's `## Gemeinsame Belegzeilen`.

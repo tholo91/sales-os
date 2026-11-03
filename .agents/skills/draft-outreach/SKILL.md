@@ -46,6 +46,8 @@ Use only recorded facts and proof, plus dated public items from the look cited w
 
 Return exactly one draft first. Follow it with `Why:` and one short sentence. Add `Risk:` only when a real risk exists. Use exactly one ask from the ask ladder in a cold first touch; no ask only for a pure thank-you. Preserve an explicitly requested conversation when concrete recipient context establishes relevance, following `core/steps/engage.md`; do not replace it with an abstract validation question. A direct editorial pitch may use its one relevant next step. Generate an alternative only when explicitly requested.
 
+When the brief ends with `kurz`, apply `**Kurz-Modus:**` in `knowledge/strategies/first-touch.md` instead of the length and skeleton rules.
+
 For email, the single draft includes both `Subject:` and the body. For a journalist pitch, the subject states the evidence-backed news angle rather than labeling the project, and the body follows the editorial-pitch reading budget.
 
 When markers are open, add `Vor dem Senden prüfen:` (max three items) after `Why:` and do not call the draft send-ready. For a placeholder-only target return the role-based skeleton titled `Skelett – nicht sendefertig`. Name missing context in plain language; do not expose internal field names such as “language-evidence packet.”
