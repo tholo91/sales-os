@@ -57,7 +57,7 @@ Lead = one of the dated commitments in step 4, or a call booked for a date. "Kli
 
 > Moin [Vorname],
 > du hast [SIGNAL: am [Datum] geschrieben, dass [Problem in ihren Worten]].
-> Ich baue gerade allein [Projektname oder „etwas“], damit [PRÜFEN: Ergebnis für sie aus positioning.md, in ihren Worten; keine Schrittfolge, keine Wirkungsbehauptung].
+> Ich baue gerade allein [Projektname]: [was es ist, ein Satz in einfachen Wörtern, keine Funktionsliste], damit [PRÜFEN: Ergebnis für sie aus positioning.md, in ihren Worten; keine Schrittfolge, keine Wirkungsbehauptung].
 > Wie löst du das im Moment? *(oder: Soll ich dir [Asset aus positioning.md] für deinen Fall schicken?)*
 > Grüße aus Bremen, Thomas
 

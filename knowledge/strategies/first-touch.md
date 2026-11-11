@@ -21,7 +21,7 @@ Use this card first; the sections below explain the boundaries.
 
 **Line 1, opener (pick one):** their dated action moment (hearing, campaign day, vote, episode); their content with its date (post, Reel, article); a referral (`[Name] meinte, ich soll mich bei dir melden`) only with the referrer's explicit permission; a shared place or event (Bremen, a conference) that really happened. If the first sentence would work for anyone else, rewrite it.
 
-**Line 2, their benefit:** one sentence with their people (or them) as the subject, saying what they can do, have, or stop worrying about, tied to the line-1 moment; it is field 3 of the five-field check in `recipient-context.md`. Never input steps (`X eingeben, Y bekommen`), a feature list, or how it works; that comes after a yes or their question. Name a worry or feeling only when they wrote or said it. No product history, no `wir` from a solo founder.
+**Line 2, their benefit:** one sentence in the founder's spoken first person that ends on what their people (or they) can do or have, tied to the line-1 moment (`Ich hab … gebaut, damit eure Leute …`); it is field 3 of the five-field check in `recipient-context.md`. Use concrete nouns: who receives it, what they hold, by when. Never input steps (`X eingeben, Y bekommen`), a feature list, or how it works; that comes after a yes or their question. Never a polished conditional without `ich` (`hätten eure Leute einen konkreten nächsten Schritt`): in the 2026-11-11 blind test such lines won on benefit and lost on voice. Name a worry or feeling only when they wrote or said it. No product history, no `wir` from a solo founder.
 
 **What-it-is line:** only where the table below says so; at most one sentence, and in a DM a half-clause inside line 2: what it is, who acts, and `kostenlos` when true (`ein kostenloses Werkzeug, mit dem eure Leute …`). No steps, no feature list.
 
@@ -34,7 +34,7 @@ Use this card first; the sections below explain the boundaries.
 | Journalist, editor | the news for their audience (`editorial-pitch.md`) | one sentence after the news | none: facts, a consented protagonist |
 | Podcast host | their episode point → an episode idea for their listeners (`give-first`) | one sentence | their listeners' frustration; the founder's story as one sentence of guest material, not the opener |
 | Funder, official, politician | programme or remit fit → readiness (`what-it-is`) | one or two sentences | none: show preparation, not passion |
-| Buyer or user | their signal → situation question (`plain-benefit`) | half-clause only if `positioning.md` asks for it | their problem in their words; one clause of the founder's true experience |
+| Buyer or user | their signal → what it is → situation question (`what-it-is`) | one plain sentence so they can judge relevance at once; drop it only when `positioning.md` rules it out | their problem in their words; one clause of the founder's true experience |
 | Met in person, acquaintance | the meeting or last exchange, with their sentence → what they get (`plain-benefit`) | none; they know it | warmth from the real relationship |
 
 `story-first` (the founder's own story as opener) is a test variant for creators and podcast hosts only; compare it with the default in the founder's own batches.
@@ -73,14 +73,14 @@ Example, follow-up after a meeting (synthetic): „Moin Eva, / weißt du noch, d
 
 **Examples** (synthetic; `[SIGNAL: …]`/`[PRÜFEN: …]` per `knowledge/foundations/human-writing.md`):
 
-GOOD, NGO: „Moin Jana, ihr ruft gerade dazu auf, vor der Anhörung am 12.11. den Abgeordneten zu schreiben. Eure Leute könnten dafür jeweils einen eigenen Brief an die zuständige Stelle haben, den sie selbst abschicken; das Werkzeug dafür hab ich gebaut, kostenlos und überparteilich. Soll ich dir einen Beispielbrief zu eurem Thema schicken? Falls das bei euch jemand anderes entscheidet, sag gern wer. Grüße aus Bremen, Thomas“
-→ Dated action moment; line 2 has their people as subject and says what they end up with; the what-it-is line is a half-clause; no input steps.
+GOOD, NGO: „Moin Jana, ihr ruft gerade dazu auf, vor der Anhörung am 12.11. den Abgeordneten zu schreiben. Ich hab ein kostenloses, überparteiliches Werkzeug gebaut, damit eure Leute dafür nicht bei null anfangen: Jede:r hat am Ende einen eigenen Brief an die eigene Abgeordnete und schickt ihn selbst ab. Soll ich dir einen Beispielbrief zu eurem Thema schicken? Falls das bei euch jemand anderes entscheidet, sag gern wer. Grüße aus Bremen, Thomas“
+→ Dated action moment; line 2 keeps his spoken `Ich hab … gebaut, damit eure Leute …` and ends on what they hold and who receives it; the what-it-is line is a half-clause; no input steps.
 
-GOOD, creator: „Hey [Name], unter deinem Reel zu [SIGNAL: Thema, Datum] fragen einige, was sie jetzt konkret tun können [PRÜFEN: steht das so in den Kommentaren?]. Darauf hätten sie eine Antwort, ohne dass du an deinem Ton etwas änderst: einen eigenen Brief an die zuständige Stelle, mit einem kostenlosen Werkzeug, das ich gebaut hab. Darf ich dir einen Beispielbrief zu deinem Thema schicken? Thomas aus Bremen“
-→ The emotion is their audience's own question; the benefit is for their audience and leaves their creative control intact; the asset costs nothing to accept.
+GOOD, creator: „Hey [Name], unter deinem Reel zu [SIGNAL: Thema, Datum] fragen einige, was sie jetzt konkret tun können [PRÜFEN: steht das so in den Kommentaren?]. Ich hab ein kostenloses Werkzeug gebaut, damit deine Leute darauf eine Antwort haben: einen eigenen Brief an die, die dafür zuständig sind. Mein Hintergedanke, ganz offen: dass du's irgendwann deinen Leuten zeigst. Darf ich dir einen Beispielbrief zu deinem Thema schicken? Thomas aus Bremen“
+→ The emotion is their audience's own question; the benefit is for their audience; the openly named motive is the honest part of the ask; the asset costs nothing to accept.
 
-GOOD, buyer/user (commercial project): „Moin [Name], du hast [SIGNAL: am … geschrieben, dass X jede Woche Zeit frisst]. Ich baue gerade allein etwas, damit [PRÜFEN: Ergebnis aus `positioning.md`, in ihren Worten, keine Schrittfolge]. Wie löst ihr das im Moment? Grüße aus Bremen, Thomas“
-→ Their words carry the problem; one half-sentence says honestly what is being built; a situation question instead of a demo ask.
+GOOD, buyer/user (commercial project): „Moin [Name], du hast [SIGNAL: am … geschrieben, dass X jede Woche Zeit frisst]. Ich baue gerade allein [Projekt: was es ist, ein Satz in einfachen Wörtern], damit [PRÜFEN: Ergebnis aus `positioning.md`, in ihren Worten, keine Schrittfolge]. Wie löst ihr das im Moment? Grüße aus Bremen, Thomas“
+→ Their words carry the problem; one plain sentence says what is being built, so they can judge relevance at once; a situation question instead of a demo ask.
 
 BAD: „Hallo Frau X, ich verfolge Ihre spannende Arbeit schon lange! Wir haben eine innovative Civic-Tech-Lösung mit KI-Briefen, PLZ-Zuordnung und Kampagnenseiten entwickelt. Hätten Sie Zeit für einen 30-minütigen Call? Und würden Sie es mit Ihrem Netzwerk teilen?“
 → Generic compliment, `wir`, feature list, a call before relevance, and a second ask (share).

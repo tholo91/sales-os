@@ -86,7 +86,7 @@ One pass, in this order; never shown to the founder as a score.
 2. Common, plain words and short phrases. Do not trust a "polished" feel: readers clicked simpler headlines, professional writers did not prefer them (Shulman, Markowitz and Rogers 2024, 30,000+ tests, English).
 3. The topic in plain words in lines 1–3: one main topic and two or three related ones that match the profile. Inference, not a LinkedIn statement: the ranker uses embeddings and reading history; whether it reads post text is not published.
 4. One detail only this founder can know: a dated observation, decision, screenshot, consented user message, or number with its definition. LinkedIn defines slop by a missing point of view or substance, not by style (2026-09-15).
-5. One plain sentence says what the reader can do with the product, in outcome words, no input steps; a stranger cannot care how something spreads or counts if they cannot picture it.
+5. One plain sentence says what the reader can do with the product, in outcome words with concrete nouns (who, what), no input steps; a stranger cannot care how something spreads or counts if they cannot picture it. Scope caveats stay one plain sentence, so the point of the post (for a why-post: the why, in one line he would say aloud) stays the centre.
 6. A real problem may be named plainly; never add negative or emotive words for effect.
 7. Working rule: the promise is complete in about the first two lines. No official cut exists (tools say 140–210 characters, some cut by lines); check the phone preview.
 
