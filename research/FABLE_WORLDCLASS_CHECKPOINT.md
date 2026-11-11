@@ -11,11 +11,11 @@ Run date: 2026-11-11. Prompt: `research/FABLE_WORLDCLASS_PROMPT.md`. This file h
 | 2 Baseline | done | 7 drafts in `research/eval/baseline/` (gitignored: drafts use private founder facts, repo is public). 5 of 7 describe the workflow in line or paragraph two. |
 | 3 Research | done | 6 lane files `research/2026-11-11-delta-*.md`. Lead spot-checked two claims against the original pages (Gong 28M page; Le Quéré and Matias 2025): both hold. |
 | 4 Synthesis | done | `research/2026-11-11-synthesis-patch-list.md`: 13 ranked patches, drop list, 18 rejected lane proposals, 36 register rows. Reviewed and accepted by the lead with one change (a private hook pattern is kept, not deleted). |
-| 5 Upgrade | done except g | Ranks 1–13 applied (one Sonnet worker for outreach files, lead for post files and register). Private project files patched; originals copied to `workspace/archive/2026-11-11-pre-upgrade/`. `npm run check`: 58 of 58. Item g (`write-like-me` review) is open. |
-| 6 Blind test | running | Fresh Sonnet agent rewrites the same 7 cases; a fresh Opus judge then scores randomized A/B pairs. |
-| 7 Close | open | |
+| 5 Upgrade | done except g | Ranks 1–13 applied (one Sonnet worker for outreach files, lead for post files and register). Private project files patched; originals copied to `workspace/archive/2026-11-11-pre-upgrade/`. `npm run check`: 58 of 58. Item g: lead read the skill; no rule change needed, two scoped voice preferences proposed to the founder (his confirmation is required by that skill). |
+| 6 Blind test | done | Round 1: upgraded won 4 of 7. Fixed the causes, round 2: upgraded won 7 of 7 (three by one point). See below. |
+| 7 Close | done | `npm run check` passes; small commits on `main`; nothing pushed. |
 
-Agents used: 10 of 12 (Opus 1 of 3).
+Agents used: 12 of 12 (Opus 3 of 3). The round-2 drafts came from the round-1 drafting agent, continued with instructions to re-read all files, not from a fresh agent.
 
 ## Phase 0 decisions
 
@@ -72,3 +72,35 @@ Private project files past `review_after`: 24 (evidence, experiments, validation
 - The diagnosis step is the existing five-field check, extended (felt problem, benefit, proof, smallest ask, approach). No new step and no new output section.
 - A what-it-is line is included only where the approach table says so, as a half-clause in a DM.
 - Every rule without a randomized test is logged in the claims register as a working rule, to be compared through `hook_variant` and `reaction`.
+
+## Phase 6 blind test
+
+Method: same 7 fixed cases, baseline drafts versus drafts from the upgraded files; order randomized per case; check markers stripped from both; judge (Opus, fresh per round) read only the pairs and the pre-upgrade voice file; six criteria, 1 to 5 each (benefit before offer, emotion, concreteness, brevity, ICP fit, voice). One draft per case and one judge per round, so a one-point margin is within noise.
+
+| Case | Round 1 (upgraded − baseline) | Round 2 (upgraded − baseline) |
+|---|---|---|
+| 1 Cold NGO, LinkedIn DM | +3 | +4 |
+| 2 Cold podcast host, email | +4 | +1 |
+| 3 Warm conference contact, LinkedIn DM | +2 | +4 |
+| 4 Creator follow-up, LinkedIn DM | −2 | +1 |
+| 5 LinkedIn post | −3 | +3 |
+| 6 Cold B2B founder, LinkedIn DM | −1 | +2 |
+| 7 Warm acquaintance, WhatsApp | +1 | +1 |
+
+Why round 1 lost three cases, and what changed:
+
+- Benefit lines were written as a polished conditional without "ich" and scored low on voice. Line two now keeps the founder's spoken first-person bridge and concrete nouns; examples and skeletons were rewritten that way.
+- The creator line answered a worry the creator never raised. Removed.
+- The B2B line was too coy to judge. Buyers and tool-curious users now get one plain what-it-is sentence by default.
+- The post lost its "why" and spent four sentences on caveats, and the new product sentence was vaguer than the old one. The private product sentence is concrete again, caveats stay one sentence, and a candidate "why" line was added to the private hook library with an open check marker.
+
+Limits: the round-2 post uses that unconfirmed "why" line (the baseline used the same line), so the post is not ready to publish until the founder confirms it. Both judges noted that the losing draft often had the warmer human detail.
+
+## Open after this run
+
+- Founder to confirm: the candidate "why" line for posts; paste the confirmed-native original messages into the private voice file (still empty there).
+- Founder decision: keep "emotion from the recipient's words, own story only in posts and podcast pitches" or make `story-first` the default for creators and podcast hosts.
+- `write-like-me`: two scoped voice preferences proposed, not applied (separate repository with uncommitted changes).
+- 10 knowledge files past `review_after` (table above) and 24 private project files are not refreshed.
+- Warm-touch detail: both judges preferred a specific human line from the meeting or the gap ("Dein Satz ist mir hängen geblieben", "lange nichts gehört") over a standard thank-you. Not yet a rule; compare via `hook_variant` and `reaction`.
+- Remote branch `sales-os-world-class-outreach` still exists on GitHub; `main` is unpushed.
