@@ -8,14 +8,14 @@ Run date: 2026-11-11. Prompt: `research/FABLE_WORLDCLASS_PROMPT.md`. This file h
 |---|---|---|
 | 0 Git and ICP | done | 3 commits, `main` fast-forwarded, local branch deleted, nothing pushed. ICP answers saved in `workspace/` only. |
 | 1 Inventory | done | See below. Done by the lead with a script (no agent used). |
-| 2 Baseline | running | 7 fixed cases in `research/eval/cases.md` (gitignored: drafts use private founder facts, repo is public). |
-| 3 Research | running | 6 lanes, one file each: `research/2026-11-11-delta-*.md`. |
-| 4 Synthesis | open | |
-| 5 Upgrade | open | |
+| 2 Baseline | done | 7 drafts in `research/eval/baseline/` (gitignored: drafts use private founder facts, repo is public). 5 of 7 describe the workflow in line or paragraph two. |
+| 3 Research | done | 6 lane files `research/2026-11-11-delta-*.md`. Lead spot-checked two claims against the original pages (Gong 28M page; Le Quéré and Matias 2025): both hold. |
+| 4 Synthesis | running | Opus agent writes `research/2026-11-11-synthesis-patch-list.md`. |
+| 5 Upgrade | started | Item f done: `hook_variant` and `reaction` fields on the interaction record. |
 | 6 Blind test | open | |
 | 7 Close | open | |
 
-Agents used: 7 of 12 (Opus 0 of 3).
+Agents used: 8 of 12 (Opus 1 of 3).
 
 ## Phase 0 decisions
 
@@ -55,3 +55,13 @@ Overlaps found:
 Claims without a usable source: 19 rows in `knowledge/evidence/claims-register.md` are marked `unverified` (17 older imports, 2 press benchmarks added 2026-10-10). They stay quarantined.
 
 Private project files past `review_after`: 24 (evidence, experiments, validation and project files of all four projects). Not refreshed in this run; listed in the final report.
+
+## Phase 3 headline findings (details and limits in the lane files)
+
+- No randomized test of cold first-touch wording (opener, ask type, benefit-first versus feature-first) was found. Most outreach rules stay working rules.
+- Length: one randomized test with busy professionals favours a much shorter email; one found no effect; vendor data is weak and mixed. Word counts are medium norms, not optima.
+- Story: narrative effects are inconsistent across samples and one preregistered test found a story backfiring with decision-makers. The identifiable-victim effect is weak.
+- Hooks: headline experiments show a curve. Too vague loses, and giving everything away also loses. LinkedIn publishes no "see more" cut-off.
+- Warm contact: a short no-ask message to an acquaintance is appreciated more than senders expect (replicated). Written asks to strangers succeed far less often than senders expect.
+- Germany: 2026 local-court rulings treat a single unsolicited promotional B2B email as actionable; the editorial-tip exception has no case law behind it. LinkedIn's own pages disagree on the free connection-note quota.
+- Personas: German primary sources now exist for journalists' workload and for volunteers' time limits. No sourced data for podcast-host guest choice, creator collaboration motives, WG money friction or café work failures.
