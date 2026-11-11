@@ -6,3 +6,6 @@ research/x-erster-oeffentlicher-post-2026-08-17.md
 node_modules/
 dist/
 coverage/
+
+# Eval drafts use private founder facts; this repo is public.
+research/eval/
