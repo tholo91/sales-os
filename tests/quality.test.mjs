@@ -22,6 +22,7 @@ const skills = [
   "handle-reply",
   "handle-follow-up",
   "prepare-call",
+  "field-conversation-pitch",
   "prepare-offer",
   "capture-learning",
 ];

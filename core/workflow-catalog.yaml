@@ -15,6 +15,7 @@ explicit_intent_routes:
   follow_up_named_contact: handle-follow-up
   received_reply_or_comment: handle-reply
   call_preparation: prepare-call
+  spontaneous_conversation: field-conversation-pitch
   public_post: draft-public-post
   short_video: draft-reel
   contact_warming_comment: warm-contact-comment
@@ -128,6 +129,12 @@ workflows:
     prerequisites: [founder_states_call_or_scheduled_call]
     required_when: call_preparation_due
     produces: [call_plan]
+  - id: field-pitch
+    sequence: 62
+    skill: field-conversation-pitch
+    prerequisites: [active_project, founder_describes_in_person_setting]
+    required_when: founder_requests_spontaneous_conversation_help
+    produces: [speakable_field_card]
   - id: offer
     sequence: 65
     skill: prepare-offer

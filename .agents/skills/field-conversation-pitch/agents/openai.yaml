@@ -1,0 +1,4 @@
+interface:
+  display_name: "Field Conversation Pitch"
+  short_description: "Speakable intro and story for spontaneous conversations"
+  default_prompt: "Use $field-conversation-pitch to prepare a short, speakable introduction for this in-person conversation."
