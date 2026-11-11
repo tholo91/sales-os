@@ -2,7 +2,7 @@
 source_url: https://www.gong.io/blog/7-tips-for-writing-the-perfect-follow-up-sales-email-according-to-science
 publisher: Gong Labs
 retrieved_at: 2026-10-02
-last_verified_at: 2026-10-04
+last_verified_at: 2026-11-11
 jurisdiction: global
 license_or_terms: linked reference; paraphrased research guidance
 confidence: medium
@@ -38,7 +38,7 @@ Touches: `T1` first touch, `F1` value follow-up, `F2` park message, `commitment`
 
 | Situation | F1 | F2 | Then |
 |---|---|---|---|
-| LinkedIn DM (default, also `buyers-users`) | +5 working days after T1 (range 4–7) | +10 working days after F1 (about day 21) | Stop; public engagement only. Re-entry only with a new trigger after 60+ days, at most once a quarter. |
+| LinkedIn DM (default, also `buyers-users`) | +5 working days after T1 (range 4–7) | +10 working days after F1 (about day 21) | Stop; public engagement only. Cold or never replied: re-entry only with a new trigger after 60+ days. Known or met in person: one no-ask check-in is fine without a trigger. The quarterly cap is judgment, not research. |
 | Media email pitch | +4–6 working days, same thread, one new element | none | Next pitch only with a new angle after 4–6 weeks. |
 | Podcast or newsletter | Podcast +7–10 days; newsletter about +7 days, none if T1 was only a share offer | none | Stop. |
 | Creator on Instagram | +5–8 days, only in an accepted thread (LinkedIn: existing thread); unaccepted request: no DM, one genuine comment or the bio inquiry email if the bio names it | none | At most 3 touches across channels. |

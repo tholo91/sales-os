@@ -2,7 +2,7 @@
 source_url: research/2026-10-04-outbound-first-touch-follow-up.md
 publisher: Sales OS
 retrieved_at: 2026-10-04
-last_verified_at: 2026-10-04
+last_verified_at: 2026-11-11
 jurisdiction: global
 license_or_terms: project-license
 confidence: medium
@@ -16,6 +16,7 @@ Start with people who can credibly experience the problem, introduce a relevant 
 - Ask for insight before amplification.
 - Make forwarding easy by naming the kind of person sought.
 - Never turn a weak acquaintance into fake warmth.
+- Reconnecting after a gap: write it. People underestimate how welcome a short check-in from an acquaintance is, and most who mean to reconnect never send it (preregistered US experiments with no-ask check-ins; not tested with business asks or German contacts). Open with them or the last real exchange; one light question is fine, a request to test, introduce, or share waits for their reply.
 - After the conversation, thank the person and record any promised introduction.
 - Ask for a referral only after the context is clear and the request is easy to decline.
 

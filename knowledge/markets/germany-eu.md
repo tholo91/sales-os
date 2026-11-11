@@ -2,7 +2,7 @@
 source_url: https://www.gesetze-im-internet.de/uwg_2004/__7.html
 publisher: German Federal Ministry of Justice
 retrieved_at: 2026-10-02
-last_verified_at: 2026-10-04
+last_verified_at: 2026-11-11
 jurisdiction: Germany-EU
 license_or_terms: public legal reference
 confidence: high
@@ -27,7 +27,7 @@ For electronic mail, UWG section 7 generally requires prior express consent for 
 
 GDPR and UWG answer different questions. A GDPR processing basis does not make a marketing channel permissible. When personal data is processed for direct marketing, Article 21 gives the person a right to object at any time and requires that right to be highlighted by the first communication. If data came from a public or third-party source, assess the Article 14 information duty as well.
 
-The ePrivacy definition of electronic mail is broad enough that commercial social-network DMs should not be presumed exempt. When the exact channel classification matters, seek qualified current advice instead of encoding a loophole.
+The ePrivacy definition of electronic mail is broad enough that commercial social-network DMs should not be presumed exempt. When the exact channel classification matters, seek qualified current advice instead of encoding a loophole. This position rests on one disputed appellate hint (OLG Hamm 18 U 154/22, 2023; form, date and B2B scope unclear); CJEU C-102/20 concerns inbox advertising, not DMs; no BGH or OLG ruling on LinkedIn or XING DMs was found for 2024–2026 (`research/2026-11-11-delta-germany-market.md`).
 
 ## Required risk facts before sending
 
@@ -49,11 +49,11 @@ Primary legal starting points: [UWG section 7](https://www.gesetze-im-internet.d
 
 The single compact reference; other files link here instead of restating. Risk guidance checked 2026-10-04, not legal advice. Sources: `research/2026-10-04-outbound-first-touch-follow-up.md`, `research/2026-10-04-persona-creators-influencers.md`, `research/2026-10-04-instagram-reels-hooks.md`, `research/2026-10-04-linkedin-posts-2026-delta.md`.
 
-- **Email, UWG §7:** cold email only as an editorial pitch with a real story to an editorial address, or via a published partner, submission, or programme route (contact form, call, application portal). No info@ blasts, no cold email sequences. A free or nonprofit tool does not make a cold promotional email safe, and offering anything in return (visibility, logo, mention) makes it look more like advertising.
+- **Email, UWG §7:** cold email only as an editorial pitch with a real story to an editorial address, or via a published partner, submission, or programme route (contact form, call, application portal). No info@ blasts, no cold email sequences. A free or nonprofit tool does not make a cold promotional email safe, and offering anything in return (visibility, logo, mention) makes it look more like advertising. Two 2026 local-court rulings (AG Düsseldorf, read via publisher summaries) treat even one unsolicited promotional email to a business address as actionable; a public address, an opt-out link, or a "Sprechen Sie uns an" line is not consent. The editorial-pitch route is this repo's risk reading; no ruling on editorial tips was found either way.
 - **Creators, §5a Abs. 4 UWG and Werbekennzeichnung:** a genuinely unpaid share without strings normally needs no label, but consideration is presumed unless the creator can show otherwise. No money, perks, tickets, travel, merch, or reciprocal promotion; no scripted copy. After a yes, state in writing `kein Geld, keine Gegenleistung, keine Textvorgaben`. Do not suggest "unbezahlte Werbung" labels. Paid political advertising in video is not allowed ([Medienanstalten guideline](https://www.die-medienanstalten.de/service/merkblaetter-und-leitfaeden/leitfaden-werbekennzeichnung-bei-online-medien/)); whether a nonpartisan civic tool counts as political advertising is open.
 - **Press, Pressekodex (Ziffer 7 and 15):** keep editorial and promotion separate. Offer no benefit for coverage, do not ask for favourable framing, article approval, or a donation link; offer verifiable data.
 - **Data, GDPR Art. 9:** letter topics can reveal political opinions. Publish only opt-in aggregates with a minimum cell size, with definition, date, and n; an individual case only with that person's explicit consent. Art. 14 and 21 apply as above.
 - **Meta ads:** since 2025-10-06 Meta runs no social-issue, electoral, or political ads in the EU (TTPA, Regulation 2024/900). Organic posts are unaffected; do not plan boosts or paid creator ads.
-- **LinkedIn invitations:** free accounts can add a personalized note to 3 connection requests a month, 200 characters maximum ([Help a563153](https://www.linkedin.com/help/linkedin/answer/a563153)); Premium removes the cap. Invitations must not be promotional; a withdrawn invitation cannot be resent for up to three weeks ([Help a551012](https://www.linkedin.com/help/linkedin/answer/a551012)).
+- **LinkedIn invitations:** free accounts get 3 personalized notes a month per [Help a563153](https://www.linkedin.com/help/linkedin/answer/a563153) (checked 2026-11-11; other LinkedIn help text says 5), 200 characters maximum; trust the in-app counter; Premium removes the cap. Invitations must not be promotional; a withdrawn invitation cannot be resent for up to three weeks ([Help a551012](https://www.linkedin.com/help/linkedin/answer/a551012)).
 - **No engagement automation:** no bots, scraping, auto-DMs, comment-keyword DM tools, pre-agreed like or share swaps, or engagement-bait CTAs ("Kommentiere X") on LinkedIn or Instagram. Every message is individual and sent by the founder.
-- **Platform DM limits:** no uninvited Reddit DM. On Instagram a non-follower gets one text-only message request until they accept (reported 2023-08, adult applicability `[PRÜFEN: …]`), so no second DM into an unaccepted request and no link or clip in DM 1. Use the public reply, a published business email, or the stated inquiry route instead.
+- **Platform DM limits:** no uninvited Reddit DM. On Instagram a non-follower gets one text-only message request until they accept (TechCrunch quoting Meta, 2023-08-03: applies to all users), so no second DM into an unaccepted request and no link or clip in DM 1. Use the public reply, a published business email, or the stated inquiry route instead.

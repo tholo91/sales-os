@@ -2,7 +2,7 @@
 source_url: https://www.linkedin.com/legal/professional-community-policies
 publisher: LinkedIn
 retrieved_at: 2026-07-22
-last_verified_at: 2026-10-04
+last_verified_at: 2026-11-11
 jurisdiction: platform-global
 license_or_terms: LinkedIn User Agreement
 confidence: high
@@ -27,7 +27,7 @@ The operating goal is zero blank-page work, not autonomous account activity. Sal
 4. Send the first DM within a day of acceptance: one observation about their work or action moment, what their people get, and one easy question from the ask ladder in `knowledge/strategies/first-touch.md`. Permission to send an example is allowed; a call only with concrete context.
 5. Follow up per the touch plan in `knowledge/strategies/follow-up.md`. A 1st-degree voice note (mobile only, 60 seconds or less) is allowed as F2 for warm-ish contacts, never as the opener.
 
-Messaging someone who is not a 1st-degree connection generally needs InMail; do not treat a public comment as a DM route. Legal and platform limits: `knowledge/markets/germany-eu.md` (`## Rechtliche Kurzreferenz für Outreach`).
+A free account can message 1st-degree connections, and send message requests to members of a shared LinkedIn Group and current coworkers; InMail and Open Profile messages are Premium ([Help a554575](https://www.linkedin.com/help/linkedin/answer/a554575/send-messages-on-linkedin?lang=en), checked 2026-11-11). Do not treat a public comment as a DM route. Legal and platform limits: `knowledge/markets/germany-eu.md` (`## Rechtliche Kurzreferenz für Outreach`).
 
 ## Native writing shape
 
