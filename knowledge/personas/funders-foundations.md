@@ -2,7 +2,7 @@
 source_url: research/2026-10-04-persona-funders-foundations.md
 publisher: Sales OS synthesis
 retrieved_at: 2026-10-04
-last_verified_at: 2026-10-04
+last_verified_at: 2026-11-11
 jurisdiction: Germany (Candid survey data is US, labelled)
 license_or_terms: paraphrased guidance from funder pages, practitioner guides and surveys; source terms apply
 confidence: medium
@@ -60,7 +60,7 @@ Nothing unsolicited: no attachments, no deck, no "take a look at our product". A
 >
 > unten eine kurze Projektskizze, wie auf Ihrer Website beschrieben. Falls das zu Kolleg:innen gehört, freue ich mich über eine Weiterleitung. Träger: [Träger gGmbH] [PRÜFEN: schriftlich bestätigt, wer unterschreibt]. Projektleitung: [Vorname Nachname], [Ort].
 >
-> Was es gibt: [Projekt in zwei Sätzen, parteineutral; die Person entscheidet und sendet selbst, keine Massenaussendung]. [PRÜFEN: KI-Satz – Vorschlag, Person prüft, nachvollziehbar]
+> Was es gibt: [zwei Sätze, parteineutral: was Menschen damit tun oder erreichen und wer selbst handelt; keine Schrittfolge, keine Funktionsliste, keine Massenaussendung]. [PRÜFEN: KI-Satz – Vorschlag, Person prüft, nachvollziehbar]
 >
 > Warum: [Problem und Zielgruppe in einem Satz].
 >

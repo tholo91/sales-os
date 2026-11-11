@@ -2,7 +2,7 @@
 source_url: research/2026-10-04-persona-media-podcasts.md
 publisher: Sales OS synthesis
 retrieved_at: 2026-10-04
-last_verified_at: 2026-10-04
+last_verified_at: 2026-11-11
 jurisdiction: Germany (some survey data US-heavy, labelled)
 license_or_terms: paraphrased guidance from journalist surveys, press code and legal sources; source terms apply
 confidence: medium
@@ -27,7 +27,7 @@ Load for journalists and editors (national, local/regional, agency desks), podca
 ## What earns a reply
 
 - **Second-day story rule:** once a product has been covered, pitch only a defined data point, a consenting protagonist, a local pattern, a verified calendar hook, a counter-thesis or an honest failure. "This tool exists" is not news twice.
-- First sentence names their audience or region; the second gives the fact. 82% reject pitches that miss their audience or beat (Cision 2026).
+- First sentence names who in their audience or region is affected; the second gives the fact. 88 % delete off-beat pitches and 71 % overly promotional ones (Muck Rack 2026, 897 journalists, US-heavy).
 - Facts over storytelling: DACH journalists want facts, data, exclusives and fast answers; storytelling ranks low (26%).
 - Every number carries definition, date and n. Drafts or sign-ups are not outcomes.
 - Subject line = honest headline; 120–180 words; kit link instead of attachments (one small photo is fine); one sentence only the founder could write, since 53% oppose AI-generated pitches (Cision 2026).
@@ -65,14 +65,14 @@ Lead = material requested, interview or episode booked with a date, or saved as 
 >
 > in [Ort] haben seit [Monat] [Zahl] Menschen [was sie mit dem Projekt getan haben] [PRÜFEN: Zahl, Definition, Mindestfallzahl, Stand-Datum]. Ich schreibe Ihnen, weil Sie [SIGNAL: Artikel und Datum] über genau dieses Thema berichtet haben.
 >
-> [Projekt in einem Satz] [PRÜFEN: keine Wirkungsbehauptung]. [SIGNAL: ein Satz, den nur ich schreiben kann]
+> > [Was es ist, ein Satz: was Menschen damit tun, kostenlos; keine Schrittfolge] [PRÜFEN: keine Wirkungsbehauptung]. [SIGNAL: ein Satz, den nur ich schreiben kann]
 >
 > Eine Nutzerin aus [Ort] würde mit Ihnen sprechen [PRÜFEN: schriftliche Einwilligung liegt vor]. Wäre das was für [Ressort/Ausgabe]?
 >
 > Viele Grüße, [Vorname Nachname]<br>
 > [Telefon] · Zahlen mit Definition und Fotos: [Link Pressekit]
 
-Variants: podcast = subject "Folgenidee: [Frage als Titel]", open on [SIGNAL: Folge und Punkt], du if the show uses it. Newsletter = LinkedIn DM under 60 words, only after a public comment. No city cut = lead with the protagonist. Without a verified local data point or a consenting protagonist, use a verified calendar hook (Sitzungswoche, Ratssitzung, local MdB) or recommend not pitching yet; "X Entwürfe seit Mai" is not news. If the draft works unchanged for another outlet, it is not ready.
+Variants: podcast = subject "Folgenidee: [Frage als Titel]", open on [SIGNAL: Folge und Punkt], then the episode idea for their listeners; the founder's origin story at most one sentence, as what he could tell on air; du if the show uses it. Newsletter = LinkedIn DM under 60 words, only after a public comment. No city cut = lead with the protagonist. Without a verified local data point or a consenting protagonist, use a verified calendar hook (Sitzungswoche, Ratssitzung, local MdB) or recommend not pitching yet; "X Entwürfe seit Mai" is not news. If the draft works unchanged for another outlet, it is not ready.
 
 ## Touch plan
 

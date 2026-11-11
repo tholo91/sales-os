@@ -2,7 +2,7 @@
 source_url: research/2026-10-04-persona-ngos-civic-orgs.md
 publisher: Sales OS synthesis
 retrieved_at: 2026-10-04
-last_verified_at: 2026-10-04
+last_verified_at: 2026-11-11
 jurisdiction: Germany (some benchmark data US-only, labelled)
 license_or_terms: paraphrased guidance from sector studies, programme pages and legal sources; source terms apply
 confidence: medium
@@ -62,7 +62,7 @@ Lead = a test date, a named owner plus a 20-minute call, or a page approved plus
 Skelett – nicht sendefertig. LinkedIn, campaigner; Anrede per profile [PRÜFEN: du/Sie].
 
 > Moin [Vorname], vor [SIGNAL: Anhörung/Abstimmung am Datum] habt ihr bei [SIGNAL: Kampagne] eure Unterstützer:innen [SIGNAL: ihre Aktion davor, z. B. zur Petition] aufgerufen, deshalb schreib ich dir.
-> Ich hab [Projekt] gebaut, kostenlos und überparteilich: [Mitmach-Aktion in einem Satz, z. B. Leute schreiben ihre eigene Sicht an die Zuständigen [PRÜFEN: Ebene Bund/Land/Kommune abgedeckt?] und schicken selbst ab]. [PRÜFEN: Funktion live?] [PRÜFEN: optional eine freigegebene Belegzeile, nur wenn die Länge reicht]
+> Mit [Projekt als Halbsatz], kostenlos und überparteilich, hätten eure Unterstützer:innen [Nutzen in einem Satz aus der Projekt-Persona: was sie danach haben oder tun, keine Schrittfolge] [PRÜFEN: Ebene Bund/Land/Kommune abgedeckt?]. [PRÜFEN: Funktion live?] [PRÜFEN: optional eine freigegebene Belegzeile, nur wenn die Länge reicht]
 > Soll ich dir zeigen, wie so eine Aktion für [Kampagne] aussähe? Falls das bei euch jemand anderes entscheidet, sag gern wer.
 > Grüße aus [Ort], Thomas
 

@@ -2,7 +2,7 @@
 source_url: research/2026-10-04-persona-creators-influencers.md
 publisher: Sales OS synthesis
 retrieved_at: 2026-10-04
-last_verified_at: 2026-10-04
+last_verified_at: 2026-11-11
 jurisdiction: Germany/EU (disclosure and ad law) plus platform-global (Instagram, TikTok, YouTube, LinkedIn mechanics)
 license_or_terms: paraphrased guidance from platform reporting, German media-authority guidance, statute text and vendor surveys; source terms apply
 confidence: medium
@@ -68,7 +68,7 @@ Lead = a dated commitment (story or Reel on a named day, pinned link, campaign p
 
 Skelett – nicht sendefertig. Instagram DM after the creator answered a comment; text only, no link, under 80 words.
 
-> Moin [Vorname], [SIGNAL: was sie geantwortet hat, sinngemäß] (unter deinem Reel zu [SIGNAL: Thema + Datum]). Darunter fragen einige „[SIGNAL: Frage aus den Kommentaren, wörtlich, nur wenn sie dort steht]“. Ich hab [Projekt in einem Satz: was man eingibt, was rauskommt, wer selbst handelt] gebaut, kostenlos und parteiunabhängig [PRÜFEN: Formulierung, Träger/Förderhinweis]. Mein Hintergedanke, ganz offen: dass du's irgendwann deinen Leuten zeigst. Soll ich dir mal ein Beispiel zu [SIGNAL: Thema] schicken?
+> Moin [Vorname], [SIGNAL: was sie geantwortet hat, sinngemäß] (unter deinem Reel zu [SIGNAL: Thema + Datum]). Darunter fragen einige „[SIGNAL: Frage aus den Kommentaren, wörtlich, nur wenn sie dort steht]“. Darauf hätten deine Leute eine Antwort, ohne dass du an deinem Ton etwas änderst: [Nutzen für ihr Publikum in einem Satz aus der Projekt-Persona, keine Schrittfolge], mit [Projekt als Halbsatz: was es ist, kostenlos, parteiunabhängig] [PRÜFEN: Formulierung, Träger/Förderhinweis]. Mein Hintergedanke, ganz offen: dass du's irgendwann deinen Leuten zeigst. Soll ich dir mal ein Beispiel zu [SIGNAL: Thema] schicken?
 > [Vorname]
 
 Variants: LinkedIn creator = their post → one checked observation from the project [PRÜFEN: belegbar] → "Deckt sich das mit dem, was du hörst?". Local micro creator = their local story → "Soll ich dir zeigen, wie das zu [SIGNAL: lokales Thema] aussehen würde?" [PRÜFEN: lokales Routing live?]. If the draft works unchanged for another creator, it is not ready.

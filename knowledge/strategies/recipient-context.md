@@ -2,7 +2,7 @@
 source_url: research/2026-10-02-recipient-roles.md
 publisher: Sales OS synthesis from linked primary sources
 retrieved_at: 2026-10-02
-last_verified_at: 2026-10-02
+last_verified_at: 2026-11-11
 jurisdiction: mixed; source-specific Germany, US, and UK
 license_or_terms: paraphrased guidance; source terms apply
 confidence: medium
@@ -19,9 +19,9 @@ Fill these from existing project and contact evidence. Keep it as a short intern
 
 1. **Role and capability:** current function, relevant work, intended audience, and what this person can actually decide or contribute. Record the source and date. A title, follower count, or prestigious employer does not prove access, decision authority, political alignment, or willingness.
 2. **Actual relationship:** no prior contact, connected only, public interaction, substantive exchange, trusted introduction, or ongoing work; include what was actually said and any contact preference. Connection acceptance is not a warm relationship, interest, or consent.
-3. **Recipient benefit hypothesis:** why this could serve their work, audience, cause, or workflow, tied to one observed fact. Distinguish benefit to them from the founder's desired distribution or revenue.
+3. **Felt problem and benefit:** the moment or difficulty they or their people are in, in their own words where they wrote or said it (else the project's `icp.md` hypothesis, kept internal), and the one thing that changes for them, tied to one observed fact; plus one usable proof line from `## Gemeinsame Belegzeilen`, or none. This becomes line 2 of the draft. Distinguish benefit to them from the founder's desired distribution or revenue.
 4. **Burden or risk hypothesis:** actual requested time and work; possible verification, reputation, editorial independence, public association, cost, implementation, or approval burden. Treat undisclosed motives as unknown. Do not infer sensitive characteristics or invent personal fears.
-5. **Smallest appropriate ask:** one relevant next action, or no ask when none follows naturally. Include channel/language fit and known permission or expected-contact limits. A link review, free audit, introduction, public share, and meeting are real work even when phrased as a quick question.
+5. **Smallest appropriate ask:** one relevant next action, or no ask when none follows naturally. Include channel/language fit and known permission or expected-contact limits. A link review, free audit, introduction, public share, and meeting are real work even when phrased as a quick question. It also picks the approach and whether a what-it-is line belongs (`first-touch.md`, `**Approach by recipient**`).
 
 If the fit or reason to contact cannot be stated honestly, research that one gap or choose another person. Do not pad drafts with generic praise. If capability is unclear but relevance is established, use a narrow question about responsibility rather than treating the person as a buyer or promoter.
 
@@ -53,6 +53,28 @@ For DE/US handling, use the market and channel references as an overlay. Actual 
 
 ## Evidence boundary
 
-The [research note](../../research/2026-10-02-recipient-roles.md) links the sources and their scopes. [UKRI](https://www.ukri.org/manage-your-award/good-research-resource-hub/guidance-on-engaging-the-public-with-your-research/) supports dialogue and explicit partner expectations in research engagement. [Presserat](https://www.presserat.de/pressekodex.html) supports editorial independence and separation from advertising. [NCVO](https://www.ncvo.org.uk/news-and-insights/news-index/time-well-spent-2023/volunteering-barriers-enablers/) supplies UK volunteer evidence on time and commitment barriers; it does not describe all organizers. [Gartner's original survey](https://www.gartner.com/en/newsroom/press-releases/2025-05-07-gartner-sales-survey-finds-74-percent-of-b2b-buyer-teams-demonstrate-unhealthy-conflict-during-the-decision-process) warns against treating an individual buyer's preference as the whole group's goal. These sources do not test this five-field outreach method.
+The [research note](../../research/2026-10-02-recipient-roles.md) links the sources and their scopes. [UKRI](https://www.ukri.org/manage-your-award/good-research-resource-hub/guidance-on-engaging-the-public-with-your-research/) supports dialogue and explicit partner expectations in research engagement. [Presserat](https://www.presserat.de/pressekodex.html) supports editorial independence and separation from advertising. `engage.md`, step 9: replace `Remove generic compliments, unnecessary founder or product explanation,` with `Remove generic compliments, unnecessary founder or product explanation, any description of input steps (what one enters, what comes out),`.
+
+- Evidence: L5-8 (primary); diagnosis order: working rule (L4 "Not found": no reply-level evidence for felt problem before benefit).
+- Pinned test: `engage.md` must keep `conversation-state check` (step 6) and the editorial-pitch reference (step 3); untouched.
+- Risk: field 3 could tempt the drafter to state the recipient's feelings; the Drafting card line "Name a worry or feeling only when they wrote or said it" blocks that.
+- Length: +60 words.
+
+### Rank 6 · `knowledge/strategies/linkedin-public-post.md`, `## Start from the material`, `## First lines`, `## Final editorial check`, `## Evidence and limits` · replace
+
+`## Start from the material`, paragraph 2: replace `Privately identify the intended reader, the single point they should understand,` with `Privately identify the intended reader and their felt problem in their own words, the single point they should understand,`.
+
+Replace all bullets of `## First lines` except the `Avoid:` bullet with:
+
+```text
+One pass, in this order; never shown to the founder as a score.
+
+1. Specific, not the whole answer: line 1 names a concrete moment, object, or claim and leaves one concrete thing for the body. Vague suspense and a line that gives everything away both lost clicks in headline experiments (Le Quéré and Matias 2025, 8,977 tests, US news; transfer assumed).
+2. Common, plain words and short phrases. Do not trust a "polished" feel: readers clicked simpler headlines, professional writers did not prefer them (Shulman, Markowitz and Rogers 2024, 30,000+ tests, English).
+3. The topic in plain words in lines 1–3: one main topic and two or three related ones that match the profile. Inference, not a LinkedIn statement: the ranker uses embeddings and reading history; whether it reads post text is not published.
+4. One detail only this founder can know: a dated observation, decision, screenshot, consented user message, or number with its definition. LinkedIn defines slop by a missing point of view or substance, not by style (2026-09-15).
+5. One plain sentence says what the reader can do with the product, in outcome words, no input steps; a stranger cannot care how something spreads or counts if they cannot picture it.
+6. A real problem may be named plainly; never add negative or emotive words for effect.
+7. Working rule: the promise is complete in about the first two lines. No official cut exists (tools say 140–210 characters, some cut by lines); check the phone preview. [Gartner's original survey](https://www.gartner.com/en/newsroom/press-releases/2025-05-07-gartner-sales-survey-finds-74-percent-of-b2b-buyer-teams-demonstrate-unhealthy-conflict-during-the-decision-process) warns against treating an individual buyer's preference as the whole group's goal. These sources do not test this five-field outreach method.
 
 When paid endorsements or other material benefits enter the scope, consult current [German media-regulator guidance](https://www.die-medienanstalten.de/service/merkblaetter-und-leitfaeden/leitfaden-werbekennzeichnung-bei-online-medien/) or [US FTC guidance](https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers). Do not classify every voluntary civic share as commercial advertising or assume that a free product settles all disclosure questions. Risk guidance is not a case-specific legal conclusion.

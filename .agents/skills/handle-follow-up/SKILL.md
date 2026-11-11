@@ -19,7 +19,7 @@ Require a real prior touch; a founder-reported prior touch counts and is recorde
 - `knowledge/personas/<persona>.md` (`## Touch plan`, `## Give-first asset`), plus `## Gemeinsame Belegzeilen` and `## <persona>` from `workspace/projects/<slug>/personas.md` when present; without a project section, the persona file alone
 - `core/steps/pipeline.md` for the board update
 - Contact record and relevant interactions
-- The matching channel file; market files (`germany-eu.md`, `us-international.md`, `cross-border.md`) only for email or cross-border; `workspace/voice.md` when present
+- The matching channel file; market files (`germany-eu.md`, `us-international.md`, `cross-border.md`) only for email or cross-border; `workspace/voice.md` when present (confirmed-native samples first)
 
 ## Safety boundary
 

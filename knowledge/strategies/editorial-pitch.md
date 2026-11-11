@@ -2,7 +2,7 @@
 source_url: research/2026-10-04-persona-media-podcasts.md
 publisher: Sales OS synthesis from private practitioner evidence
 retrieved_at: 2026-09-17
-last_verified_at: 2026-10-10
+last_verified_at: 2026-11-11
 jurisdiction: global
 license_or_terms: private evidence summarized without personal data
 confidence: medium
@@ -46,9 +46,9 @@ Give every number its definition, date, and n (e.g. drafts created vs. letters c
 
 Keep the body to four functions and remove everything else (120–180 words):
 
-1. **Why this person:** one or two sentences tied to a real article, comment, beat, programme, or local context.
+1. **Why this person:** one or two sentences tied to a real article, comment, beat, programme, or local context, naming who in their audience or region is affected (78 % of journalists call that relevant, only 16 % see it in pitches; Muck Rack 2026, US-heavy).
 2. **What the news is:** the angle and the minimum verified proof needed to understand why it matters now.
-3. **Why this founder can help:** one short sentence naming the founder's real role, access, or first-hand perspective.
+3. **Why this founder can help:** one short sentence naming the founder's real role, access, or first-hand perspective, with what the product is as a plain half-sentence (outcome words, no steps, no feature list). For a podcast, this may be the founder's origin story: one true sentence as what he could tell on air, never the opener.
 4. **What should happen next:** one direct question about editorial interest or a short conversation.
 
 Do not add a general company history, feature tour, several links, several asks, or a press-release block. Put the press-kit link in the signature; link rather than attach (one small photo is acceptable). Match `du` or `Sie` to visible evidence. A scheduling link is optional only when scheduling is already the natural next step; it is not the first-touch CTA by default.

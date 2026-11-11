@@ -20,7 +20,7 @@ Draft immediately for any named person, organization, role at an outlet, or sele
 - `knowledge/personas/<persona>.md`, loaded by section (`## Ask ladder`, `## Give-first asset`, `## Message skeleton`)
 - `workspace/projects/<slug>/personas.md` sections `## Gemeinsame Belegzeilen` and `## <persona>` when present
 - `knowledge/channels/personal-network.md` (Intro kit) for connector or name-drop touches
-- Active project evidence and `workspace/voice.md` when present
+- - Active project evidence, `workspace/projects/<slug>/icp.md` (`## Triggering situation`, `## Consequences and urgency`) for the felt problem, and `workspace/voice.md` when present (confirmed-native samples for this channel first, then sent-approved; never `ai-assisted-or-unknown` as the baseline)
 - Only the matching channel and strategy references; a market reference only for email or when sender and recipient jurisdictions differ
 - `knowledge/foundations/audience-language.md` only for public-thread or community targets
 
@@ -28,7 +28,7 @@ For journalist or editorial outreach, load `knowledge/strategies/editorial-pitch
 
 Apply this order: verified target context, the founder's matching channel voice, community or platform norms, individual formality, then broad market hypotheses.
 
-Before writing, use the five-field recipient-context check to choose the purpose and size of the ask, not merely a personalized opener. Distinguish commercial customer discovery, voluntary civic support, editorial coverage, and a paid creator campaign. Check sender and recipient jurisdictions and actual language separately. Do not translate the same pitch mechanically or infer motives from nationality, reach, or role.
+Before writing, run the five-field recipient-context check as the diagnosis: persona, their felt problem in their words, the benefit for them, one proof line or none, the smallest ask. It chooses the approach (`first-touch.md`, `**Approach by recipient**`) and the size of the ask, not merely a personalized opener. Distinguish commercial customer discovery, voluntary civic support, editorial coverage, and a paid creator campaign. Check sender and recipient jurisdictions and actual language separately. Do not translate the same pitch mechanically or infer motives from nationality, reach, or role.
 
 Pick the persona first (`media-podcasts`, `creators-influencers`, `ngos-civic-orgs`, `funders-foundations`, `buyers-users`, `connector`, `other`) and use its `## Ask ladder` and `## Give-first asset`; for `buyers-users` they come from the project's `icp.md` and `positioning.md`. `connector` and `other` have no persona file: `connector` uses the intro kit in `knowledge/channels/personal-network.md`; `other` uses the Drafting card in `knowledge/strategies/first-touch.md` alone. Mark a line-one signal that was neither supplied nor found in the look as `[SIGNAL: …]`; offer only an asset that exists, or mark `[PRÜFEN: Asset gebaut?]`.
 

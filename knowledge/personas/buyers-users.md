@@ -2,7 +2,7 @@
 source_url: research/2026-10-04-outbound-first-touch-follow-up.md
 publisher: Sales OS synthesis
 retrieved_at: 2026-10-04
-last_verified_at: 2026-10-04
+last_verified_at: 2026-11-11
 jurisdiction: Germany (vendor data global and B2B-email heavy, labelled)
 license_or_terms: paraphrased guidance from vendor studies, practitioner sources and platform help pages; source terms apply
 confidence: medium
@@ -23,8 +23,8 @@ Load for a buyer or end user of a commercial project (HeySpeak, NomadSpots, Spie
 ## What earns a reply
 
 - Line 1 is their trigger: one dated thing they wrote, asked or did that matches the ICP trigger. If the sentence would work for someone else, rewrite it.
-- Line 2 says what changes for them, in their words from `positioning.md`, not how the product works. Gong found that pitching cuts replies by up to 57%.
-- 50–70 words, at most about 90. Gong's 28M emails: 3–4 sentences and 100 words or fewer had the best reply rates.
+- Line 2 says what changes for them, in their words from `positioning.md`, not how the product works. In Gong's 28M-email data, pitching went with up to 57% fewer replies (vendor, observational, checked 2026-11-11).
+- 50–70 words, at most about 90: a medium norm; vendor length data are weak and conflict (`knowledge/strategies/first-touch.md`, `## Evidence boundary`).
 - End with one easy question. For buyers, a question about their situation ("Wie löst du das im Moment?") often works better than permission to send something, because the answer is also discovery evidence.
 - Write within a few days of the signal. Use real proof only. "Ich baue das gerade allein" is honest credibility, not an apology.
 
@@ -57,11 +57,11 @@ Lead = one of the dated commitments in step 4, or a call booked for a date. "Kli
 
 > Moin [Vorname],
 > du hast [SIGNAL: am [Datum] geschrieben, dass [Problem in ihren Worten]].
-> Ich baue gerade allein [Projekt in einem Satz aus positioning.md], damit [PRÜFEN: Nutzen in ihren Worten, keine Wirkungsbehauptung].
+> Ich baue gerade allein [Projektname oder „etwas“], damit [PRÜFEN: Ergebnis für sie aus positioning.md, in ihren Worten; keine Schrittfolge, keine Wirkungsbehauptung].
 > Wie löst du das im Moment? *(oder: Soll ich dir [Asset aus positioning.md] für deinen Fall schicken?)*
 > Grüße aus Bremen, Thomas
 
-Pick exactly one question. For an organisation, `Falls das bei euch jemand anderes entscheidet, sag gern wer.` may follow it. The skeleton is about 50–70 words. If it reads the same after removing the product name, line 1 is too weak.
+Pick exactly one question. For an organisation, `Falls das bei euch jemand anderes entscheidet, sag gern wer.` may follow it. The skeleton is about 50–70 words. If it reads the same after removing the product name, line 1 is too weak. When the project's positioning.md (## Message boundaries) rules out a product line in the first touch, drop line 3 and keep the question.
 
 ## Touch plan
 
