@@ -24,7 +24,7 @@ Explicit founder intent selects the specialist before lifecycle state (`core/ste
 
 An explicit request for LinkedIn post ideas or different angles routes to the ideation mode of `draft-public-post` using available project evidence. Its compact idea set is one finished asset with one recommended direction, not a skill menu or several finished posts. Do not demand a completed source story before suggesting grounded premises, or mark those premises as draft ready.
 
-A request for a Reel, short video, hook, or face-vs-faceless test routes to `draft-reel`; going through new LinkedIn connections routes to `linkedin-multipliers`; "Wochenstart", "Wochenreview", or "Was steht an?" routes to the weekly modes of `sales-next`. Every other named request follows the catalog table. A trailing `kurz` is a length modifier, not an intent: pass it to the specialist as `Kurz-Modus`.
+A request for a Reel, short video, hook, or face-vs-faceless test routes to `draft-reel`; a request for stickers, flyers, posters, Plakate, or other print material routes to `draft-print-copy`; going through new LinkedIn connections routes to `linkedin-multipliers`; "Wochenstart", "Wochenreview", or "Was steht an?" routes to the weekly modes of `sales-next`. Every other named request follows the catalog table. A trailing `kurz` is a length modifier, not an intent: pass it to the specialist as `Kurz-Modus`.
 
 When `$sales-copilot` is the entrypoint, this skill's four-section output contract takes precedence over the selected specialist's direct-invocation presentation contract. Use the specialist contract to construct the asset or apply a listed stop case, then wrap the result once; do not leak a skill name, `Why:` block, or a second output shape to the founder.
 

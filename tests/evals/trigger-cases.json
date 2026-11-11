@@ -116,6 +116,12 @@
   {"id":"draft-reel-p3","subject_skill":"draft-reel","kind":"positive","prompt":"Give me the faceless twin and two test hooks for my existing on-camera Reel body so I can run the face-vs-faceless pair.","expected_skill":"draft-reel"},
   {"id":"draft-reel-n1","subject_skill":"draft-reel","kind":"near_miss","prompt":"Turn yesterday's bus-complaint demo into a LinkedIn text post with one real photo.","expected_skill":"draft-public-post"},
   {"id":"draft-reel-n2","subject_skill":"draft-reel","kind":"near_miss","prompt":"This creator's Reel asks viewers what they can do about rents. Draft one public comment before I consider a DM.","expected_skill":"warm-contact-comment"},
+  {"id":"draft-print-copy-p1","subject_skill":"draft-print-copy","kind":"positive","prompt":"Schreib mir einen Spruch für Sticker für Spießer.","expected_skill":"draft-print-copy"},
+  {"id":"draft-print-copy-p2","subject_skill":"draft-print-copy","kind":"positive","prompt":"Flyer-Text für Brief-nach-Berlin an Schulen, mit QR-Code.","expected_skill":"draft-print-copy"},
+  {"id":"draft-print-copy-p3","subject_skill":"draft-print-copy","kind":"positive","prompt":"Was soll auf das Plakat in der Mensa?","expected_skill":"draft-print-copy"},
+  {"id":"draft-print-copy-n1","subject_skill":"draft-print-copy","kind":"near_miss","prompt":"Turn this project learning into a LinkedIn text post with one real photo.","expected_skill":"draft-public-post"},
+  {"id":"draft-print-copy-n2","subject_skill":"draft-print-copy","kind":"near_miss","prompt":"Write a 20-second Reel script for the product demo with my own voiceover.","expected_skill":"draft-reel"},
+  {"id":"draft-print-copy-n3","subject_skill":"draft-print-copy","kind":"near_miss","prompt":"Draft my first cold email to a school principal about the pilot.","expected_skill":"draft-outreach"},
   {"id":"draft-reel-n3","subject_skill":"draft-reel","kind":"near_miss","prompt":"Draft my first Instagram DM to the politics creator whose Reel I commented on last week; we have never messaged.","expected_skill":"draft-outreach"},
 
   {"id":"linkedin-multipliers-p1","subject_skill":"linkedin-multipliers","kind":"positive","prompt":"Geh meine neuesten 100 LinkedIn-Kontakte durch und such mir fünf Multiplikatoren für mein Projekt raus, mit je einem Entwurf.","expected_skill":"linkedin-multipliers"},

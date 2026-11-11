@@ -18,6 +18,7 @@ explicit_intent_routes:
   spontaneous_conversation: field-conversation-pitch
   public_post: draft-public-post
   short_video: draft-reel
+  print_copy: draft-print-copy
   contact_warming_comment: warm-contact-comment
   find_targets: find-conversations
   weekly_planning: sales-next
@@ -105,6 +106,12 @@ workflows:
     prerequisites: [active_project, founder_intent]
     required_when: founder_requests_short_video
     produces: [reel_script_needs_check, reel_script_ready]
+  - id: publish-print
+    sequence: 44
+    skill: draft-print-copy
+    prerequisites: [active_project, founder_intent]
+    required_when: founder_requests_print_copy
+    produces: [print_copy_needs_check, print_copy_ready]
   - id: send
     sequence: 45
     skill: record-outreach

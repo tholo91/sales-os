@@ -19,6 +19,7 @@ Load only what the active skill needs.
 - LinkedIn public writing and performance review: `strategies/linkedin-public-post.md`; load for personal posts, not private first-touch messages
 - Recipient-aware research, first touch, replies and follow-up: `strategies/recipient-context.md`; combine actual role and relationship with benefit/burden hypotheses and a proportional ask, then load only the applicable market and channel references
 - Instagram Reel scripts (on-camera or faceless, hooks, format test): `channels/instagram-reels.md`; load for `draft-reel`, not for comments or DMs
+- Print and offline copy (stickers, flyers, posters, QR line, variant test, German legal risk): `channels/print-offline.md`; load for `draft-print-copy`
 - Personas: `personas/<slug>.md` for `media-podcasts`, `creators-influencers`, `ngos-civic-orgs`, `funders-foundations`, `buyers-users`; load by section (`## Ask ladder`, `## Give-first asset`, `## Message skeleton`, `## Touch plan`, `## Call kit`), with project instances in `workspace/projects/<slug>/personas.md`
 - Weekly pipeline board and scoreboard: `../core/steps/pipeline.md` with `../templates/pipeline.md`; the default touch plan lives in `strategies/follow-up.md`
 - Draft-first and gap markers (`[SIGNAL: …]`, `[PRÜFEN: …]`): `foundations/human-writing.md`

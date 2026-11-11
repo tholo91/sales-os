@@ -17,6 +17,7 @@ const skills = [
   "draft-outreach",
   "draft-public-post",
   "draft-reel",
+  "draft-print-copy",
   "reddit-dm",
   "record-outreach",
   "handle-reply",

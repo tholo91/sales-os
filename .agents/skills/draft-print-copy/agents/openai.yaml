@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft Print Copy"
+  short_description: "Draft sticker, flyer, or poster copy with QR line and variant test"
+  default_prompt: "Use $draft-print-copy to write three test variants of sticker, flyer, or poster copy with a QR call-to-action and a test plan."
