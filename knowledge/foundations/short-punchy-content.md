@@ -2,7 +2,7 @@
 source_url: null
 publisher: Sales OS
 retrieved_at: 2026-09-01
-last_verified_at: 2026-10-01
+last_verified_at: 2026-11-11
 jurisdiction: global
 license_or_terms: project guidance
 confidence: high
@@ -61,7 +61,7 @@ Emotional language must come from a true human detail, not from motivational dec
 
 Keep founder anecdotes and sample wording in the private workspace. Use them only when the exact wording and facts are confirmed for the specific post. Do not turn one thank-you into a general traction claim or a created document into proof that someone sent it.
 
-Emotion opens attention. Evidence earns trust. The post needs both when the topic involves a product, civic action, money, health, or another high-trust decision.
+Emotion opens attention. Evidence earns trust. This is a working rule for public posts, not a research finding: the post needs both when the topic involves a product, civic action, money, health, or another high-trust decision. Keep emotion mild and true; strong sentiment showed no reply advantage over neutral in the only reply-level data (vendor, 2016). In a private message to a professional, the emotion is theirs (their words, their people's moment), not the founder's story: in one study a story raised counterarguing among decision-makers, and stories persuade mass audiences only slightly on average (`research/2026-11-11-delta-benefit-story-concise.md`, claims 3, 4, 11).
 
 ## Quality check
 

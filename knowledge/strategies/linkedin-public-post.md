@@ -2,7 +2,7 @@
 source_url: https://news.linkedin.com/2026/ImprovingTheFeed
 publisher: Sales OS synthesis of LinkedIn sources, original observational research, and editorial practice
 retrieved_at: 2026-10-01
-last_verified_at: 2026-10-04
+last_verified_at: 2026-11-11
 jurisdiction: platform-global
 license_or_terms: paraphrased public guidance; private founder material stays in workspace
 confidence: medium
@@ -17,7 +17,7 @@ Use for a founder's own post, draft improvement, or review of observed post resu
 
 Use the existing draft, rough notes, spoken account, or verified artifact. Recover audience and purpose from context before asking. Do not run an obligatory interview about tone, variants, CTA, and images when the input already answers those questions.
 
-Privately identify the intended reader, the single point they should understand, and the source that earns that point. Preserve the founder's strongest original sentences. A reader benefit can be a useful distinction, honest experience, concrete example, or relevant announcement; it need not become a how-to list.
+Privately identify the intended reader and their felt problem in their own words, the single point they should understand, and the source that earns that point. Preserve the founder's strongest original sentences. A reader benefit can be a useful distinction, honest experience, concrete example, or relevant announcement; it need not become a how-to list.
 
 If the source is thin, still draft the complete post from recorded facts and mark open facts per `knowledge/foundations/human-writing.md` (`## Draft-first and gap markers`); the one question about the missing observation, decision, or artifact goes into the manual step. A full self-written draft is optional. Do not fill the gap with a fabricated conversation, metric, location, emotion, or customer problem.
 
@@ -80,12 +80,17 @@ If the aim is discussion, ask something the intended reader can answer from expe
 
 ## First lines
 
-- One plain sentence says what the product does for the reader; a stranger cannot care how something spreads or counts if they cannot picture it.
-- Name the topic in plain words in lines 1–3. LinkedIn ranks with LLM embeddings of posts and members, so the topic must be unambiguous; stay within one main topic and two or three related ones that match the profile.
-- Include one detail only this founder can know: a dated observation, decision, screenshot, consented user message, or number with its definition. Delete sentences that could stand on any founder's profile. LinkedIn reports cutting views of AI slop by 40%.
-- Practitioner check, not a rule: line 1 about 70 characters or fewer, lines 1+2 about 140 or fewer, because German compounds fill the mobile preview fast. The promise is complete before "mehr anzeigen"; check the phone preview.
-- Prefer one concrete scene (place, object, a sentence someone said) over a contrast slogan.
-- Avoid: "Das ist nicht X. Das ist Y.", "weniger X, mehr Y" openers, staccato fragment chains ("Ein Brief. Handgeschrieben. Echt."), punchline closers, "Unpopuläre Meinung:", "Niemand redet darüber", "Stell dir vor", emoji chains, rhetorical questions the text never answers.
+One pass, in this order; never shown to the founder as a score.
+
+1. Specific, not the whole answer: line 1 names a concrete moment, object, or claim and leaves one concrete thing for the body. Vague suspense and a line that gives everything away both lost clicks in headline experiments (Le Quéré and Matias 2025, 8,977 tests, US news; transfer assumed).
+2. Common, plain words and short phrases. Do not trust a "polished" feel: readers clicked simpler headlines, professional writers did not prefer them (Shulman, Markowitz and Rogers 2024, 30,000+ tests, English).
+3. The topic in plain words in lines 1–3: one main topic and two or three related ones that match the profile. Inference, not a LinkedIn statement: the ranker uses embeddings and reading history; whether it reads post text is not published.
+4. One detail only this founder can know: a dated observation, decision, screenshot, consented user message, or number with its definition. LinkedIn defines slop by a missing point of view or substance, not by style (2026-09-15).
+5. One plain sentence says what the reader can do with the product, in outcome words, no input steps; a stranger cannot care how something spreads or counts if they cannot picture it.
+6. A real problem may be named plainly; never add negative or emotive words for effect.
+7. Working rule: the promise is complete in about the first two lines. No official cut exists (tools say 140–210 characters, some cut by lines); check the phone preview.
+
+- The repo's own inference, not a LinkedIn classifier list. Avoid: "Das ist nicht X. Das ist Y.", "weniger X, mehr Y" openers, staccato fragment chains ("Ein Brief. Handgeschrieben. Echt."), punchline closers, "Unpopuläre Meinung:", "Niemand redet darüber", "Stell dir vor", emoji chains, rhetorical questions the text never answers.
 
 ## Voice, layout, links, and media
 
@@ -105,8 +110,8 @@ Mention real partners only when they appear in the post and agreed beforehand ("
 
 ## Final editorial check
 
-1. **Ownership:** Is this this founder's perspective, and does it sound like their original material?
-2. **Focus:** Can the main point and reader relevance each be stated in one sentence, and does one sentence say what the product does?
+1. **Ownership:** Is this this founder's perspective, and does it sound like his confirmed-native samples in `workspace/voice.md` rather than generic LinkedIn polish?
+2. **Focus:** Can the main point and reader relevance each be stated in one sentence, and does one sentence say what the reader can do with the product, without input steps?
 3. **Evidence:** Are details supported, dated where needed, and scoped correctly? Created, sent, viewed, and purchased are different outcomes. A number a page displays is quoted exactly as displayed.
 4. **Delivery:** Does the body fulfill the opening's promise with something concrete?
 5. **Ending:** Does the ending belong to that point, with zero or one intended action?
@@ -153,7 +158,7 @@ For a timing test, record actual publication time and timezone, compare similar 
 
 LinkedIn describes relevance to professional interests and efforts to reduce repetitive, low-substance content and engagement bait. It permits AI writing assistance while asking for the member's own voice and perspective, and describes reduced distribution of generic AI content. These are platform statements, not disclosed ranking weights or a forecast for an individual post.
 
-LinkedIn also describes a ranker built on LLM embeddings and each member's reading history, refreshed within minutes of new engagement, and lists profile identity and tagged people among feed signals.
+LinkedIn also describes a ranker built on LLM embeddings and each member's reading history, refreshed within minutes of new engagement, and lists profile identity and tagged people among feed signals. Its ranker paper (arXiv 2602.12354, 2026) and a 2020 engineering post model long dwell and skips; weights, thresholds and any effect of post text are unpublished.
 
 Primary sources, checked 2026-10-01 unless noted:
 

@@ -16,7 +16,7 @@ For requested ideation, use available project facts and founder observations as 
 ## Required references
 
 - `core/steps/publish.md`
-- Active positioning, project evidence, and `workspace/voice.md`
+- Active positioning, project evidence, and `workspace/voice.md` (confirmed-native samples first)
 - knowledge/foundations/human-writing.md (section Draft-first and gap markers)
 - `knowledge/foundations/short-punchy-content.md`
 - Only the matching channel and visibility guidance
@@ -29,7 +29,7 @@ For Reddit, require the current subreddit rules and recent tone. For LinkedIn, t
 
 ## Shape and split check
 
-Default to a focused asset with one earned point and a clear benefit for the intended reader. Choose the writing approach from the material: experience, result or explanation, reasoned position, genuine open question, or announcement. These are options, not templates or a rotation schedule. Ground the post in one concrete scene, verified result, artifact, or observation; one concrete scene beats a contrast slogan. Every post contains one plain sentence saying what the product does for the reader, even when the product is not the topic. End with a relevant statement, question, or action; a CTA is optional. Cut preamble and product history before adding polish, keeping a short, punchy asset when that serves the idea.
+Default to a focused asset with one earned point and a clear benefit for the intended reader. Choose the writing approach from the material: experience, result or explanation, reasoned position, genuine open question, or announcement. These are options, not templates or a rotation schedule. Ground the post in one concrete scene, verified result, artifact, or observation; one concrete scene beats a contrast slogan. Every post contains one plain sentence saying what the reader can do with the product, in outcome words, never input steps or a feature list, even when the product is not the topic. End with a relevant statement, question, or action; a CTA is optional. Cut preamble and product history before adding polish, keeping a short, punchy asset when that serves the idea.
 
 For LinkedIn, pick the archetype and first-line checks from `knowledge/strategies/linkedin-public-post.md`.
 
