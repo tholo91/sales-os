@@ -57,7 +57,7 @@ This score is an internal prioritization heuristic, not a prediction of replies 
 
 Apply the first-message coaching in `knowledge/strategies/first-touch.md`. If the requested batch jumps prematurely to shares, introductions, or meetings, explain the correction once in the existing selection rationale and prepare the fitting drafts. Do not repeat the nudge for every contact or manufacture a question, compliment, or skill endorsement.
 
-Write one short LinkedIn DM per selected person, normally 40–90 words:
+Write one short LinkedIn DM per selected person, normally 50–70 words, at most about 90:
 
 1. one specific, verified opener from the profile or fresh public signal; this first sentence carries the reason to keep reading, but must not imitate an email subject or press headline;
 2. one short, honest reason for writing; mention the relevant Brief nach Berlin angle only when it explains the connection, without a product explanation;

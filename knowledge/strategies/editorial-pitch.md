@@ -2,7 +2,7 @@
 source_url: research/2026-10-04-persona-media-podcasts.md
 publisher: Sales OS synthesis from private practitioner evidence
 retrieved_at: 2026-09-17
-last_verified_at: 2026-10-04
+last_verified_at: 2026-10-10
 jurisdiction: global
 license_or_terms: private evidence summarized without personal data
 confidence: medium
@@ -30,13 +30,17 @@ Treat the subject as a candidate headline:
 
 The subject earns the open; the body must carry the same promise. If the body changes topic or expands into the whole product history, the pitch is not ready.
 
+## Hook accuracy
+
+When the angle rests on someone else's report, cite its wording and scope exactly. Do not sharpen it (e.g. "automatisierte Massenpost" must not become "KI-generierte" or "digitale Massenpost"), and do not present a side remark as the main motive. Check the primary source, not a secondary rewrite (`research/2026-10-10-press-pitch-benchmarks.md`).
+
 ## Second-day stories
 
 Once an outlet or the national press has covered the product, "this tool exists" is spent. Pitch only a defined data point, a consented protagonist, a local pattern, a verified calendar hook (election, budget, sitting week), a counter-thesis, or an honest failure.
 
 ## Numbers
 
-Give every number its definition, date, and n (e.g. drafts created vs. letters confirmed sent). Publish aggregates only: opt-in data with a minimum cell size `[PRÜFEN: Schwelle]`. Never an individual case without that person's explicit consent. Political topics are special-category data; see `knowledge/markets/germany-eu.md` (`## Rechtliche Kurzreferenz für Outreach`).
+Give every number its definition, date, and n (e.g. drafts created vs. letters confirmed sent). For a self-reported survey, quote the question's meaning rather than a stronger paraphrase ("eher in der Lage, sich einzubringen" is not "selbstwirksam" or "aktiviert"), name the subgroup that was asked, and put the founder's interpretation in a separate sentence of their own. Publish aggregates only: opt-in data with a minimum cell size `[PRÜFEN: Schwelle]`. Never an individual case without that person's explicit consent. Political topics are special-category data; see `knowledge/markets/germany-eu.md` (`## Rechtliche Kurzreferenz für Outreach`).
 
 ## Reading budget
 

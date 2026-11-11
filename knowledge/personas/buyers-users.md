@@ -24,7 +24,7 @@ Load for a buyer or end user of a commercial project (HeySpeak, NomadSpots, Spie
 
 - Line 1 is their trigger: one dated thing they wrote, asked or did that matches the ICP trigger. If the sentence would work for someone else, rewrite it.
 - Line 2 says what changes for them, in their words from `positioning.md`, not how the product works. Gong found that pitching cuts replies by up to 57%.
-- 40–90 words. Gong's 28M emails: 3–4 sentences and 100 words or fewer had the best reply rates.
+- 50–70 words, at most about 90. Gong's 28M emails: 3–4 sentences and 100 words or fewer had the best reply rates.
 - End with one easy question. For buyers, a question about their situation ("Wie löst du das im Moment?") often works better than permission to send something, because the answer is also discovery evidence.
 - Write within a few days of the signal. Use real proof only. "Ich baue das gerade allein" is honest credibility, not an apology.
 
