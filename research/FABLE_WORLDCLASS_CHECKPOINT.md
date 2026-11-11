@@ -10,12 +10,12 @@ Run date: 2026-11-11. Prompt: `research/FABLE_WORLDCLASS_PROMPT.md`. This file h
 | 1 Inventory | done | See below. Done by the lead with a script (no agent used). |
 | 2 Baseline | done | 7 drafts in `research/eval/baseline/` (gitignored: drafts use private founder facts, repo is public). 5 of 7 describe the workflow in line or paragraph two. |
 | 3 Research | done | 6 lane files `research/2026-11-11-delta-*.md`. Lead spot-checked two claims against the original pages (Gong 28M page; Le Quéré and Matias 2025): both hold. |
-| 4 Synthesis | running | Opus agent writes `research/2026-11-11-synthesis-patch-list.md`. |
-| 5 Upgrade | started | Item f done: `hook_variant` and `reaction` fields on the interaction record. |
-| 6 Blind test | open | |
+| 4 Synthesis | done | `research/2026-11-11-synthesis-patch-list.md`: 13 ranked patches, drop list, 18 rejected lane proposals, 36 register rows. Reviewed and accepted by the lead with one change (a private hook pattern is kept, not deleted). |
+| 5 Upgrade | done except g | Ranks 1–13 applied (one Sonnet worker for outreach files, lead for post files and register). Private project files patched; originals copied to `workspace/archive/2026-11-11-pre-upgrade/`. `npm run check`: 58 of 58. Item g (`write-like-me` review) is open. |
+| 6 Blind test | running | Fresh Sonnet agent rewrites the same 7 cases; a fresh Opus judge then scores randomized A/B pairs. |
 | 7 Close | open | |
 
-Agents used: 8 of 12 (Opus 1 of 3).
+Agents used: 10 of 12 (Opus 1 of 3).
 
 ## Phase 0 decisions
 
@@ -65,3 +65,10 @@ Private project files past `review_after`: 24 (evidence, experiments, validation
 - Warm contact: a short no-ask message to an acquaintance is appreciated more than senders expect (replicated). Written asks to strangers succeed far less often than senders expect.
 - Germany: 2026 local-court rulings treat a single unsolicited promotional B2B email as actionable; the editorial-tip exception has no case law behind it. LinkedIn's own pages disagree on the free connection-note quota.
 - Personas: German primary sources now exist for journalists' workload and for volunteers' time limits. No sourced data for podcast-host guest choice, creator collaboration motives, WG money friction or café work failures.
+
+## Phase 4 and 5 decisions
+
+- Emotion changes owner. In a private first touch it comes from the recipient's own words or their people's moment, not from the founder's origin story. The origin story leads public posts and is one sentence of guest material for podcast hosts. `story-first` in a DM is a logged test variant for creators and podcast hosts. Reason: stories help mass audiences slightly, and one preregistered test found a story backfiring with decision-makers. This partly departs from the founder's wish for story-first outreach and goes to him as a decision in the final report.
+- The diagnosis step is the existing five-field check, extended (felt problem, benefit, proof, smallest ask, approach). No new step and no new output section.
+- A what-it-is line is included only where the approach table says so, as a half-clause in a DM.
+- Every rule without a randomized test is logged in the claims register as a working rule, to be compared through `hook_variant` and `reaction`.
