@@ -96,11 +96,16 @@ Why round 1 lost three cases, and what changed:
 
 Limits: the round-2 post uses that unconfirmed "why" line (the baseline used the same line), so the post is not ready to publish until the founder confirms it. Both judges noted that the losing draft often had the warmer human detail.
 
-## Open after this run
+## Founder decisions after the run (2026-11-11)
 
-- Founder to confirm: the candidate "why" line for posts; paste the confirmed-native original messages into the private voice file (still empty there).
-- Founder decision: keep "emotion from the recipient's words, own story only in posts and podcast pitches" or make `story-first` the default for creators and podcast hosts.
-- `write-like-me`: two scoped voice preferences proposed, not applied (separate repository with uncommitted changes).
-- 10 knowledge files past `review_after` (table above) and 24 private project files are not refreshed.
-- Warm-touch detail: both judges preferred a specific human line from the meeting or the gap ("Dein Satz ist mir hängen geblieben", "lange nichts gehört") over a standard thank-you. Not yet a rule; compare via `hook_variant` and `reaction`.
-- Remote branch `sales-os-world-class-outreach` still exists on GitHub; `main` is unpushed.
+- Emotion in private messages comes from the recipient's own words; the founder's story stays in posts and as one sentence in podcast pitches. `story-first` remains a test variant only.
+- Two scoped voice preferences were saved in the founder's private `write-like-me` voice file (first-person benefit bridge; no input steps in line two).
+- `main` was pushed and the old remote branch deleted.
+- Refreshing stale knowledge files is postponed (backlog below).
+
+## Backlog
+
+- Refresh the 10 knowledge files past `review_after` (table in Phase 1), most relevant first: `signal-led-outreach.md`, `audience-language.md`, `channel-choice.md`. Eight more fall due on 2026-11-19.
+- Refresh the 24 private project files past `review_after`.
+- Founder to confirm the candidate "why" line for posts, and to paste the confirmed-native original messages into the private voice file (still empty there).
+- Warm-touch detail: both judges preferred a specific human line from the meeting or the gap over a standard thank-you. Not yet a rule; compare via `hook_variant` and `reaction`.
