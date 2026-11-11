@@ -25,7 +25,7 @@ Start with people who can credibly experience the problem, introduce a relevant 
 Warm intros are the highest-leverage ask (practitioner consensus, see `research/2026-10-04-outbound-first-touch-follow-up.md` and `research/2026-10-04-call-prep-multipliers.md`). Draft per `knowledge/foundations/human-writing.md` (`## Draft-first and gap markers`).
 
 1. Accept an offered intro within 24 h; when later, add one short apology clause. One named target per ask: a person, or the organisation the connector named; at most three per call.
-2. Double opt-in by default: the connector asks the target first; Thomas never cc's a stranger uninvited.
+2. Double opt-in by default: the connector asks the target first; the founder never cc's a stranger uninvited.
 3. Forwardable blurb in German, third person, at most 4 sentences plus a contact line: who and what in plain words; one number in its approved Belegzeile wording with date; why this target, as an angle for the target's own audience; the smallest next step (a short exchange, not a product demo). Contact line from `workspace/profile.md` (`Kontakt:`), else `[PRÜFEN: Kontaktzeile]`.
 4. Name-drop first touch only with explicit permission and within any condition the connector attached: „[Name] meinte, ich soll mich bei dir melden, weil …“.
 5. A first touch to a connector must be answerable in one DM reply: one question about one named organisation, never a "pick your brain" call.
@@ -38,4 +38,4 @@ Intro request after a conditional offer:
 
 Forwardable blurb:
 
-> Thomas aus Bremen hat allein [Projekt] gebaut, [ein Satz, was es in einfachen Worten tut]. [Belegzeile mit Stand]. Für [Ziel] könnte interessant sein: [SIGNAL: Winkel für deren Publikum, z. B. NGOs, die damit Briefaktionen planen]. Er freut sich über ein kurzes Gespräch. Kontakt: [Kontaktzeile aus workspace/profile.md]
+> [Vorname] aus [Ort] hat allein [Projekt] gebaut, [ein Satz, was es in einfachen Worten tut]. [Belegzeile mit Stand]. Für [Ziel] könnte interessant sein: [SIGNAL: Winkel für deren Publikum, z. B. NGOs, die damit Briefaktionen planen]. Er freut sich über ein kurzes Gespräch. Kontakt: [Kontaktzeile aus workspace/profile.md]

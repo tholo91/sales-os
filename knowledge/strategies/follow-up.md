@@ -80,7 +80,7 @@ After their share, close the loop with real numbers only, or `[PRÜFEN: …]` wh
 
 Every documented commitment becomes one contact-referenced action in `pending-actions.yaml`, using existing types with optional `touch` and `persona` fields:
 
-- Thomas's promise → `follow_up`, `touch: commitment`, due within 2 working days or by the promised date.
+- The founder's promise → `follow_up`, `touch: commitment`, due within 2 working days or by the promised date.
 - The other side's offer or promise → `decision_follow_up` on their date, or +10 working days when none was named.
 - An agreed call → `scheduled_call`.
 - A post-call recap → `follow_up`, `touch: RC`, due the call date +1.

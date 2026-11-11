@@ -21,14 +21,14 @@ First identify the setting, the other person's role or likely audience, and the 
 
 When the founder names someone, check any available relationship record and current public event or professional context before suggesting an angle. Separate verified facts from a possible synergy; a shared topic is a conversation hypothesis, not evidence of interest or permission. Do not infer a person's beliefs, needs, or willingness from their job title or a LinkedIn connection.
 
-For Brief nach Berlin, load only the needed sections from:
+For the active project, load only the needed sections from:
 
-- `workspace/projects/brief-nach-berlin/personas.md` (`## Call-Kit`, shared proof lines, and the matching audience section)
-- `workspace/projects/brief-nach-berlin/evidence.md`
+- `workspace/projects/<project>/personas.md` when it exists (call kit, shared proof lines, and the matching audience section); otherwise `positioning.md` and `icp.md`
+- `workspace/projects/<project>/evidence.md`
 - `workspace/voice.md`
 - `knowledge/foundations/human-writing.md` for gap markers
 
-Check each source's date and status before using a claim. Persona notes and founder-reported figures are not independent verification. Use evidence only when it helps this conversation, preserve its wording, label and date, and state its limits. Never claim political impact or that letters are read.
+Check each source's date and status before using a claim. Persona notes and founder-reported figures are not independent verification. Use evidence only when it helps this conversation, preserve its wording, label and date, and state its limits. Never claim an effect or outcome the project's evidence does not record.
 
 ## Conversation path
 
@@ -44,18 +44,19 @@ Build the story from verified material in this order: a concrete moment, the obs
 
 Make each transition conversational: answer briefly, connect only to a relevant point, then invite the other person back in. Prefer one non-leading open question tied to their work or experience. Make it easy to disagree, decline, or change the subject. Provide a short, warm exit that does not create a follow-up obligation.
 
-## Brief nach Berlin audience adaptation
+## Audience adaptation
 
-Use the matching persona's call-kit angle and approved facts. Do not reuse one generic pitch across audiences.
+Use the matching persona's angle and approved facts from the active project. Do not reuse one generic pitch across audiences. The project's own files decide what may be said about it; the lines below only set the order.
 
-- **NGOs and associations:** Start with their concrete issue or community. If interest continues, explain that they can create a campaign page and share its link or QR code; each person reviews and personally sends their own letter. Do not imply the organization has agreed to participate.
+- **Organisations, NGOs and associations:** Start with their concrete issue or community. If interest continues, say in one sentence what their people can do with the project. Do not imply the organization has agreed to participate.
 - **Creators:** Connect their specific topic to a useful next step for their audience. Do not ask generically for a share, provide a copy-ready caption, or assume audience interest.
-- **Podcasters and media:** Lead with a relevant editorial or human-story angle, not a campaign or a generic “there is a tool” introduction. Do not ask about the journalist's personal politics.
+- **Podcasters and media:** Lead with a relevant editorial or human-story angle, not a generic “there is a tool” introduction. Do not ask about the journalist's personal views.
+- **Buyers and users:** Start with the situation they described. Say what the project is in one plain sentence, then ask how they handle that situation today.
 - **Connectors:** Explain briefly which kind of person or organization may be relevant and why. Ask for insight first; request an introduction only if the other person shows interest, with permission and an easy no.
 
-Across all four audiences, speak in first person. Describe Brief nach Berlin as free and nonpartisan only when relevant and currently supported by project context. Letters are personal: people review and send them themselves. Never promise that a letter will be read or change a decision.
+Across all audiences, speak in first person. Use descriptors such as free, independent or nonpartisan only when relevant and currently supported by project context. Keep every message boundary the project's `positioning.md` records. Never promise a result the project cannot show.
 
-Tell an origin story only as the project's `hook-library.md` (`## Nur-Thomas-Material`) records it, in one or two sentences and without added details. Where a detail still carries a `[PRÜFEN: …]` marker there, keep the marker; do not turn an old message or draft into confirmation.
+Tell an origin story only as the project's `hook-library.md` (its founder-only material section) records it, in one or two sentences and without added details. Where a detail still carries a `[PRÜFEN: …]` marker there, keep the marker; do not turn an old message or draft into confirmation.
 
 ## Output format
 
@@ -73,10 +74,10 @@ Use `[SIGNAL: …]` for a missing recipient-specific reason or context. Use `[PR
 ## Evaluation examples
 
 - **Pass — casual fair conversation:** The other person has not asked about the project; stay on their topic and offer no unsolicited pitch.
-- **Pass — natural introduction:** A new acquaintance asks what Thomas does; answer in one short first-person line and ask one relevant open question.
-- **Pass — invited interest:** An NGO lead asks how Brief nach Berlin could relate to their campaign; give the 20–30-second, issue-led explanation and ask about their audience's needs.
+- **Pass — natural introduction:** A new acquaintance asks what the founder does; answer in one short first-person line and ask one relevant open question.
+- **Pass — invited interest:** An NGO lead asks how the project could relate to their campaign; give the 20–30-second, issue-led explanation and ask about their audience's needs.
 - **Pass — uncertain synergy:** A potential partner's work suggests a connection; name it as a possibility and ask what they think before proposing an activity.
 - **Fail — premature long version:** Delivering a 90-second story before the other person shows interest.
 - **Fail — selling disguised as curiosity:** Asking a leading question that assumes the person should share, partner, or introduce someone.
 - **Fail — unverified origin:** Adding details to an origin story beyond what the project records, or dropping a `[PRÜFEN]` marker without confirmation.
-- **Fail — impact claim:** Saying personal letters work, get read, or change political decisions.
+- **Fail — impact claim:** Stating an effect of the project that its evidence file does not record.

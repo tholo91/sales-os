@@ -38,16 +38,16 @@ Realism: large-NGO tests take weeks (brand, legal, procurement review); aim for 
 
 ## Channel and entry path
 
-1. Warm intro or Thomas's own network first (`knowledge/channels/personal-network.md`); in person for local groups (open meetings, Infostände, Freiwilligenagentur events).
+1. Warm intro or the founder's own network first (`knowledge/channels/personal-network.md`); in person for local groups (open meetings, Infostände, Freiwilligenagentur events).
 2. LinkedIn or Instagram DM to the named person with a person-specific reason (Instagram suits social leads and BIs).
 3. Published partner or submission routes (a platform's partner inbox, a newsletter submission address, event calls).
-- No info@ blasts, no sequences. One purpose-fitting email to a route the organisation publishes for this is Thomas's judgment call. Never switch from LinkedIn silence to a cold info@ email.
+- No info@ blasts, no sequences. One purpose-fitting email to a route the organisation publishes for this is the founder's judgment call. Never switch from LinkedIn silence to a cold info@ email.
 
 ## Ask ladder
 
 1. Permission: "Soll ich dir zeigen, wie so eine Aktion für [Kampagne] aussähe?" Referral fallback: "Falls das bei euch jemand anderes entscheidet, sag gern wer."
 2. Fit, after they have seen it: "Wäre so eine Aktion vor [Datum] für euch sinnvoll, oder macht ihr das anders?"
-3. Tiny free pilot: one campaign, one channel segment, 2–4 weeks, an agreed success signal, a decision date. Small Vereine get the light version: Thomas builds, they approve, one share date, one "wie lief's?" message afterwards.
+3. Tiny free pilot: one campaign, one channel segment, 2–4 weeks, an agreed success signal, a decision date. Small Vereine get the light version: the founder builds, they approve, one share date, one "wie lief's?" message afterwards.
 
 Lead = a test date, a named owner plus a 20-minute call, or a page approved plus a share date.
 
@@ -64,7 +64,7 @@ Skelett – nicht sendefertig. LinkedIn, campaigner; Anrede per profile [PRÜFEN
 > Moin [Vorname], vor [SIGNAL: Anhörung/Abstimmung am Datum] habt ihr bei [SIGNAL: Kampagne] eure Unterstützer:innen [SIGNAL: ihre Aktion davor, z. B. zur Petition] aufgerufen, deshalb schreib ich dir.
 > Ich hab [Projekt als Halbsatz] gebaut, kostenlos und überparteilich, damit eure Unterstützer:innen [Nutzen in einem Satz aus der Projekt-Persona: was sie danach haben oder tun und wer es bekommt; keine Schrittfolge] [PRÜFEN: Ebene Bund/Land/Kommune abgedeckt?]. [PRÜFEN: Funktion live?] [PRÜFEN: optional eine freigegebene Belegzeile, nur wenn die Länge reicht]
 > Soll ich dir zeigen, wie so eine Aktion für [Kampagne] aussähe? Falls das bei euch jemand anderes entscheidet, sag gern wer.
-> Grüße aus [Ort], Thomas
+> Grüße aus [Ort], [Vorname]
 
 Variants: connection note = line 1 only, no ask [PRÜFEN: Notiz-Limit]. BI on Instagram = open on [SIGNAL: ihr Post + echter Ortsbezug], end with "Soll ich euch mal eine Skizze schicken?". Umbrella = 5-line ready newsletter text to the published submission route. PfD = "Wäre das was für euer [Jugendforum/Demokratiekonferenz]?". Education = learning format, no campaign words.
 
@@ -87,7 +87,7 @@ Override of the `NGO or Verein` row in `knowledge/strategies/follow-up.md`: F1 a
 
 ## Where to find them
 
-- Thomas's own network and past contacts first; then current campaign pages with a dated moment.
+- The founder's own network and past contacts first; then current campaign pages with a dated moment.
 - Published partner routes of campaign platforms; umbrella newsletter submission routes and event calls (e.g. BBE).
 - PfD Koordinierungs- und Fachstellen via demokratie-leben.de, starting locally [PRÜFEN: Ansprechperson]; Freiwilligenagenturen.
 - Local events in person; BIs via their public social accounts on the issue.

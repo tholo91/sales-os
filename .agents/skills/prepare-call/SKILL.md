@@ -25,7 +25,7 @@ The founder's statement that a call is scheduled, offered, or wanted is sufficie
 
 ## Safety boundary
 
-Do not invent participant pain, authority, objections, budget, interest, proof, impact, quotes, or relationships. Do not turn discovery into a hidden demo. Tell the founder story only from recorded material (workspace Call-Kit, voice, or interactions) and mark it `[PRÜFEN: …]` until Thomas confirms it. Never ask a journalist or funder for their personal political view. No recording or AI notetaker without everyone's prior informed consent (§201 StGB, GDPR); otherwise notes only. Never trade anything for coverage. In practice mode, never record role-play statements as customer evidence or imply that a simulated objection is likely. Thomas sends every recap and asset himself.
+Do not invent participant pain, authority, objections, budget, interest, proof, impact, quotes, or relationships. Do not turn discovery into a hidden demo. Tell the founder story only from recorded material (workspace Call-Kit, voice, or interactions) and mark it `[PRÜFEN: …]` until the founder confirms it. Never ask a journalist or funder for their personal political view. No recording or AI notetaker without everyone's prior informed consent (§201 StGB, GDPR); otherwise notes only. Never trade anything for coverage. In practice mode, never record role-play statements as customer evidence or imply that a simulated objection is likely. The founder sends every recap and asset personally.
 
 ## Modes
 
@@ -72,7 +72,7 @@ Hi [Vorname], danke für [heute/gestern]! Kurz festgehalten, damit nichts verlor
 – [SIGNAL: ihr Ziel oder Problem in ihrem Wortlaut]
 – Ich schicke dir bis [Datum] [zugesagtes Asset].
 – Du [SIGNAL: ihr nächster Schritt, wann und wo, in ihren Worten].
-Falls ich etwas falsch verstanden habe, korrigier mich gern. Viele Grüße, Thomas
+Falls ich etwas falsch verstanden habe, korrigier mich gern. Viele Grüße, [Vorname]
 ```
 
 ## Output contract

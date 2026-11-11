@@ -308,8 +308,8 @@ test("no private workspace content is tracked", () => {
 test("before and after examples are explicitly synthetic and draft-first", () => {
   const examples = read("examples/output-quality-before-after.md");
   assert.match(examples, /synthetic contexts/);
-  assert.match(examples, /## HeySpeak/);
-  assert.match(examples, /## NomadSpots/);
+  assert.match(examples, /## Voice feedback tool/);
+  assert.match(examples, /## Work-spot guide/);
   assert.equal((examples.match(/^### After$/gm) ?? []).length, 2);
 });
 

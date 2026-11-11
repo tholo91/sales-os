@@ -129,7 +129,7 @@ Comments on other people's posts are the main distribution and warm-up channel. 
 Signal ladder, strongest first: own case or question in a comment > repost with own words > substantive comment > likes. Never DM likers or profile viewers.
 
 1. Reply publicly first, with substance, within the hour.
-2. DM within 24–48 h only when the comment, or their reply to Thomas's public answer, states a concrete need or explicit interest; a role fit alone means public reply only. Draft it with `draft-outreach` as a warm, post-originated touch.
+2. DM within 24–48 h only when the comment, or their reply to the founder's public answer, states a concrete need or explicit interest; a role fit alone means public reply only. Draft it with `draft-outreach` as a warm, post-originated touch.
 3. The DM quotes or paraphrases the comment and makes one small offer or asks one question. Never "Ich habe deinen Kommentar gesehen" as the whole reason, never a keyword-for-resource trade.
 4. Not connected: send a note-free connection request when the public exchange makes the context obvious; spend invitation notes only on top multipliers, because free accounts get very few (limit in `knowledge/markets/germany-eu.md`, `## Rechtliche Kurzreferenz für Outreach`). DM after acceptance.
 5. Add the person as a Tier-2 row on the pipeline board with `source_post` set to the post reference.

@@ -13,7 +13,7 @@ review_after: 2027-03-21
 
 The founder supplied this as a cheeky US-tech cold-email example that turns the template-reload objection into an attention hook. The origin is an online inbox example; the senders and outcomes are not verified here. It is a reference example for tone and structure, not a performance benchmark or a send-ready template.
 
-The founder's annotations describe the mechanics: the sender makes launch videos, the message was marked "(Edited)", the subject line doubles as the first line, and a founder-style signature ("Thomas, founder of ...") would stand at the end.
+The founder's annotations describe the mechanics: the sender makes launch videos, the message was marked "(Edited)", the subject line doubles as the first line, and a founder-style signature ("[first name], founder of ...") would stand at the end.
 
 ```text
 Subject: Let me help Agent37
@@ -28,7 +28,7 @@ Well, I would like to inform you of 2 things, Vishnu:
 
 Are you looking for a launch video?
 
-[signature - "Thomas, founder of ..."]
+[signature - "[first name], founder of ..."]
 ```
 
 ## Why this is useful

@@ -1,11 +1,11 @@
 ---
 name: linkedin-multipliers
-description: Prioritize newly added LinkedIn connections for founder-led Brief nach Berlin outreach and prepare short, unsent drafts using verified reach, media access, employer relevance, and current public signals. Use when the founder wants to go through LinkedIn connections and select high-leverage people; do not use for automatic messaging, bulk lead lists, or stale-post personalization.
+description: Prioritize newly added LinkedIn connections for founder-led outreach on the active project and prepare short, unsent drafts using verified reach, media access, employer relevance, and current public signals. Use when the founder wants to go through LinkedIn connections and select high-leverage people; do not use for automatic messaging, bulk lead lists, or stale-post personalization.
 ---
 
 # LinkedIn Multipliers
 
-Select a small set of real, newly added LinkedIn contacts who can plausibly create distribution, a media conversation, an introduction, or a relevant pilot for Brief nach Berlin. Prepare drafts for Thomas to review and send manually.
+Select a small set of real, newly added LinkedIn contacts who can plausibly create distribution, a media conversation, an introduction, or a relevant pilot for the active project. Prepare drafts for the founder to review and send manually.
 
 ## Gate
 
@@ -25,16 +25,16 @@ Inspect the visible connection list newest-first. A contact qualifies only when 
 
 1. **Media access or presence:** journalist, editor, publisher, podcast/radio/TV host, creator, media communications, or a role with a credible route into those people.
 2. **Reach:** visible follower count or an unmistakably large public audience. Use the visible number, not an inferred audience.
-3. **Relevant employer and role:** a recognizable newsroom, broadcaster, public institution, NGO umbrella, civic organization, or high-impact employer where the person's role plausibly gives access to distribution, partnerships, public communication, or political participation. Employer prestige alone is not enough.
+3. **Relevant employer and role:** an organisation type named in the active project's `icp.md` or `personas.md`, a recognizable newsroom or broadcaster, or another high-impact employer where the person's role plausibly gives access to distribution, partnerships, public communication, or the project's audience. Employer prestige alone is not enough.
 
-Use this order when choosing between otherwise similar people: direct media access, then visible reach, then relevant employer/role. A large employer with no plausible connection to media, civic tech, NGOs, or public communication is a weak signal, not a priority.
+Use this order when choosing between otherwise similar people: direct media access, then visible reach, then relevant employer/role. A large employer with no plausible connection to media, the project's audience, or public communication is a weak signal, not a priority.
 
 ## Lightweight score
 
 Use the score only to make selection consistent; do not present it as a factual ranking of people.
 
 - direct media or creator role: **+4**
-- role with a credible media/NGO/political distribution path: **+3**
+- role with a credible distribution path to media or the project's audience: **+3**
 - visible followers: 10,000+ **+4**; 3,000–9,999 **+3**; 1,000–2,999 **+2**; 500–999 **+1**
 - relevant high-signal employer plus relevant role: **+3**; employer alone: **+1**
 - verified public signal from the last 14 days: **+2**
@@ -43,7 +43,7 @@ Use the score only to make selection consistent; do not present it as a factual 
 
 Select the highest-scoring contacts until the requested count is reached. If fewer qualify, say so instead of padding the list with famous but irrelevant names.
 
-This score is an internal prioritization heuristic, not a prediction of replies or permission to request distribution. Before drafting, use the five-field recipient-context check to choose the ask from the person's actual capability, relationship, possible benefit, and possible burden. A creator, researcher, editor, or NGO contact with similar reach may warrant a different purpose and next move. Keep motives as hypotheses and distinguish voluntary civic support from paid content deliverables.
+This score is an internal prioritization heuristic, not a prediction of replies or permission to request distribution. Before drafting, use the five-field recipient-context check to choose the ask from the person's actual capability, relationship, possible benefit, and possible burden. A creator, researcher, editor, or organisation contact with similar reach may warrant a different purpose and next move. Keep motives as hypotheses and distinguish voluntary support from paid content deliverables.
 
 ## Freshness and evidence
 
@@ -65,11 +65,11 @@ Write one short LinkedIn DM per selected person, normally 50–70 words, at most
 
 Every sentence must serve one of those three functions. Cut project history, feature lists, multiple story angles, a default meeting pitch, an early calendar link, and a second fallback ask. A short thank-you is optional when it sounds natural. Do not ask for a story, podcast booking, introduction, referral, share, or pilot in a cold first DM by default. An editorial pitch may instead offer one verified story angle and ask about editorial interest when this person's beat and exact contact route demonstrably invite such pitches; a journalist title or connection acceptance alone is insufficient. Follow `editorial-pitch.md` while retaining LinkedIn's native DM shape. After a substantive reply, respond to its content before proposing a larger next step; a referral or forward request must then be the single primary ask, not an extra request after another CTA. A reply to a narrow factual question does not by itself justify asking for an endorsement or share.
 
-Use the recipient's evidenced language and Thomas's confirmed matching voice from `workspace/voice.md`: personal, spoken, warm, and low-hype. For German recipients, retain his recorded German style; for English recipients, use recorded English voice when available or plain English without imitating a US sales script. Use emojis and a sign-off only when the channel and relationship support them. Check sender and recipient jurisdictions separately; Germany/EU and US writing defaults are hypotheses, not nationality rules. Do not copy the same opener across contacts, mention follower counts, or over-explain the product. If several well-matched contacts ignore the same angle, revisit the angle and evidence before cosmetically rewriting the opener or increasing volume; silence alone does not prove why they did not respond.
+Use the recipient's evidenced language and the founder's confirmed matching voice from `workspace/voice.md`. For German recipients, retain the recorded German style; for English recipients, use recorded English voice when available or plain English without imitating a US sales script. Use emojis and a sign-off only when the channel and relationship support them. Check sender and recipient jurisdictions separately; Germany/EU and US writing defaults are hypotheses, not nationality rules. Do not copy the same opener across contacts, mention follower counts, or over-explain the product. If several well-matched contacts ignore the same angle, revisit the angle and evidence before cosmetically rewriting the opener or increasing volume; silence alone does not prove why they did not respond.
 
 ## Browser and safety boundary
 
-Use the user's logged-in Chrome only when explicitly requested. Inspect visible LinkedIn UI; do not scrape, export, bulk-enrich, or use private data. Prepare each reviewed message in its own compose tab, verify the recipient chip and body, and mark the tab as a deliverable. Never click Send, connect, follow, react, post, or submit. If the current signal is missing or ambiguous, still draft with `[SIGNAL: …]`/`[PRÜFEN: …]` markers per `knowledge/foundations/human-writing.md` and list it as not send-ready; if the recipient identity is ambiguous, do not prefill a compose tab until Thomas confirms the person.
+Use the user's logged-in Chrome only when explicitly requested. Inspect visible LinkedIn UI; do not scrape, export, bulk-enrich, or use private data. Prepare each reviewed message in its own compose tab, verify the recipient chip and body, and mark the tab as a deliverable. Never click Send, connect, follow, react, post, or submit. If the current signal is missing or ambiguous, still draft with `[SIGNAL: …]`/`[PRÜFEN: …]` markers per `knowledge/foundations/human-writing.md` and list it as not send-ready; if the recipient identity is ambiguous, do not prefill a compose tab until the founder confirms the person.
 
 ## Direct output
 

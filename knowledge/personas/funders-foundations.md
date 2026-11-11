@@ -29,7 +29,7 @@ Load for programme officers at private foundations and Bürgerstiftungen, public
 - **One honest number with its definition** (what it counts, what it does not, date) [PRÜFEN: …]; say openly what is not yet measured and make that gap the reason for the project.
 - **Fit via one comparable past grant** [SIGNAL: …] from their project database or annual report, named in your own words.
 - **Non-partisanship as a funding condition** (AO §52 Abs. 2 Nr. 24): one safeguards sentence in every touch (no party content, the person decides and sends, no mass mailing).
-- **AI drafting gets its own sentence.** Sales OS drafts a scaffold; Thomas rewrites `Bezug zu Ihnen` and the project sentence in his own words before sending: 23% of 527 US foundations would not accept AI-generated applications, 67% are undecided (Candid 2024).
+- **AI drafting gets its own sentence.** Sales OS drafts a scaffold; the founder rewrites `Bezug zu Ihnen` and the project sentence in their own words before sending: 23% of 527 US foundations would not accept AI-generated applications, 67% are undecided (Candid 2024).
 - A co-funding line, even "bisher keine"; one narrow question; a forward request if the person is not responsible.
 
 ## Channel and entry path

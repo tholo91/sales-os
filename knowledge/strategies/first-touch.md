@@ -19,7 +19,7 @@ A persona's `## Message skeleton` overrides this card's line order, length, and 
 
 Use this card first; the sections below explain the boundaries.
 
-**Line 1, opener (pick one):** their dated action moment (hearing, campaign day, vote, episode); their content with its date (post, Reel, article); a referral (`[Name] meinte, ich soll mich bei dir melden`) only with the referrer's explicit permission; a shared place or event (Bremen, a conference) that really happened. If the first sentence would work for anyone else, rewrite it.
+**Line 1, opener (pick one):** their dated action moment (hearing, campaign day, vote, episode); their content with its date (post, Reel, article); a referral (`[Name] meinte, ich soll mich bei dir melden`) only with the referrer's explicit permission; a shared place or event (the same city, a conference) that really happened. If the first sentence would work for anyone else, rewrite it.
 
 **Line 2, their benefit:** one sentence in the founder's spoken first person that ends on what their people (or they) can do or have, tied to the line-1 moment (`Ich hab … gebaut, damit eure Leute …`); it is field 3 of the five-field check in `recipient-context.md`. Use concrete nouns: who receives it, what they hold, by when. Never input steps (`X eingeben, Y bekommen`), a feature list, or how it works; that comes after a yes or their question. Never a polished conditional without `ich` (`hätten eure Leute einen konkreten nächsten Schritt`): in the 2026-11-11 blind test such lines won on benefit and lost on voice. Name a worry or feeling only when they wrote or said it. No product history, no `wir` from a solo founder.
 
@@ -45,7 +45,7 @@ Use this card first; the sections below explain the boundaries.
 3. A direct 15–20 minute conversation, only with concrete shared context or the founder's explicit goal plus a recipient-specific reason.
 4. Share, intro, campaign, or coverage: only after a reply or the recipient's own offer. When they offered an intro or help, accept that offer directly.
 
-No ask only for pure thank-yous, public comments, and warming touches. **Referral fallback for organisations:** `Falls das bei euch jemand anderes entscheidet, sag gern wer.` This is Thomas's confirmed pattern and part of the same ask, not a second one.
+No ask only for pure thank-yous, public comments, and warming touches. **Referral fallback for organisations:** `Falls das bei euch jemand anderes entscheidet, sag gern wer.` This is the founder's confirmed pattern and part of the same ask, not a second one.
 
 **Give-first asset:** the persona's `## Give-first asset`; offer only what exists or mark `[PRÜFEN: Asset gebaut?]`. Nothing unsolicited for funders.
 
@@ -63,7 +63,7 @@ No ask only for pure thank-yous, public comments, and warming touches. **Referra
 - Cut product explanation, proof line, give-first description, referral fallback, and PS. Gap markers, the recognition test, one ask, and the legal route still apply.
 - Not for a funder sketch; there, say once that the sketch route sets its own form.
 
-Example, follow-up after a meeting (synthetic): „Moin Eva, / weißt du noch, die Briefaktion vor der Anhörung? / Der Beispielbrief zu eurem Thema steht jetzt. / Soll ich ihn dir schicken? / Grüße aus Bremen, Thomas“
+Example, follow-up after a meeting (synthetic): „Moin Eva, / weißt du noch, die Briefaktion vor der Anhörung? / Der Beispielbrief zu eurem Thema steht jetzt. / Soll ich ihn dir schicken? / Grüße aus [Ort], [Vorname]“
 
 **No channel named:** use the contact's `primary_channel`, else the persona's default entry path, and make the channel one check item.
 
@@ -73,13 +73,13 @@ Example, follow-up after a meeting (synthetic): „Moin Eva, / weißt du noch, d
 
 **Examples** (synthetic; `[SIGNAL: …]`/`[PRÜFEN: …]` per `knowledge/foundations/human-writing.md`):
 
-GOOD, NGO: „Moin Jana, ihr ruft gerade dazu auf, vor der Anhörung am 12.11. den Abgeordneten zu schreiben. Ich hab ein kostenloses, überparteiliches Werkzeug gebaut, damit eure Leute dafür nicht bei null anfangen: Jede:r hat am Ende einen eigenen Brief an die eigene Abgeordnete und schickt ihn selbst ab. Soll ich dir einen Beispielbrief zu eurem Thema schicken? Falls das bei euch jemand anderes entscheidet, sag gern wer. Grüße aus Bremen, Thomas“
+GOOD, NGO: „Moin Jana, ihr ruft gerade dazu auf, vor der Anhörung am 12.11. den Abgeordneten zu schreiben. Ich hab ein kostenloses, überparteiliches Werkzeug gebaut, damit eure Leute dafür nicht bei null anfangen: Jede:r hat am Ende einen eigenen Brief an die eigene Abgeordnete und schickt ihn selbst ab. Soll ich dir einen Beispielbrief zu eurem Thema schicken? Falls das bei euch jemand anderes entscheidet, sag gern wer. Grüße aus [Ort], [Vorname]“
 → Dated action moment; line 2 keeps his spoken `Ich hab … gebaut, damit eure Leute …` and ends on what they hold and who receives it; the what-it-is line is a half-clause; no input steps.
 
-GOOD, creator: „Hey [Name], unter deinem Reel zu [SIGNAL: Thema, Datum] fragen einige, was sie jetzt konkret tun können [PRÜFEN: steht das so in den Kommentaren?]. Ich hab ein kostenloses Werkzeug gebaut, damit deine Leute darauf eine Antwort haben: einen eigenen Brief an die, die dafür zuständig sind. Mein Hintergedanke, ganz offen: dass du's irgendwann deinen Leuten zeigst. Darf ich dir einen Beispielbrief zu deinem Thema schicken? Thomas aus Bremen“
+GOOD, creator: „Hey [Name], unter deinem Reel zu [SIGNAL: Thema, Datum] fragen einige, was sie jetzt konkret tun können [PRÜFEN: steht das so in den Kommentaren?]. Ich hab ein kostenloses Werkzeug gebaut, damit deine Leute darauf eine Antwort haben: einen eigenen Brief an die, die dafür zuständig sind. Mein Hintergedanke, ganz offen: dass du's irgendwann deinen Leuten zeigst. Darf ich dir einen Beispielbrief zu deinem Thema schicken? [Vorname] aus [Ort]“
 → The emotion is their audience's own question; the benefit is for their audience; the openly named motive is the honest part of the ask; the asset costs nothing to accept.
 
-GOOD, buyer/user (commercial project): „Moin [Name], du hast [SIGNAL: am … geschrieben, dass X jede Woche Zeit frisst]. Ich baue gerade allein [Projekt: was es ist, ein Satz in einfachen Wörtern], damit [PRÜFEN: Ergebnis aus `positioning.md`, in ihren Worten, keine Schrittfolge]. Wie löst ihr das im Moment? Grüße aus Bremen, Thomas“
+GOOD, buyer/user (commercial project): „Moin [Name], du hast [SIGNAL: am … geschrieben, dass X jede Woche Zeit frisst]. Ich baue gerade allein [Projekt: was es ist, ein Satz in einfachen Wörtern], damit [PRÜFEN: Ergebnis aus `positioning.md`, in ihren Worten, keine Schrittfolge]. Wie löst ihr das im Moment? Grüße aus [Ort], [Vorname]“
 → Their words carry the problem; one plain sentence says what is being built, so they can judge relevance at once; a situation question instead of a demo ask.
 
 BAD: „Hallo Frau X, ich verfolge Ihre spannende Arbeit schon lange! Wir haben eine innovative Civic-Tech-Lösung mit KI-Briefen, PLZ-Zuordnung und Kampagnenseiten entwickelt. Hätten Sie Zeit für einen 30-minütigen Call? Und würden Sie es mit Ihrem Netzwerk teilen?“

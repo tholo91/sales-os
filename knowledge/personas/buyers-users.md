@@ -11,7 +11,7 @@ review_after: 2027-01-04
 
 # Persona: buyers and users
 
-Load for a buyer or end user of a commercial project (HeySpeak, NomadSpots, Spießer, services) who has a real trigger. This file is generic. The concrete trigger, wording, asset and proof come from the project's `icp.md` (`## Triggering situation`, `## Current workaround`, `## Where they already talk and learn`), `positioning.md` (`## Problem in the buyer's language`, `## Buying triggers`, `## Recorded proof that may be used`, `## Message boundaries`) and, once one exists, `offer.md`. Gap markers follow `knowledge/foundations/human-writing.md` `## Draft-first and gap markers`. Evidence: Gong, Lavender, Instantly and Belkins (observational vendor data from B2B email); applying it to a solo founder's DMs is inference.
+Load for a buyer or end user of a commercial project (software, an app, a service) who has a real trigger. This file is generic. The concrete trigger, wording, asset and proof come from the project's `icp.md` (`## Triggering situation`, `## Current workaround`, `## Where they already talk and learn`), `positioning.md` (`## Problem in the buyer's language`, `## Buying triggers`, `## Recorded proof that may be used`, `## Message boundaries`) and, once one exists, `offer.md`. Gap markers follow `knowledge/foundations/human-writing.md` `## Draft-first and gap markers`. Evidence: Gong, Lavender, Instantly and Belkins (observational vendor data from B2B email); applying it to a solo founder's DMs is inference.
 
 ## Who and what they get flooded with
 
@@ -59,7 +59,7 @@ Lead = one of the dated commitments in step 4, or a call booked for a date. "Kli
 > du hast [SIGNAL: am [Datum] geschrieben, dass [Problem in ihren Worten]].
 > Ich baue gerade allein [Projektname]: [was es ist, ein Satz in einfachen Wörtern, keine Funktionsliste], damit [PRÜFEN: Ergebnis für sie aus positioning.md, in ihren Worten; keine Schrittfolge, keine Wirkungsbehauptung].
 > Wie löst du das im Moment? *(oder: Soll ich dir [Asset aus positioning.md] für deinen Fall schicken?)*
-> Grüße aus Bremen, Thomas
+> Grüße aus [Ort], [Vorname]
 
 Pick exactly one question. For an organisation, `Falls das bei euch jemand anderes entscheidet, sag gern wer.` may follow it. The skeleton is about 50–70 words. If it reads the same after removing the product name, line 1 is too weak. When the project's positioning.md (## Message boundaries) rules out a product line in the first touch, drop line 3 and keep the question.
 
