@@ -55,7 +55,7 @@ Use the matching persona's call-kit angle and approved facts. Do not reuse one g
 
 Across all four audiences, speak in first person. Describe Brief nach Berlin as free and nonpartisan only when relevant and currently supported by project context. Letters are personal: people review and send them themselves. Never promise that a letter will be read or change a decision.
 
-The mother-origin story is not approved as fact. Do not narrate it as established truth. If the founder asks to use it, keep each unconfirmed detail marked `[PRÜFEN: Mutter-Geschichte – genaue Fakten bestätigen]` until confirmed; do not turn an old message or draft into confirmation.
+Tell an origin story only as the project's `hook-library.md` (`## Nur-Thomas-Material`) records it, in one or two sentences and without added details. Where a detail still carries a `[PRÜFEN: …]` marker there, keep the marker; do not turn an old message or draft into confirmation.
 
 ## Output format
 
@@ -78,5 +78,5 @@ Use `[SIGNAL: …]` for a missing recipient-specific reason or context. Use `[PR
 - **Pass — uncertain synergy:** A potential partner's work suggests a connection; name it as a possibility and ask what they think before proposing an activity.
 - **Fail — premature long version:** Delivering a 90-second story before the other person shows interest.
 - **Fail — selling disguised as curiosity:** Asking a leading question that assumes the person should share, partner, or introduce someone.
-- **Fail — unverified origin:** Telling the mother story as fact, or dropping its `[PRÜFEN]` marker without confirmation.
+- **Fail — unverified origin:** Adding details to an origin story beyond what the project records, or dropping a `[PRÜFEN]` marker without confirmation.
 - **Fail — impact claim:** Saying personal letters work, get read, or change political decisions.
