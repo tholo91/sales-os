@@ -107,5 +107,5 @@ Limits: the round-2 post uses that unconfirmed "why" line (the baseline used the
 
 - Refresh the 10 knowledge files past `review_after` (table in Phase 1), most relevant first: `signal-led-outreach.md`, `audience-language.md`, `channel-choice.md`. Eight more fall due on 2026-11-19.
 - Refresh the 24 private project files past `review_after`.
-- Founder to confirm the candidate "why" line for posts, and to paste the confirmed-native original messages into the private voice file (still empty there).
+- Done 2026-11-11: the founder confirmed the "why" line for posts as his own. The private voice file now points to his `write-like-me` sample vault instead of waiting for pasted originals; open check: whether the three 2026-08-21 messages are in that vault.
 - Warm-touch detail: both judges preferred a specific human line from the meeting or the gap over a standard thank-you. Not yet a rule; compare via `hook_variant` and `reaction`.
