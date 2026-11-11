@@ -18,7 +18,9 @@ ask_ladder_step: null
 give_first_asset: null
 touch: null # T1 | F1 | F2 | commitment | RC
 register: null # du | Sie
+hook_variant: null # approach plus first line in a few words: story-first | give-first | what-it-is | signal-only
 outcome: null # keine Antwort | Absage | Rückfrage | Gespräch | Lead | Intro
+reaction: null # the recipient's own words about the message, quoted; leave null without a reply
 ---
 
 # Interaction

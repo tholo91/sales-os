@@ -20,7 +20,7 @@ Require explicit founder confirmation of the completed external action. If absen
 
 ## Safety boundary
 
-Never perform an external action or invent delivery, replies, commitments, or dates, and never invent a cadence beyond the touch plan. Store no unnecessary private message content. Any new pending action must reference the contact and the interaction that created it, with a concrete reason and due date.
+Never perform an external action or invent delivery, replies, commitments, or dates, and never invent a cadence beyond the touch plan. Store no unnecessary private message content. Fill `hook_variant` from the sent text and `reaction` only from the recipient's real words; never infer a reaction from silence. Any new pending action must reference the contact and the interaction that created it, with a concrete reason and due date.
 
 ## Output contract
 
